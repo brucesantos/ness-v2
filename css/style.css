@@ -1337,3 +1337,17 @@
 @media (max-width: 575.98px) {
   .ecommerce_38 .total, .ecommerce_38 .subtotal, .ecommerce_38 .delivery {
     min-width: 50px; } }
+
+
+input[type=checkbox].bg-dark-2 + label:before, input[type=radio].bg-dark-2 + label:before {
+  background-color: #041E33;
+}
+
+.bg-dark-2 {
+  background-color: #041E33 !important;
+}
+
+.content_17 {
+  background: #2f1893 url(../images/content_17_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}

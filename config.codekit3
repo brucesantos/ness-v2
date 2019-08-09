@@ -27,6 +27,16 @@
 		"oAP": "/css/index.php",
 		"oF": 0
 		},
+	"/css/style-blessed1-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-blessed1-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style-blessed1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -54,6 +64,17 @@
 		"oA": 0,
 		"oAP": "/form-handler.php",
 		"oF": 0
+		},
+	"/images/bg-vagas.jpg": {
+		"ft": 16384,
+		"iS": 293899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/bg-vagas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/close_white.png": {
 		"ft": 32768,
@@ -829,6 +850,17 @@
 		"oA": 0,
 		"oAP": "/images/index.php",
 		"oF": 0
+		},
+	"/images/logo-tostoadv.png": {
+		"ft": 32768,
+		"iS": 8069,
+		"oA": 0,
+		"oAP": "/images/logo-tostoadv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/ness-logo-website.svg": {
 		"ft": 2097152,
