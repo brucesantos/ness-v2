@@ -65,13 +65,16 @@
 		"oAP": "/form-handler.php",
 		"oF": 0
 		},
-	"/health.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/images/bg-vagas.jpg": {
+		"ft": 16384,
+		"iS": 293899,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/health.html",
-		"oF": 0
+		"oAP": "/images/bg-vagas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/close_white.png": {
 		"ft": 32768,
@@ -968,6 +971,17 @@
 		"oA": 0,
 		"oAP": "/images/index.php",
 		"oF": 0
+		},
+	"/images/logo-tostoadv.png": {
+		"ft": 32768,
+		"iS": 8069,
+		"oA": 0,
+		"oAP": "/images/logo-tostoadv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/ness-logo-website.svg": {
 		"ft": 2097152,
