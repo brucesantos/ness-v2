@@ -27,6 +27,16 @@
 		"oAP": "/css/index.php",
 		"oF": 0
 		},
+	"/css/style-blessed1-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-blessed1-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style-blessed1.css": {
 		"aP": 1,
 		"bl": 0,
@@ -53,6 +63,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/form-handler.php",
+		"oF": 0
+		},
+	"/health.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/health.html",
 		"oF": 0
 		},
 	"/images/close_white.png": {
@@ -382,6 +400,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/feature_11_bg.png": {
+		"ft": 32768,
+		"iS": 387533,
+		"oA": 0,
+		"oAP": "/images/feature_11_bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/feature_11_bg@2x.png": {
+		"ft": 32768,
+		"iS": 1450715,
+		"oA": 0,
+		"oAP": "/images/feature_11_bg@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/feature_12_bg.jpg": {
 		"ft": 16384,
 		"iS": 80883,
@@ -402,6 +442,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/feature_13_img.png": {
+		"ft": 32768,
+		"iS": 132943,
+		"oA": 0,
+		"oAP": "/images/feature_13_img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/feature_13_img@2x.png": {
+		"ft": 32768,
+		"iS": 249571,
+		"oA": 0,
+		"oAP": "/images/feature_13_img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/feature_19_bg.jpg": {
@@ -443,6 +505,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/feature_21_bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/feature_25_bg.jpg": {
+		"ft": 16384,
+		"iS": 134374,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature_25_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/feature_25_bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 166146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature_25_bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -817,6 +901,61 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/header_13_bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/header_6_bg.jpg": {
+		"ft": 16384,
+		"iS": 243716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/header_6_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/header_6_bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 439399,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/header_6_bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/health/DSC08666.png": {
+		"ft": 32768,
+		"iS": 14686328,
+		"oA": 0,
+		"oAP": "/images/health/DSC08666.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/health/DSC08681.png": {
+		"ft": 32768,
+		"iS": 4380217,
+		"oA": 0,
+		"oAP": "/images/health/DSC08681.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/health/health-bg-export.jpg": {
+		"ft": 16384,
+		"iS": 432429,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/health/health-bg-export.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
