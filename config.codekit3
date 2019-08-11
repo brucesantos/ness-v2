@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/css/framework-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/framework-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/framework.css": {
 		"aP": 1,
 		"bl": 0,
@@ -63,6 +73,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/form-handler.php",
+		"oF": 0
+		},
+	"/health.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/health.html",
 		"oF": 0
 		},
 	"/images/bg-vagas.jpg": {
