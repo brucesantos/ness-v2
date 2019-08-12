@@ -28,6 +28,13 @@ footer {
   }
 }
 
+#sobre {
+  background: #FFF url('../images/home/bg-sobre.png');
+  background-position: -300px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #verticais {
   background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
   background-size: 400% 400%;
@@ -39,6 +46,12 @@ footer {
 
   .block {
     border: 2px solid #EEE;
+  }
+}
+
+#vagas {
+  .btn {
+    background: #004B6B;
   }
 }
 

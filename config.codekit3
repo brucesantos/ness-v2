@@ -83,6 +83,22 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/education.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/education.html",
+		"oF": 0
+		},
+	"/Energy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Energy.html",
+		"oF": 0
+		},
 	"/form-handler.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1099,6 +1115,25 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/home/bg-sobre.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/home/bg-sobre.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/bg-sobre_tmp1064735410": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/home/bg-sobre_tmp1064735410",
+		"oF": 0
+		},
 	"/images/home/bg-vagas.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -1226,8 +1261,8 @@
 		"oA": 0,
 		"oAP": "/images/home/img-vagas.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1416,6 +1451,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/legal.html",
+		"oF": 0
+		},
 	"/scss/_custom.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1514,6 +1557,14 @@
 		"oF": 3,
 		"oS": 0,
 		"uL": 1
+		},
+	"/smart-cities.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/smart-cities.html",
+		"oF": 0
 		},
 	"/video/index.php": {
 		"cB": 0,

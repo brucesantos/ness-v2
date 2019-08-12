@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1565634500503');
+@import url('style-blessed1.css?z=1565638866618');
 
 
 @media (max-width: 1199.98px) {
@@ -1385,6 +1385,12 @@ header.bg-dark {
 footer .container {
   max-width: 90% !important; }
 
+#sobre {
+  background: #FFF url("../images/home/bg-sobre.png");
+  background-position: -300px center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 #verticais {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
@@ -1396,6 +1402,9 @@ footer .container {
   background-size: 400% 400%; }
   #clientes .block {
     border: 2px solid #EEE; }
+
+#vagas .btn {
+  background: #004B6B; }
 
 @media (min-width: 1200px) {
   header.bg-dark .container {

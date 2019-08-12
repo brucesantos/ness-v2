@@ -45,15 +45,13 @@
       <div class="row justify-content-between align-items-stretch">
         <div class="col-xl-5 col-lg-5 col-md-5 d-none d-md-block"></div>
 
-        <div class="col-xl-7 col-lg-7 col-md-7 pt-120 pb-80 left_side">
+        <div class="col-xl-7 col-lg-7 col-md-7 pt-80 pb-80 left_side">
           <h3 class="mb-20 text-left destaque-no-fundo-claro">Planejamento. Execução. <br>Resultados com simplicidade.</h3>
           <p class="medium f-16 color-heading">Para transformar e suportar sua empresa você precisa de um parceiro de negócios capaz de trazer ideias inovadoras e eficientes todos os dias. Alguém que atue lado a lado com você para auxiliá-lo a atingir a excelência. Com expertise em vários setores de indústria e talentos em processos e tecnologia a NESS é esse parceiro.</p>
           
-          <div class="mt-35 f-16 color-heading op-7 text-adaptive text-left">
-            <p>É fundamental iniciar com um parceiro que domina a interseção dos negócios, processos e tecnologia. (ilustração)</p>
-            <p>Por mais de 25 anos, nosso time desenha, implementa, executa, monitora, suporta, sustenta e co-gerencia importantes transformações em parceria com grandes empresas.</p>
-            <p>A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio.</p>
-            <p>Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.</p>	
+          <div class="mt-25 f-16 color-heading op-7 text-adaptive text-left">
+            <p>É fundamental iniciar com um parceiro que domina a interseção dos negócios, processos e tecnologia. Por mais de 25 anos, nosso time desenha, implementa, executa, monitora, suporta, sustenta e co-gerencia importantes transformações em parceria com grandes empresas.</p>
+            <p>A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.</p>	
           </div>				
         </div>
       </div>		

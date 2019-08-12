@@ -47,11 +47,11 @@
             <li class="nav-item">
               <a class="dropdown-toggle link color-white f-16 mx-25" href="" id="navbardrop" data-toggle="dropdown">Verticais</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item f-16" href="#">Health</a>
-                <a class="dropdown-item f-16" href="#">Education</a>
-                <a class="dropdown-item f-16" href="#">Legal</a>
-                <a class="dropdown-item f-16" href="#">Energy</a>
-                <a class="dropdown-item f-16" href="#">Smart Cities</a>
+                <a class="dropdown-item f-16" href="../health.html">Health</a>
+                <a class="dropdown-item f-16" href="../education.html">Education</a>
+                <a class="dropdown-item f-16" href="../legal.html">Legal</a>
+                <a class="dropdown-item f-16" href="../energy.html">Energy</a>
+                <a class="dropdown-item f-16" href="../smart-cities.html">Smart Cities</a>
               </div>
             </li>
 
