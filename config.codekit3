@@ -949,11 +949,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/health/DSC08666.png": {
+	"/images/health/DSC08666 copy.png": {
 		"ft": 32768,
 		"iS": 14686328,
 		"oA": 0,
-		"oAP": "/images/health/DSC08666.png",
+		"oAP": "/images/health/DSC08666 copy.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -977,6 +977,118 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/health/health-bg-export.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/health/health-produtos/logo-iara-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-iara-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nagenda-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nagenda-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-ncommand-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-ncommand-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-ndoctor-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-ndoctor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nduo-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nduo-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nmonitor-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nmonitor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nreport-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nreport-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nsensor-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nsensor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/hero-img-ncommand.jpg": {
+		"ft": 16384,
+		"iS": 189036,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/health/hero-img-ncommand.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/health/logo-ness-health.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/logo-ness-health.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/ncommand-top.jpg": {
+		"ft": 16384,
+		"iS": 286663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/health/ncommand-top.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1178,6 +1290,19 @@
 		"oA": 1,
 		"oAP": "/scss/_framework.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_health.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/health.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},

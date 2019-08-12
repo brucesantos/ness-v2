@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <title>logo-iara copy</title>
+  <g>
+    <text transform="translate(453.28 185.15)" style="font-size: 96.89977264404297px;fill: #fff;font-family: Ubuntu-Bold, Ubuntu;font-weight: 700;letter-spacing: -0.034996091205570776em">IA<tspan x="93.7" y="0" style="letter-spacing: -0.004021149140683295em">R</tspan><tspan x="157.94" y="0" style="letter-spacing: -0.03500113023958166em">A</tspan></text>
+    <g>
+      <circle cx="240.44" cy="34.66" r="20.66" style="fill: #fff"/>
+      <path d="M261.09,161.82a56.81,56.81,0,0,1,113.61,0v60.5C374.7,258,416,258,416,258V161.82a98.12,98.12,0,1,0-196.23,0Z" style="fill: #fff;fill-rule: evenodd;opacity: 0.5"/>
+      <g>
+        <path d="M416,159.88c0,.31,0,.61,0,.92,0-.31,0-.61,0-.92Z" style="fill: #fff;fill-rule: evenodd"/>
+        <path d="M374.7,222.32v-60.5c0-.25,0-.49,0-.74a56.81,56.81,0,0,1-113.6-1.2V99.39c0-35.69-41.31-35.69-41.31-35.69v96.18a98.12,98.12,0,0,0,158.08,77.67A35.2,35.2,0,0,1,374.7,222.32Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

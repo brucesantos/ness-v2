@@ -1,0 +1,15 @@
+#produtos {
+  background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
+  background-size: 400% 400%;
+
+  animation: AnimationName 27s ease infinite;
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+}
+
+#ncommand {
+  background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
+}

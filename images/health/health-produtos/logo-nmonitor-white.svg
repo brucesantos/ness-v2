@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <title>logo-nmonitor copy</title>
+  <g>
+    <text transform="translate(372.02 185.15)" style="font-size: 96.89977264404297px;fill: #fff;font-family: Ubuntu-Bold, Ubuntu;font-weight: 700;letter-spacing: -0.034996091205570776em">nMoni<tspan x="270.93" y="0" style="letter-spacing: -0.054996017194758745em">t</tspan><tspan x="308.62" y="0" style="letter-spacing: -0.03500113023958166em">or</tspan></text>
+    <g>
+      <path d="M237,37A113,113,0,1,0,350,150,113,113,0,0,0,237,37Zm0,208a95,95,0,1,1,95-95A95,95,0,0,1,237,245Z" style="fill: #fff"/>
+      <g style="opacity: 0.3">
+        <path d="M332,150a95,95,0,0,1-186.3,26.38c1.64-2.52,3.19-4.83,3.19-4.83,10.38-15.79,32.63-36.88,71.45-9.79,16.36,11.39,30.43,15.19,41.21,12.69a31.83,31.83,0,0,0,10.08-4.5l.1-.1a38.38,38.38,0,0,0,11.17-11.49c5.19-8.8,8.08-18.19,9.58-23.19,5.79-19.08,12-32.47,22.15-39,0,0,.21-.1.51-.23A94.54,94.54,0,0,1,332,150Z" style="fill: #fff;fill-rule: evenodd"/>
+      </g>
+      <text transform="translate(163.69 184.09)" style="font-size: 109px;fill: #fff;font-family: Ubuntu-Bold, Ubuntu;font-weight: 700;letter-spacing: -0.09999910407110092em">Mn</text>
+    </g>
+  </g>
+</svg>

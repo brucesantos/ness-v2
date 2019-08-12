@@ -1,1 +1,15 @@
 //nosso estilo sempre é melhor
+
+// estilos das paginas
+@import "health";
+
+
+// *********************************
+// ESTILOS PRESENTES EM TODAS AS PAGINAS
+// *********************************
+.destaque-no-fundo-escuro {
+  color: $ness-cor-azul-clarissimo;
+}
+.destaque-no-fundo-claro {
+  color: $ness-cor-azul-medio;
+}
