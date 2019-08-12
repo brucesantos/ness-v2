@@ -954,11 +954,12 @@ input[type=radio]{
 }
 
 .dropdown-menu{
-	margin-top:0;
-	margin-left:-20px;
-	padding:0px 20px;
-	border:none;
-	border-radius:0px;
+	margin-top: 10px;
+	margin-left: 0px;
+	padding: 0px;
+	border: none;
+	border-radius: 5px;
+	
 	&.dropdown-menu-right{
 		margin-left:auto;
 		margin-right:-20px;

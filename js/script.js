@@ -883,3 +883,9 @@ $(document).ready(function(){
 	}
 	
 }); // document.ready end
+
+
+// HEADER FIXED SCROOL
+
+
+//CANVAS

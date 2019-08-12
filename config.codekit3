@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/common/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/footer.php",
+		"oF": 0
+		},
+	"/common/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/header.php",
+		"oF": 0
+		},
 	"/css/framework-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -82,17 +98,6 @@
 		"oA": 0,
 		"oAP": "/health.html",
 		"oF": 0
-		},
-	"/images/bg-vagas.jpg": {
-		"ft": 16384,
-		"iS": 293899,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/bg-vagas.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/images/close_white.png": {
 		"ft": 32768,
@@ -1094,24 +1099,157 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/index.php",
-		"oF": 0
-		},
-	"/images/logo-tostoadv.png": {
+	"/images/home/bg-vagas.png": {
 		"ft": 32768,
-		"iS": 8069,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "/images/logo-tostoadv.png",
+		"oAP": "/images/home/bg-vagas.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/bg.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/home/bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/afip.png": {
+		"ft": 32768,
+		"iS": 17882,
+		"oA": 0,
+		"oAP": "/images/home/clientes/afip.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/home/clientes/alliar.png": {
+		"ft": 32768,
+		"iS": 34694,
+		"oA": 0,
+		"oAP": "/images/home/clientes/alliar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/alupar.png": {
+		"ft": 32768,
+		"iS": 3996,
+		"oA": 0,
+		"oAP": "/images/home/clientes/alupar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/cavan.png": {
+		"ft": 32768,
+		"iS": 17518,
+		"oA": 0,
+		"oAP": "/images/home/clientes/cavan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/fidi.png": {
+		"ft": 32768,
+		"iS": 18922,
+		"oA": 0,
+		"oAP": "/images/home/clientes/fidi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/leite-tosto-barros.png": {
+		"ft": 32768,
+		"iS": 7541,
+		"oA": 0,
+		"oAP": "/images/home/clientes/leite-tosto-barros.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/machado-meyer.png": {
+		"ft": 32768,
+		"iS": 9255,
+		"oA": 0,
+		"oAP": "/images/home/clientes/machado-meyer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/saude-10.png": {
+		"ft": 32768,
+		"iS": 5098,
+		"oA": 0,
+		"oAP": "/images/home/clientes/saude-10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/clientes/unimed.png": {
+		"ft": 32768,
+		"iS": 4004,
+		"oA": 0,
+		"oAP": "/images/home/clientes/unimed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/img-vagas.png": {
+		"ft": 32768,
+		"iS": 15834,
+		"oA": 0,
+		"oAP": "/images/home/img-vagas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/sobre.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/home/sobre.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/ness-logo-website-header.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/ness-logo-website-header.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/ness-logo-website.svg": {
 		"ft": 2097152,
@@ -1229,12 +1367,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/index.html": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/index.php",
 		"oF": 0
 		},
 	"/js/index.php": {
@@ -1252,6 +1390,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/jquery.maskedinput.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/script-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/script-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1303,6 +1452,19 @@
 		"oA": 1,
 		"oAP": "/css/health.css",
 		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_home.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1384,7 +1546,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
