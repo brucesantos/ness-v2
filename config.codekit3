@@ -970,6 +970,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/health/AdobeStock_122316679.jpg": {
+		"ft": 16384,
+		"iS": 233741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/health/AdobeStock_122316679.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/health/DSC08666 copy.png": {
 		"ft": 32768,
 		"iS": 14686328,
@@ -1104,6 +1115,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/health/main.jpg": {
+		"ft": 16384,
+		"iS": 97703,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/health/main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/health/ncommand-top.jpg": {
 		"ft": 16384,
 		"iS": 286663,
@@ -1125,14 +1147,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"/images/home/bg-sobre_tmp1064735410": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/home/bg-sobre_tmp1064735410",
-		"oF": 0
 		},
 	"/images/home/bg-vagas.png": {
 		"ft": 32768,
@@ -1402,6 +1416,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/verticais/vertical-ness-city.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-city.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/verticais/vertical-ness-education.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-education.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/verticais/vertical-ness-energy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-energy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/verticais/vertical-ness-health.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-health.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/verticais/vertical-ness-law.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-law.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/verticais/vertical-ness-security.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/verticais/vertical-ness-security.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1597,7 +1671,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
