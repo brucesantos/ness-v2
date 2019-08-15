@@ -687,11 +687,11 @@ input[type=radio] + label:before {
   transition: transform 0.2s, -webkit-transform 0.2s; }
 
 .dropdown-menu {
-  margin-top: 0;
-  margin-left: -20px;
-  padding: 0px 20px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 0px;
   border: none;
-  border-radius: 0px; }
+  border-radius: 5px; }
   .dropdown-menu.dropdown-menu-right {
     margin-left: auto;
     margin-right: -20px; }
@@ -10781,7 +10781,7 @@ b, strong {
   overflow: hidden; }
   .feature_20 .bg {
     top: 0;
-    left: 15px; }
+    left: 18px; }
   @media (max-width: 1199.98px) {
     .feature_20 .left_side {
       padding-top: 80px;
