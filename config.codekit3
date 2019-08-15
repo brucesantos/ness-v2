@@ -91,12 +91,12 @@
 		"oAP": "/education.html",
 		"oF": 0
 		},
-	"/Energy.html": {
+	"/energy.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Energy.html",
+		"oAP": "/energy.html",
 		"oF": 0
 		},
 	"/form-handler.php": {
@@ -972,7 +972,7 @@
 		},
 	"/images/health/AdobeStock_122316679.jpg": {
 		"ft": 16384,
-		"iS": 233741,
+		"iS": 231301,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/health/AdobeStock_122316679.jpg",
