@@ -254,36 +254,31 @@
   <!-- Contato -->
   <section id="contato" class="contact_4 pt-100 pb-100">
     <div id="map"></div>
-      
-    <div class="container px-xl-0">
-      <div class="row justify-content-right justify-content-lg-between align-items-right">
+    
+    <div class="col-xl-3 col-lg-3 col-md-3 ml-380 mt-50 mt-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="1050">
+      <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
 
-        <div class="col-xl-5 col-lg-6 col-md-8 mt-50 mt-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="1050">
-          <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
+        <div class="mb-10 f-14 semibold text-uppercase sp-20">Nome</div>
+        <input type="text" name="name" placeholder="First name" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
 
-            <div class="mb-10 f-14 semibold text-uppercase sp-20">Nome</div>
-            <input type="text" name="name" placeholder="First name" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-
-            <div class="mb-10 f-14 semibold text-uppercase sp-20">E-mail</div>
-            <input type="email" name="email" placeholder="name@mail.com" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-            
-            <div class="mb-10 f-14 semibold text-uppercase sp-20">Mensagem</div>
-            <textarea name="message" placeholder="Message" class="mb-30 input w-full radius10 border-gray focus-action-1 color-heading placeholder-heading" required></textarea>				
-            
-            <div class="row justify-content-between align-items-center">
-              <div class="col-sm-7">
-                <!-- <input type="checkbox" name="send_copy" class="d-none border-gray focus-action-1" id="contact_4_checkbox" checked />
-                <label for="contact_4_checkbox" class="color-heading">
-                  Send me a copy
-                </label> -->
-              </div>
-              <div class="col-xl-5 col-sm-5">
-                <button class="mt-20 mt-sm-0 btn action-1 w-full">Enviar</button>
-              </div>
-            </div>
-          </form>
+        <div class="mb-10 f-14 semibold text-uppercase sp-20">E-mail</div>
+        <input type="email" name="email" placeholder="name@mail.com" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
+        
+        <div class="mb-10 f-14 semibold text-uppercase sp-20">Mensagem</div>
+        <textarea name="message" placeholder="Message" class="mb-30 input w-full radius10 border-gray focus-action-1 color-heading placeholder-heading" required></textarea>				
+        
+        <div class="row justify-content-between align-items-center">
+          <div class="col-sm-7">
+            <!-- <input type="checkbox" name="send_copy" class="d-none border-gray focus-action-1" id="contact_4_checkbox" checked />
+            <label for="contact_4_checkbox" class="color-heading">
+              Send me a copy
+            </label> -->
+          </div>
+          <div class="col-xl-5 col-sm-5">
+            <button class="mt-20 mt-sm-0 btn action-1 w-full">Enviar</button>
+          </div>
         </div>
-      </div>
+      </form>
     </div>
   </section>
 
@@ -369,24 +364,45 @@
         "type": "symbol",
         "source": {
           "type": "geojson",
-            "data": {
-              "type": "FeatureCollection",
-              "features": [{
-                "type": "Feature",
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [-46.6928055, -23.6009]
-                }
-              }]
-            }
-          },
-          "layout": {
-            "icon-image": "ness",
-            "icon-size": 0.95
+          "data": {
+            "type": "FeatureCollection",
+            "features": [{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-46.6928055, -23.6009]
+              },
+              "properties": {
+                "title": "NESS </br>",
+                "description": "R. Dr. Geraldo Campos Moreira, 240 </br>Brooklin Novo - São Paulo/SP </br>CEP 04571-020"
+              }
+            }]
           }
-        });
+        },
+        "layout": {
+          "icon-image": "ness",
+          "icon-size": 0.95
+        }
       });
     });
+  });
+
+  map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['points'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
+    .addTo(map);
+  });
 </script>
 
 
