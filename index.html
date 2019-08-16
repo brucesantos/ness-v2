@@ -9,38 +9,84 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed:100,200,300,400,600,500,700,800,900|Ubuntu:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
 
-<!-- Bootstrap 4.3.1 CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-<!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<!-- FontAwesome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-<!-- Startup 3 CSS (Styles for all blocks) -->
 <link href="css/style.css" rel="stylesheet" />
 
-<!-- jQuery 3.3.1 -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 
 </head> 
 
-<body class="slides animated">
+<body>
 
   <!-- Header -->
-  <?php include "common/header.php" ?>
+  <!-- <?php include "common/header.php" ?> -->
+
+  <header>
+    <nav>
+      <div class="container px-xl-0">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <img class="logo" height="50px" src="images/ness-logo-website-header.svg">
+              <img class="logo-sticky" height="50px" src="images/ness-logo-website.svg">
+            </div>
+          </div>
+          
+
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item"><a class="link f-16 mx-25" href="#sobre">Sobre</a></li>
+
+              <li class="nav-item">
+                <a class="link f-16 mx-25" href="">Verticais</a>
+                <ul class="sub-menu">
+                  <li><a href="health.html">Health</a></li>
+                  <li><a href="energy.html">Energy</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="smart-cities.html">City</a></li>
+                  <li><a href="legal.html">Law</a></li>
+                  <li><a href="#">Security</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a class="link f-16 mx-25" href="#clientes">Clientes</a></li>
+              <li class="nav-item"><a class="link f-16 mx-25" href="#vagas">Vagas</a></li>
+              <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Contato</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section id="slide" class="pt-250 pb-250 slide">
+    <div class="container px-xl-0 text-center">
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+          <h1 class="color-white">Pessoas. Processos. Tecnologia.</h1>
+        </div>
+
+        <div class="col-md-6 mb-120 color-white f-18 medium text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+          Transformação digital no setor de saúde.
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Content 3 -->
 
 
   <!-- SOBRE -->
-  <section id="sobre" class="feature_20 bg-light" data-aos-duration="600" data-aos="fade" data-aos-delay="0">
+  <section id="sobre" class="feature_20 bg-light">
     <div class="container px-xl-0">
       <div class="row justify-content-between align-items-stretch">
         <div class="col-xl-5 col-lg-5 col-md-5 d-none d-md-block"></div>
@@ -73,39 +119,40 @@
 
           <h5 class="pt-20 pb-0 text-left destaque-no-fundo-escuro">Conheça as nossas verticais:</h5>
         </div>
-      </div>
-    </div>
 
-    <div class="container px-xl-0" style="width: 90%; max-width: 90%;">
-      <div class="row justify-content-center text-center text-md-left">
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
+            <img src="images/verticais/vertical-ness-health.svg" width="100%" alt="">
+          </div>
+        </div>
+        
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
+            <img src="images/verticais/vertical-ness-energy.svg" width="100%" alt="">
+          </div>
+        </div>
+        
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
+          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
+            <img src="images/verticais/vertical-ness-education.svg" width="100%" alt="">
+          </div>
+        </div>
+        
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
+            <img src="images/verticais/vertical-ness-city.svg" width="100%" alt="">
+          </div>
+        </div>
+        
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
+          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
+            <img src="images/verticais/vertical-ness-law.svg" width="100%" alt="">
+          </div>
+        </div>
 
-        <div class="mb-30 col-lg-2 col-md-2 col-sm-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+        <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
           <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/health/logo-ness-health.svg" width="200px" alt="">
-          </div>
-        </div>
-        
-        <div class="mb-30 col-lg-2 col-md-2 col-sm-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/health/logo-ness-health.svg" width="200px" alt="">
-          </div>
-        </div>
-        
-        <div class="mb-30 col-lg-2 col-md-2 col-sm-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/health/logo-ness-health.svg" width="200px" alt="">
-          </div>
-        </div>
-        
-        <div class="mb-30 col-lg-2 col-md-2 col-sm-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/health/logo-ness-health.svg" width="200px" alt="">
-          </div>
-        </div>
-        
-        <div class="mb-30 col-lg-2 col-md-2 col-sm-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/health/logo-ness-health.svg" width="200px" alt="">
+            <img src="images/verticais/vertical-ness-security.svg" width="100%" alt="">
           </div>
         </div>
       </div>
@@ -180,7 +227,7 @@
 
 
   <!-- Vagas -->
-  <section id="vagas" class="feature_20 bg-light" data-aos-duration="600" data-aos="fade" data-aos-delay="0">
+  <section id="vagas" class="feature_20 bg-light">
     <div class="container px-xl-0">
       <div class="row justify-content-between align-items-stretch">
         <div class="col-xl-6 col-lg-7 col-md-9 pt-120 pb-80 left_side">
@@ -206,87 +253,163 @@
 
   <!-- Contato -->
   <section id="contato" class="contact_4 pt-100 pb-100">
+    <div id="map"></div>
+      
     <div class="container px-xl-0">
-      <div class="row justify-content-center justify-content-lg-between align-items-center">
-        <div class="col-xl-1"></div>
-
-        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 color-white">
-          <h2 class="mb-25 small destaque-no-fundo-escuro" data-aos-duration="700" data-aos="fade-down" data-aos-delay="0">Let’s Keep in Touch</h2>
-          <div class="pb-10 f-22 text-adaptive" data-aos-duration="700" data-aos="fade-down" data-aos-delay="350">
-            We have created a new product <br />
-            that will help designers, developers <br />
-            and companies create websites for <br />
-            their startups quickly and easily.
-          </div>
-
-          <div data-aos-duration="700" data-aos="fade-down" data-aos-delay="700">
-            <a href="tel:+15555055050" class="mt-45 link color-white d-flex align-items-baseline">
-              <i class="w-30 fas fa-phone flex-shrink-0 fa-flip-horizontal f-14 text-right"></i>
-              <div>+1 555 505 5050</div>
-            </a>
-
-            <a href="mailto:info@designmodo.com" class="mt-45 link color-white d-flex align-items-baseline">
-              <i class="w-30 fas fa-envelope flex-shrink-0"></i>
-              <div>info@designmodo.com</div>
-            </a>
-
-            <div class="mt-45 d-flex align-items-baseline">
-              <i class="w-30 far fa-building flex-shrink-0"></i>
-              <div class="text-adaptive">
-                San Francisco, CA560 Bush St <br />
-                &amp; 20th Ave, Apt5 San Francisco, <br />
-                230909
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row justify-content-right justify-content-lg-between align-items-right">
 
         <div class="col-xl-5 col-lg-6 col-md-8 mt-50 mt-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="1050">
           <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
-            <div class="row">
-              <div class="col-sm-7">
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Name</div>
-                <input type="text" name="name" placeholder="First name" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-              </div>
 
-              <div class="col-sm-5">
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Budget</div>
-                <select name="budget" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required>
-                  <option>$50 000</option>
-                  <option>$100 000</option>
-                  <option>$150 000</option>
-                </select>
-              </div>
-            </div>
+            <div class="mb-10 f-14 semibold text-uppercase sp-20">Nome</div>
+            <input type="text" name="name" placeholder="First name" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
 
-            <div class="mb-10 f-14 semibold text-uppercase sp-20">Your email</div>
+            <div class="mb-10 f-14 semibold text-uppercase sp-20">E-mail</div>
             <input type="email" name="email" placeholder="name@mail.com" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-            <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Message</div>
+            
+            <div class="mb-10 f-14 semibold text-uppercase sp-20">Mensagem</div>
             <textarea name="message" placeholder="Message" class="mb-30 input w-full radius10 border-gray focus-action-1 color-heading placeholder-heading" required></textarea>				
             
             <div class="row justify-content-between align-items-center">
               <div class="col-sm-7">
-                <input type="checkbox" name="send_copy" class="d-none border-gray focus-action-1" id="contact_4_checkbox" checked />
+                <!-- <input type="checkbox" name="send_copy" class="d-none border-gray focus-action-1" id="contact_4_checkbox" checked />
                 <label for="contact_4_checkbox" class="color-heading">
                   Send me a copy
-                </label>
+                </label> -->
               </div>
               <div class="col-xl-5 col-sm-5">
-                <button class="mt-20 mt-sm-0 btn action-1 w-full">Send</button>
+                <button class="mt-20 mt-sm-0 btn action-1 w-full">Enviar</button>
               </div>
             </div>
           </form>
         </div>
-
-        <div class="col-xl-1"></div>
       </div>
     </div>
   </section>
 
 
-  <!-- Footer -->
-  <?php include "common/footer.php" ?>
+  <footer class="footer_6 bg-light pt-80 pb-80 text-center text-sm-left">
+    <div class="container px-xl-0">    
+      <div class="row">
+        <div class="mb-30 mb-lg-0 col-lg-3 col-sm-6 order-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="0">
+          <a href="#" class="logo link color-main"><img class="logo" height="50px" src="images/ness-logo-website.svg"></a>
+        </div>
 
+        <div class="mb-50 mb-sm-0 col-lg-3 col-sm-6 order-2 order-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="350">
+          <div class="mb-25 f-16 semibold text-uppercase sp-20 title">Localização</div>
+          <div class="color-heading text-adaptive">
+            R. Dr. Geraldo Campos Moreira, 240<br> 
+            Brooklin Novo - São Paulo/SP<br>
+            CEP 04571-020
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 order-3 order-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="700">
+          <div class="mb-25 f-16 semibold text-uppercase sp-20 title">Contato</div>
+          <div class="color-heading text-adaptive">
+            Telefone: +55 11 2504 7650 <br>
+            Email: contato@ness.com.br
+          </div>
+        </div>
+
+        <div class="mb-50 mb-sm-0 col-lg-3 col-sm-6 order-2 order-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="350">
+          <div class="mb-25 f-16 semibold text-uppercase sp-20 title">Redes Sociais</div>
+          <div class="color-heading text-adaptive"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<div class="alert alert-success alert-dismissible alert-form-success" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  Thanks for your message!
+</div>
+
+<div class="alert alert-warning alert-dismissible alert-form-check-fields" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  Please, fill in required fields.
+</div>
+
+<div class="alert alert-danger alert-dismissible alert-form-error" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  An error occurred while sending data :(
+</div>
+
+
+<!-- popup with video -->
+<div class="overlay"></div>
+
+<div class="video_popup">
+  <a class="close">
+    <img srcset="images/close_white@2x.png 2x" src="images/close_white.png" alt="" />
+  </a>
+  <div class="d-flex align-items-center justify-content-center w-full h-full iframe_container"></div>
+</div>
+
+<!-- MAPS -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoibGVvZmFsb3RpY28iLCJhIjoiY2luMGZnbjR4MDh3b3Y5a2ticGh2MDhnMyJ9.tWtrSS2y617vcOQZpDYfoQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/leofalotico/cjzdfujpj32bo1co3iip8atom', // stylesheet location
+    center: [-46.6958055, -23.6019319], // starting position [lng, lat]
+    zoom: 16 // starting zoom
+  });
+
+  map.on('load', function() {
+    map.loadImage('https://i.imgur.com/MK4NUzI.png', function(error, image) {
+      if (error) throw error;
+      map.addImage('ness', image);
+      map.addLayer({
+        "id": "points",
+        "type": "symbol",
+        "source": {
+          "type": "geojson",
+            "data": {
+              "type": "FeatureCollection",
+              "features": [{
+                "type": "Feature",
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-46.6928055, -23.6009]
+                }
+              }]
+            }
+          },
+          "layout": {
+            "icon-image": "ness",
+            "icon-size": 0.95
+          }
+        });
+      });
+    });
+</script>
+
+
+<!-- Bootstrap 4.3.1 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- Google maps JS API -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/apimages/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+
+<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+<script src="../js/jquery.maskedinput.min.js"></script>
+
+<!-- Startup 3 JS (Custom js for all blocks) -->
+<script src="../js/script.js"></script>
 
 </body>
 </html>

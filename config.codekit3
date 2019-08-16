@@ -35,16 +35,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/framework.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/framework-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/css/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -972,7 +962,7 @@
 		},
 	"/images/health/AdobeStock_122316679.jpg": {
 		"ft": 16384,
-		"iS": 231301,
+		"iS": 233741,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/health/AdobeStock_122316679.jpg",
@@ -1476,20 +1466,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/index.php": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.php",
-		"oF": 0
-		},
-	"/js/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/js/index.php",
+		"oAP": "/index.html",
 		"oF": 0
 		},
 	"/js/jquery.maskedinput.min.js": {
@@ -1611,14 +1593,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/index.php",
-		"oF": 0
-		},
 	"/scss/style.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1664,7 +1638,7 @@
 "projectAttributes": {
 	"creationDate": 587064330.285267,
 	"displayValue": "ness-v2",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0
 	},

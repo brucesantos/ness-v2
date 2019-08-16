@@ -3,28 +3,28 @@
 /* Change bootstrap's .container default width */
 
 @media(min-width: 768px){
-	.container{
+	.container {
 		max-width:750px;
 	}
 }
 @media(min-width: 992px){
-	.container{
+	.container {
 		max-width:970px;
 	}
 }
 @media(min-width: 1200px){
-	.container{
+	.container {
 		max-width:1170px;
 	}
 }
 
 /* Font styles */
 
-.underline{
+.underline {
 	text-decoration:underline;
 }
 
-.thin{
+.thin {
 	font-weight:$thin;
 }
 
