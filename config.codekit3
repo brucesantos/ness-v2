@@ -1127,6 +1127,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/health/nsensor-website.gif": {
+		"ft": 4194304,
+		"iS": 698305,
+		"oA": 0,
+		"oAP": "/images/health/nsensor-website.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/images/home/bg-sobre.png": {
 		"ft": 32768,
 		"iS": 0,
