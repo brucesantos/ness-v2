@@ -962,7 +962,7 @@
 		},
 	"/images/health/AdobeStock_122316679.jpg": {
 		"ft": 16384,
-		"iS": 233741,
+		"iS": 231301,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/health/AdobeStock_122316679.jpg",
@@ -987,6 +987,17 @@
 		"iS": 4380217,
 		"oA": 0,
 		"oAP": "/images/health/DSC08681.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/health/feature_17_img@2x.png": {
+		"ft": 32768,
+		"iS": 332806,
+		"oA": 0,
+		"oAP": "/images/health/feature_17_img@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

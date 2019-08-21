@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1565918329952');
+@import url('style-blessed1.css?z=1566354748135');
 
 
 @media (max-width: 575.98px) {
@@ -1389,7 +1389,7 @@
   .ecommerce_38 .total, .ecommerce_38 .subtotal, .ecommerce_38 .delivery {
     min-width: 50px; } }
 
-#produtos {
+#health #produtos {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
@@ -1413,10 +1413,16 @@
   100% {
     background-position: 0% 50%; } }
 
-#ncommand {
+#health #ncommand {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33); }
+
+#health .bg-dark {
+  background: -webkit-gradient(linear, right top, left top, from(#041E33), to(#004B6B));
+  background: -webkit-linear-gradient(right, #041E33, #004B6B);
+  background: linear-gradient(270deg, #041E33, #004B6B);
+  background-color: #004B6B !important; }
 
 .slide {
   background: url("../images/home/bg.png");
