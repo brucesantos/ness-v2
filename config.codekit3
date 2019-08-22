@@ -993,6 +993,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/health/feature_15_img@2x.png": {
+		"ft": 32768,
+		"iS": 240486,
+		"oA": 0,
+		"oAP": "/images/health/feature_15_img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/health/feature_16_img@2x.png": {
+		"ft": 32768,
+		"iS": 608835,
+		"oA": 0,
+		"oAP": "/images/health/feature_16_img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/health/feature_17_img@2x.png": {
 		"ft": 32768,
 		"iS": 332806,
@@ -1127,6 +1149,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/health/mockup-nreport.png": {
+		"ft": 32768,
+		"iS": 244373,
+		"oA": 0,
+		"oAP": "/images/health/mockup-nreport.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/health/monitor-nmonitor.png": {
+		"ft": 32768,
+		"iS": 450511,
+		"oA": 0,
+		"oAP": "/images/health/monitor-nmonitor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/health/ncommand-top.jpg": {
 		"ft": 16384,
 		"iS": 286663,
@@ -1136,6 +1180,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/health/ness-health-sobre.png": {
+		"ft": 32768,
+		"iS": 487784,
+		"oA": 0,
+		"oAP": "/images/health/ness-health-sobre.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/health/nsensor-website.gif": {

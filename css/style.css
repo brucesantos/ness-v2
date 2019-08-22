@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1566354748135');
+@import url('style-blessed1.css?z=1566423614508');
 
 
 @media (max-width: 575.98px) {
@@ -1394,8 +1394,8 @@
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
   background-size: 400% 400%;
-  -webkit-animation: AnimationName 27s ease infinite;
-          animation: AnimationName 27s ease infinite; }
+  -webkit-animation: AnimationName 10s ease infinite;
+          animation: AnimationName 10s ease infinite; }
 
 @-webkit-keyframes AnimationName {
   0% {
@@ -1412,8 +1412,15 @@
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+  #health #produtos a {
+    color: white;
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+    transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1); }
+    #health #produtos a:hover {
+      background: #0087CC;
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
 
-#health #ncommand {
+#health #nCommand {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33); }
