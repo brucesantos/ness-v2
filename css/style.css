@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1566423614508');
+@import url('style-blessed1.css?z=1566931803084');
 
 
 @media (max-width: 575.98px) {
@@ -1420,7 +1420,7 @@
       background: #0087CC;
       box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
 
-#health #nCommand {
+#health #nCommand, #health #nVoice {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33); }
