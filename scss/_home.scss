@@ -1,7 +1,11 @@
-.slide {
-  background: url('../images/home/bg.png');
+#capa {
+  background: url('../images/home/home-cover.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #sobre {
@@ -9,6 +13,44 @@
   background-position: -300px center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#numeros {
+  box-sizing: border-box;
+  .numeros__conteudo__dado {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: pink;
+    .valor {
+      background-color: #E5F4FB;
+      height: 160px;
+      width: 160px;
+      border-radius: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $font_heading;
+      .numero {
+        font-size: 4em;
+      }
+      .adicional {
+        font-size: 2em;
+        opacity: .8;
+      }
+    }
+    i {
+      margin-top: -20px;
+      margin-bottom: 10px;
+      font-size: 2.4em;
+      color: #77A4B9;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
 }
 
 #verticais {
@@ -32,16 +74,16 @@
 }
 
 
-#contato { 
-  position: relative; 
+#contato {
+  position: relative;
   z-index: 1; /* The z-index should be higher than Google Maps */
 
-  #map { 
-    height: 100%; 
-    width: 100%; 
-    position:absolute; 
-    top: 0; 
-    left: 0; 
+  #map {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
     z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
   }
 }

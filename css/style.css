@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1566931803084');
+@import url('style-blessed1.css?z=1566951193264');
 
 
 @media (max-width: 575.98px) {
@@ -1431,16 +1431,60 @@
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
 
-.slide {
-  background: url("../images/home/bg.png");
+#capa {
+  background: url("../images/home/home-cover.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
 
 #sobre {
   background: #FFF url("../images/home/bg-sobre.png");
   background-position: -300px center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+#numeros {
+  box-sizing: border-box; }
+  #numeros .numeros__conteudo__dado {
+    text-align: center;
+    padding: 1em;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center; }
+    #numeros .numeros__conteudo__dado .valor {
+      background-color: #E5F4FB;
+      height: 160px;
+      width: 160px;
+      border-radius: 80px;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+              align-items: center;
+      font-family: Ubuntu Condensed; }
+      #numeros .numeros__conteudo__dado .valor .numero {
+        font-size: 4em; }
+      #numeros .numeros__conteudo__dado .valor .adicional {
+        font-size: 2em;
+        opacity: .8; }
+    #numeros .numeros__conteudo__dado i {
+      margin-top: -20px;
+      margin-bottom: 10px;
+      font-size: 2.4em;
+      color: #77A4B9; }
+    #numeros .numeros__conteudo__dado p {
+      font-size: 1.2em; }
 
 #verticais {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
