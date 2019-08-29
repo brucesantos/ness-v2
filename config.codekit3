@@ -1245,6 +1245,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/images/home/bg-numeros.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/home/bg-numeros.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/home/bg-sobre.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -1379,7 +1389,7 @@
 		},
 	"/images/home/home-cover.jpg": {
 		"ft": 16384,
-		"iS": 118551,
+		"iS": 122063,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/home/home-cover.jpg",
@@ -1396,6 +1406,50 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/parceiros/fgv.png": {
+		"ft": 32768,
+		"iS": 7226,
+		"oA": 0,
+		"oAP": "/images/home/parceiros/fgv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/parceiros/fiap.png": {
+		"ft": 32768,
+		"iS": 4469,
+		"oA": 0,
+		"oAP": "/images/home/parceiros/fiap.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/parceiros/ufpe.png": {
+		"ft": 32768,
+		"iS": 26262,
+		"oA": 0,
+		"oAP": "/images/home/parceiros/ufpe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/home/parceiros/unifesp.png": {
+		"ft": 32768,
+		"iS": 19605,
+		"oA": 0,
+		"oAP": "/images/home/parceiros/unifesp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

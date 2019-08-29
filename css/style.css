@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1566951193264');
+@import url('style-blessed1.css?z=1567118957320');
 
 
 @media (max-width: 575.98px) {
@@ -1450,7 +1450,10 @@
   background-repeat: no-repeat; }
 
 #numeros {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background: url("../images/home/bg-numeros.svg") center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   #numeros .numeros__conteudo__dado {
     text-align: center;
     padding: 1em;
@@ -1462,7 +1465,7 @@
     -webkit-box-align: center;
             align-items: center; }
     #numeros .numeros__conteudo__dado .valor {
-      background-color: #E5F4FB;
+      background-color: #C0F4FF;
       height: 160px;
       width: 160px;
       border-radius: 80px;
@@ -1482,7 +1485,7 @@
       margin-top: -20px;
       margin-bottom: 10px;
       font-size: 2.4em;
-      color: #77A4B9; }
+      color: #5E8CA1; }
     #numeros .numeros__conteudo__dado p {
       font-size: 1.2em; }
 
@@ -1491,15 +1494,69 @@
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
   background-size: 400% 400%; }
+  #verticais a > div {
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+    transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1); }
+    #verticais a > div:hover {
+      background: #003952;
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
 
 #clientes {
   background: #F9F9F9;
   background-size: 400% 400%; }
+  #clientes .link-cliente {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    opacity: .7;
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+    transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1); }
+    #clientes .link-cliente:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      opacity: 1; }
   #clientes .block {
     border: 2px solid #EEE; }
 
-#vagas .btn {
-  background: #004B6B; }
+#parceiros h3 {
+  text-align: center; }
+
+#parceiros .parceiro .imagem {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  height: 180px;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+  transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: .7; }
+  #parceiros .parceiro .imagem:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+    opacity: 1; }
+  #parceiros .parceiro .imagem img {
+    width: 180px; }
+
+#parceiros .parceiro .linha {
+  margin: 40px 70px;
+  height: 2px;
+  background-color: #d3eafc; }
+
+#parceiros .parceiro .descricao {
+  text-align: center;
+  opacity: .7; }
+
+#vagas {
+  background-color: rgba(0, 0, 0, 0.05) !important; }
+  #vagas .btn {
+    background: #004B6B; }
 
 #contato {
   position: relative;
@@ -1537,3 +1594,6 @@ main {
 
 footer .container {
   max-width: 90% !important; }
+
+.header-da-seccao {
+  text-align: center; }
