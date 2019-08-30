@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1567118957320');
+@import url('style-blessed1.css?z=1567127213296');
 
 
 @media (max-width: 575.98px) {
@@ -126,7 +126,6 @@
     min-height: calc(100% - 30px); }
     .ecommerce_2 .product.big ul {
       -webkit-column-count: 2;
-         -moz-column-count: 2;
               column-count: 2; }
   .ecommerce_2 .product li {
     list-style: none;
@@ -148,7 +147,6 @@
     padding: 20px 20px 30px 20px; }
     .ecommerce_2 .product.big ul {
       -webkit-column-count: 1;
-         -moz-column-count: 1;
               column-count: 1; }
     .ecommerce_2 .product .left {
       margin-right: 0; }
@@ -1390,7 +1388,6 @@
     min-width: 50px; } }
 
 #health #produtos {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
   background-size: 400% 400%;
@@ -1421,12 +1418,10 @@
       box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
 
 #health #nCommand, #health #nVoice {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33); }
 
 #health .bg-dark {
-  background: -webkit-gradient(linear, right top, left top, from(#041E33), to(#004B6B));
   background: -webkit-linear-gradient(right, #041E33, #004B6B);
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
@@ -1437,11 +1432,17 @@
   background-repeat: no-repeat;
   height: 100vh;
   display: -webkit-box;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
           justify-content: center;
   -webkit-box-align: center;
+  -webkit-align-items: center;
           align-items: center; }
+  #capa .descricao-header {
+    font-family: Ubuntu Condensed;
+    color: #5DD39E; }
 
 #sobre {
   background: #FFF url("../images/home/bg-sobre.png");
@@ -1458,11 +1459,14 @@
     text-align: center;
     padding: 1em;
     display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
             flex-direction: column;
     -webkit-box-align: center;
+    -webkit-align-items: center;
             align-items: center; }
     #numeros .numeros__conteudo__dado .valor {
       background-color: #C0F4FF;
@@ -1470,10 +1474,13 @@
       width: 160px;
       border-radius: 80px;
       display: -webkit-box;
+      display: -webkit-flex;
       display: flex;
       -webkit-box-pack: center;
+      -webkit-justify-content: center;
               justify-content: center;
       -webkit-box-align: center;
+      -webkit-align-items: center;
               align-items: center;
       font-family: Ubuntu Condensed; }
       #numeros .numeros__conteudo__dado .valor .numero {
@@ -1490,7 +1497,6 @@
       font-size: 1.2em; }
 
 #verticais {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
   background-size: 400% 400%; }
@@ -1524,10 +1530,13 @@
 
 #parceiros .parceiro .imagem {
   display: -webkit-box;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
           justify-content: center;
   -webkit-box-align: end;
+  -webkit-align-items: flex-end;
           align-items: flex-end;
   height: 180px;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
@@ -1582,6 +1591,16 @@
 
 .destaque-no-fundo-claro {
   color: #00709E; }
+
+.color-green-ness {
+  color: #5DD39E; }
+
+.btn-branco {
+  background: rgba(255, 255, 255, 0.05);
+  text-transform: uppercase; }
+  .btn-branco:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white; }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }

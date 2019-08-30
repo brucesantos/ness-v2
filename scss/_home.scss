@@ -6,6 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  .descricao-header {
+    font-family: $font_heading;
+    color: $ness-cor-verde;
+  }
 }
 
 #sobre {

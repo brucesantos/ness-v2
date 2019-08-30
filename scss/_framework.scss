@@ -180,7 +180,7 @@
 			line-height:66px;
 		}
 	}
-	
+
 	/* Colors */
 	&.action-1{
 		background-color:$action_1;
@@ -238,7 +238,7 @@
 			background-color:darken($color_dribbble, 10%);
 		}
 	}
-		
+
 	/* Borders */
 	&.border{
 		&-main{
@@ -342,7 +342,7 @@
 			color:transparent !important;
 		}
 	}
-	
+
 	/* Sizes */
 	&.sm{
 		font-size:16px;
@@ -585,7 +585,7 @@ input[type=checkbox], input[type=radio] {
 			font-weight: 900;
 			font-size:12px;
 			transition:all 0.2s;
-			
+
 		}
 	}
 	/* Borders */
@@ -699,7 +699,7 @@ input[type=checkbox], input[type=radio] {
 			color:$color_white;
 		}
 	}
-	
+
 }
 
 input[type=checkbox]{
@@ -959,7 +959,7 @@ input[type=radio]{
 	padding: 0px;
 	border: none;
 	border-radius: 5px;
-	
+
 	&.dropdown-menu-right{
 		margin-left:auto;
 		margin-right:-20px;
@@ -1139,7 +1139,7 @@ $i: 12;
 			color:darken($color_heading, 20%);
 		}
 	}
-	
+
 }
 .color-white{
 	color:$color_white;
