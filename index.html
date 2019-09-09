@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-<meta charset="utf-8" >
+<meta charset="utf-8">
 <title>NESS - Processos e Tecnologia</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -15,7 +15,8 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-<link href="css/style.css" rel="stylesheet" />
+<!-- nosso css custom -->
+<link href="css/style.css" rel="stylesheet"/>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -29,22 +30,22 @@
 
   <header>
     <nav>
-      <div class="container px-xl-0">
-        <div class="row">
+      <div class="container d-flex space-between">
+         <!-- px-xl-0 -->
+        <!-- <div class="row"> -->
+
           <div class="col-md-4">
             <div class="logo">
               <a href="index.html">
-                <img class="logo" height="50px" src="images/ness-logo-website-header.svg">
-                <img class="logo-sticky" height="50px" src="images/ness-logo-website.svg">
+                <img class="logo" height="32px" style="margin-top:9px;" src="images/logo-ness-text.svg">
+                <img class="logo-sticky" height="32px" style="margin-top:9px;" src="images/logo-ness-text-blue.svg">
               </a>
             </div>
           </div>
 
-
           <div class="col-md-8">
             <ul class="nav">
               <li class="nav-item"><a class="link f-16 mx-25" href="#sobre">Sobre</a></li>
-
               <!-- <li class="nav-item">
                 <a class="link f-16 mx-25" href="">Verticais</a>
                 <ul class="sub-menu">
@@ -56,40 +57,57 @@
                   <li><a href="#">Security</a></li>
                 </ul>
               </li> -->
-
               <li class="nav-item"><a class="link f-16 mx-25" href="health.html">Health</a></li>
               <li class="nav-item"><a class="link f-16 mx-25" href="#vagas">Law</a></li>
               <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Energy</a></li>
               <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Security</a></li>
             </ul>
-
           </div>
-        </div>
+
+        <!-- </div> -->
+
       </div>
     </nav>
   </header>
 
 
-  <section id="capa" class="pt-250 pb-250 slide">
-    <div class="container px-xl-0 text-center">
-
+  <!-- CAPA -->
+  <section id="capa" class="">
+    <div class="iconess">
+      <img src="images/iconess.svg" alt="icone da marca ness">
+    </div>
+    <!-- <div class="container px-xl-0 text-center">
       <div class="">
         <div class="mb-30" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
           <h1 class="destaque-no-fundo-escuro">Pessoas. Processos. Tecnologia.</h1>
         </div>
-
         <div class="color-white f-18 medium text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
           Transformação digital para sua empresa.
         </div>
       </div>
+    </div> -->
+  </section>
 
+
+  <!-- <section id="continuacao-fundo-azul">
+  </section> -->
+
+  <section id="sobre-novo">
+    <div class="container">
+      <div class="mt-40 mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="destaque-no-fundo-claro">Transformação Digital</h1>
+      </div>
+
+      <img src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
+
+      <p class="mt-40 mb-40 f-18" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
+        A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
+      </p>
     </div>
   </section>
-  <!-- Content 3 -->
-
 
   <!-- SOBRE -->
-  <section id="sobre" class="feature_20 bg-light">
+  <!-- <section id="sobre" class="feature_20 bg-light">
     <div class="container px-xl-0">
       <div class="row justify-content-between align-items-stretch">
         <div class="col-xl-5 col-lg-5 col-md-5 d-none d-md-block"></div>
@@ -105,22 +123,29 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <section id="numeros">
     <div class="container">
       <div class="row mt-180 justify-content-center">
-        <h2 class="destaque-no-fundo-claro">Números</h2>
+        <h2 class="destaque-no-fundo-claro">Impacto</h2>
       </div>
       <div class="numeros__conteudo">
         <div class="row mt-60 mb-180">
           <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
             <div class="valor">
-              <span class="numero" data-count="90">0</span><span class="adicional"> +</span>
+              <span class="numero" data-count="4">0</span><span class="adicional"> +</span>
             </div>
-            <i class="fas fa-users"></i>
-            <p>Colaboradores</p>
+            <i class="fas fa-globe"></i>
+            <p>Países</p>
+          </div>
+          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
+            <div class="valor">
+              <span class="numero" data-count="800">0</span><span class="adicional"> +</span>
+            </div>
+            <i class="fas fa-city"></i>
+            <p>Cidades</p>
           </div>
           <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
             <div class="valor">
@@ -131,27 +156,126 @@
           </div>
           <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
             <div class="valor">
-              <span class="numero" data-count="3">0</span><span class="adicional"> +</span>
+              <span class="numero" data-count="3">0</span><span class="adicional">M+</span>
             </div>
-            <i class="fas fa-user-friends"></i>
-            <p>Milhões de usuários</p>
-          </div>
-          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
-            <div class="valor">
-              <span class="numero" data-count="300">0</span><span class="adicional"> +</span>
-            </div>
-            <i class="fas fa-server"></i>
-            <p>Servidores ativos</p>
+            <i class="fas fa-users"></i>
+            <p>Usuários</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- nova verticais -->
+  <section id="verticais" class="color-white">
+    <div class="container px-xl-0">
+      <div class="">
+
+        <div class="row">
+          <div class="col descricao">
+            <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">​​Soluções especializadas</h3>
+            <p class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
+              A NESS é estruturada em verticais, para garantir expertise e entendimento completo dos negócios nos principais setores em que atua.<br>
+              <!-- Possui grande expertise nos setores de Saúde, Jurídico, Energia e Tecnologia.<br> -->
+              <!-- Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria. -->
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col imagens" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+            <div class="imagem-bg">
+            </div>
+          </div>
+
+          <div class="col conteudo">
+            <!-- health >>>>>>>>>>>>>>> -->
+            <a href="#" class="vertical-info" id="vertical-health" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
+              <div class="icone">
+                <img src="images/home/iconess-verticais/iconess-health.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+              </div>
+              <div class="nome-descricao">
+                <h3 class="nome">Health</h3>
+                <p>Soluções especializadas para empresas e profissionais que atuam no setor de medicina diagnóstica</p>
+              </div>
+              <div class="btn-mais">
+                <div class="mais">+</div>
+              </div>
+            </a>
+            <!-- <<<<<<<<<<<<< health -->
+            <!-- law >>>>>>>>>>>>>>>> -->
+            <a href="#" class="vertical-info" id="vertical-law" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
+              <div class="icone">
+                <img src="images/home/iconess-verticais/iconess-law.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+              </div>
+              <div class="nome-descricao">
+                <h3 class="nome">Law</h3>
+                <p>Inovações no setor jurídico, um dos que mais necessita e se beneficia da transformação digital</p>
+              </div>
+              <div class="btn-mais">
+                <div class="mais">+</div>
+              </div>
+            </a>
+            <!-- law <<<<<<<<<<<<<<<< -->
+            <!-- energy >>>>>>>>>>>>>>>> -->
+            <a href="#" class="vertical-info" id="vertical-energy" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+              <div class="icone">
+                <img src="images/home/iconess-verticais/iconess-energy.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+              </div>
+              <div class="nome-descricao">
+                <h3 class="nome">Energy</h3>
+                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+              </div>
+              <div class="btn-mais">
+                <div class="mais">+</div>
+              </div>
+            </a>
+            <!-- energy <<<<<<<<<<<<<<<< -->
+            <!-- security >>>>>>>>>>>>>>>> -->
+            <a href="#" class="vertical-info" id="vertical-security" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
+              <div class="icone">
+                <img src="images/home/iconess-verticais/iconess-security.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+              </div>
+              <div class="nome-descricao">
+                <h3 class="nome">Security</h3>
+                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+              </div>
+              <div class="btn-mais">
+                <div class="mais">+</div>
+              </div>
+            </a>
+            <!-- security <<<<<<<<<<<<<<<< -->
+            <!-- tech >>>>>>>>>>>>>>>> -->
+            <a href="#" class="vertical-info" id="vertical-tech" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
+              <div class="icone">
+                <img src="images/home/iconess-verticais/iconess-tech.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+              </div>
+              <div class="nome-descricao">
+                <h3 class="nome">Tech</h3>
+                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+              </div>
+              <div class="btn-mais">
+                <div class="mais">+</div>
+              </div>
+            </a>
+            <!-- tech <<<<<<<<<<<<<<<< -->
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div style="height: 120px;">
+      </div>
+
+    </div>
+  </section>
 
 
   <!-- Verticais -->
-  <section id="verticais" class="feature_47 pt-105 pb-70 color-white">
+  <!-- <section id="verticais" class="feature_47 pt-105 pb-70 color-white">
     <div class="container px-xl-0">
       <div class="row justify-content-left text-left text-md-left">
         <div class="col-xl-12 col-lg-12 mb-50" data-aos-duration="700" data-aos="fade" data-aos-delay="0">
@@ -162,7 +286,7 @@
             Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria.
           </p>
 
-          <!-- <h5 class="pt-20 pb-0 text-left destaque-no-fundo-escuro">Conheça as nossas verticais:</h5> -->
+          <h5 class="pt-20 pb-0 text-left destaque-no-fundo-escuro">Conheça as nossas verticais:</h5>
         </div>
 
         <div class="mb-30 col-sm-6 col-xs-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
@@ -197,22 +321,10 @@
           </a>
         </div>
 
-        <!-- <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/verticais/vertical-ness-education.svg" width="100%" alt="">
-          </div>
-        </div> -->
-
-        <!-- <div class="mb-30 col-lg-4 col-md-4 col-sm-4 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-          <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-            <img src="images/verticais/vertical-ness-city.svg" width="100%" alt="">
-          </div>
-        </div> -->
-
       </div>
 
     </div>
-  </section>
+  </section> -->
 
 
   <!-- Clientes -->
@@ -228,7 +340,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-5 col-sm-6" data-aos-duration="700" data-aos="fade-down" data-aos-delay="0">
+        <div class="col-lg-3 col-md-5 col-sm-6" data-aos-duration="700" data-aos="fade-down" data-aos-delay="100">
           <div class="mx-auto mb-30 mw-270 h-160 d-flex justify-content-center align-items-center radius6 block">
              <a class="link-cliente" href="#">
                <img src="images/home/clientes/afip.png" alt="" />
@@ -287,7 +399,7 @@
         <div class="col-lg-3 col-md-5 col-sm-6" data-aos-duration="700" data-aos="fade-down" data-aos-delay="1250">
           <div class="mx-auto mb-30 mw-270 h-160 d-flex justify-content-center align-items-center radius6 block">
              <a class="link-cliente" href="#">
-               <img src="images/home/clientes/saude-10.png" alt="" />
+               <img src="images/home/parceiros/fgv.png" alt="" />
              </a>
           </div>
         </div>
@@ -339,8 +451,8 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12 parceiro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
           <div class="imagem">
-            <a target="_blank" href="https://ufpe.br">
-              <img height="140" src="images/home/parceiros/ufpe.png" alt="">
+            <a target="_blank" href="https://ufrpe.br">
+              <img height="75" src="images/home/parceiros/ufrpe.png" alt="">
             </a>
           </div>
           <div class="linha">
@@ -348,7 +460,7 @@
           <div class="descricao">
             <span>
               Uma das 5 melhores Universidades de Ciência do Brasil contando com
-              2 PhDs, 4 Mestrados, 4 Bacharelados em Ciência da Computação no nosso corpo de colaboradores
+              2 PhDs em Inteligência Artificial como colaboradores
             </span>
           </div>
         </div>
@@ -371,8 +483,9 @@
   </section>
 
 
+
   <!-- Vagas -->
-  <section id="vagas" class="feature_20 bg-light">
+  <!-- <section id="vagas" class="feature_20 bg-light">
     <div class="container px-xl-0">
       <div class="row justify-content-between align-items-stretch">
         <div class="col-xl-6 col-lg-7 col-md-9 pt-120 pb-80 left_side">
@@ -392,6 +505,34 @@
           <img src="images/home/img-vagas.png" class="absolute bg" alt="">
         </div>
       </div>
+    </div>
+  </section> -->
+
+  <section id="vagas">
+    <div style="height:120px;">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <h3 class="pb-20 destaque-no-fundo-escuro">Oportunidades</h3>
+
+          <div class="op-8 text-adaptive">
+            <p>Somos apaixonados por perseguir a inovação e a eficiência para enfrentar até os mais complexos desafios e projetos.</p>
+            <p>Estamos no mercado desde 1991 onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
+            <p>Desse modo, para garantir o sucesso das nossas empreitadas construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
+          </div>
+
+          <a href="#" class="mt-45 mb-65 btn action-1">Fazer parte<i class="fas fa-long-arrow-alt-right" style="margin-left:.65em;"></i></a>
+        </div>
+
+        <div class="col-md-4 col-xs-12" style="display:flex; justify-content: center; align-items: center;">
+          <a target="_blank" href="https://certificacao.gptw.info/certificated-company/72027097000137">
+            <img src="images/home/selo-gptw.svg" style="width:16vw; min-width: 180px;">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="height:120px;">
     </div>
   </section>
 
@@ -431,12 +572,12 @@
   <footer class="footer_5 bg-light pt-80 pb-40">
   	<div class="container px-xl-0">
   		<div class="row">
-  			<div class="col-lg-3 col-md-6 order-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+  			<div class="col-lg-3 col-md-12 order-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
   				<div class="row">
   					<div class="col-12 mb-10">
   						<a href="#" class="logo link color-main"><img class="logo" height="50px" src="images/ness-logo-website.svg"></a>
   					</div>
-  					<div class="col-xl-9 color-heading text-adaptive">
+  					<div class="col-12 color-heading text-adaptive">
               R. Dr. Geraldo Campos Moreira, 240<br>
               Brooklin Novo - São Paulo/SP<br>
               CEP 04571-020
@@ -444,7 +585,7 @@
   				</div>
   			</div>
   			<div class="col-xl-1 d-none d-xl-block"></div>
-  			<div class="mt-40 mt-lg-0 col-lg-4 order-2 order-lg-0">
+  			<div class="col-lg-5 col-md-6 mt-40 mt-lg-0 order-1 order-lg-0">
   				<div class="row">
   					<div class="col-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
   						<div class="mb-30 f-18 semibold title">Verticais</div>
@@ -460,7 +601,7 @@
   					</div>
   				</div>
   			</div>
-  			<div class="mt-40 mt-md-0 col-lg-4 col-md-6 order-1 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  			<div class="col-lg-3 col-md-3 mt-40 mt-md-0 order-2 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
   				<div class="mb-30 f-18 semibold title">Redes Socias</div>
   				<div class="socials">
   					<a href="#" class="f-24 link color-main mr-30"><i class="fab fa-facebook-square"></i></a>
@@ -504,10 +645,10 @@
 </div>
 
 <!-- MAPS -->
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+<!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' /> -->
 
-<script>
+<!-- <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoibGVvZmFsb3RpY28iLCJhIjoiY2luMGZnbjR4MDh3b3Y5a2ticGh2MDhnMyJ9.tWtrSS2y617vcOQZpDYfoQ';
   var map = new mapboxgl.Map({
     container: 'map',
@@ -564,7 +705,7 @@
     .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
     .addTo(map);
   });
-</script>
+</script> -->
 
 
 <!-- Bootstrap 4.3.1 JS -->
@@ -574,7 +715,7 @@
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- Google maps JS API -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/apimages/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/apimages/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script> -->
 
 <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -588,41 +729,16 @@
 <!-- Startup 3 JS (Custom js for all blocks) -->
 <script src="../js/script.js"></script>
 
+
+<!-- ====================
+**** SCRIPTS CUSTOMIZADOS
+===================== -->
+
 <!-- animtaded counting numbers -->
-<script type="text/javascript">
-  var a = 0;
-  $(window).scroll(function() {
+<script src="js/contagem-animada-numeros.js" type="text/javascript"></script>
 
-  var oTop = $('#numeros').offset().top - window.innerHeight;
-  if (a == 0 && $(window).scrollTop() > oTop) {
-    $('.numero').each(function() {
-      var $this = $(this),
-        countTo = $this.attr('data-count');
-      $({
-        countNum: $this.text()
-      }).animate({
-          countNum: countTo
-        },
-
-        {
-
-          duration: 2000,
-          easing: 'swing',
-          step: function() {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $this.text(this.countNum);
-            //alert('finished');
-          }
-
-        });
-    });
-    a = 1;
-  }
-
-  });
-</script>
+<!-- VERTICAIS hover troca de imagem -->
+<script type="text/javascript" src="js/verticais.js"></script>
 
 </body>
 </html>

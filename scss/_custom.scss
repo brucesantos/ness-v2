@@ -9,10 +9,18 @@
 // ESTILOS PRESENTES EM TODAS AS PAGINAS
 // *********************************
 .destaque-no-fundo-escuro {
-  color: $ness-cor-azul-clarissimo;
+  /* standard gradient background */
+  background: linear-gradient($ness-cor-azul-clarissimo, $ness-cor-azul-claro);
+  /* clip hackery */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .destaque-no-fundo-claro {
-  color: $ness-cor-azul-medio;
+  /* standard gradient background */
+  background: linear-gradient($ness-cor-azul-claro, $ness-cor-azul-escuro);
+  /* clip hackery */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {

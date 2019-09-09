@@ -34,9 +34,10 @@ body{
 	}
 }
 
-header, section{
-	overflow:hidden;
-}
+// header, section{
+// 	overflow:hidden;
+// }
+// não sei pra quer servia isso mas causava varios problemas de corte na tela
 
 header {
 	nav {
