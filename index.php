@@ -1,74 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<title>NESS - Processos e Tecnologia</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed:100,200,300,400,600,500,700,800,900|Ubuntu:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-<!-- nosso css custom -->
-<link href="css/style.css" rel="stylesheet"/>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-
-</head>
+  <?php include("common/head.php"); ?>
 
 <body>
 
   <!-- Header -->
-  <!-- <?php include "common/header.php" ?> -->
-
-  <header>
-    <nav>
-      <div class="container d-flex space-between">
-         <!-- px-xl-0 -->
-        <!-- <div class="row"> -->
-
-          <div class="col-md-4">
-            <div class="logo">
-              <a href="index.html">
-                <img class="logo" height="32px" style="margin-top:9px;" src="images/logo-ness-text.svg">
-                <img class="logo-sticky" height="32px" style="margin-top:9px;" src="images/logo-ness-text-blue.svg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-8">
-            <ul class="nav">
-              <li class="nav-item"><a class="link f-16 mx-25" href="#sobre">Sobre</a></li>
-              <!-- <li class="nav-item">
-                <a class="link f-16 mx-25" href="">Verticais</a>
-                <ul class="sub-menu">
-                  <li><a href="health.html">Health</a></li>
-                  <li><a href="energy.html">Energy</a></li>
-                  <li><a href="education.html">Education</a></li>
-                  <li><a href="smart-cities.html">City</a></li>
-                  <li><a href="legal.html">Law</a></li>
-                  <li><a href="#">Security</a></li>
-                </ul>
-              </li> -->
-              <li class="nav-item"><a class="link f-16 mx-25" href="health.html">Health</a></li>
-              <li class="nav-item"><a class="link f-16 mx-25" href="#vagas">Law</a></li>
-              <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Energy</a></li>
-              <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Security</a></li>
-            </ul>
-          </div>
-
-        <!-- </div> -->
-
-      </div>
-    </nav>
-  </header>
+  <?php include "common/header.php" ?>
 
 
   <!-- CAPA -->
@@ -191,7 +129,7 @@
 
           <div class="col conteudo">
             <!-- health >>>>>>>>>>>>>>> -->
-            <a href="#" class="vertical-info" id="vertical-health" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
+            <a href="health.php" class="vertical-info" id="vertical-health" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
               <div class="icone">
                 <img src="images/home/iconess-verticais/iconess-health.svg" alt="icone de um eletrocardiograma" width="60" height="60">
               </div>
@@ -205,7 +143,7 @@
             </a>
             <!-- <<<<<<<<<<<<< health -->
             <!-- law >>>>>>>>>>>>>>>> -->
-            <a href="#" class="vertical-info" id="vertical-law" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
+            <a href="law.php" class="vertical-info" id="vertical-law" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
               <div class="icone">
                 <img src="images/home/iconess-verticais/iconess-law.svg" alt="icone de um eletrocardiograma" width="60" height="60">
               </div>
@@ -219,7 +157,7 @@
             </a>
             <!-- law <<<<<<<<<<<<<<<< -->
             <!-- energy >>>>>>>>>>>>>>>> -->
-            <a href="#" class="vertical-info" id="vertical-energy" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+            <a href="energy.php" class="vertical-info" id="vertical-energy" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
               <div class="icone">
                 <img src="images/home/iconess-verticais/iconess-energy.svg" alt="icone de um eletrocardiograma" width="60" height="60">
               </div>
@@ -233,7 +171,7 @@
             </a>
             <!-- energy <<<<<<<<<<<<<<<< -->
             <!-- security >>>>>>>>>>>>>>>> -->
-            <a href="#" class="vertical-info" id="vertical-security" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
+            <a href="security.php" class="vertical-info" id="vertical-security" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
               <div class="icone">
                 <img src="images/home/iconess-verticais/iconess-security.svg" alt="icone de um eletrocardiograma" width="60" height="60">
               </div>
@@ -247,7 +185,7 @@
             </a>
             <!-- security <<<<<<<<<<<<<<<< -->
             <!-- tech >>>>>>>>>>>>>>>> -->
-            <a href="#" class="vertical-info" id="vertical-tech" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
+            <a href="tech.php" class="vertical-info" id="vertical-tech" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
               <div class="icone">
                 <img src="images/home/iconess-verticais/iconess-tech.svg" alt="icone de um eletrocardiograma" width="60" height="60">
               </div>
@@ -264,67 +202,15 @@
 
         </div>
 
-
       </div>
 
+      <!-- div de espacamento -->
       <div style="height: 120px;">
       </div>
 
     </div>
   </section>
 
-
-  <!-- Verticais -->
-  <!-- <section id="verticais" class="feature_47 pt-105 pb-70 color-white">
-    <div class="container px-xl-0">
-      <div class="row justify-content-left text-left text-md-left">
-        <div class="col-xl-12 col-lg-12 mb-50" data-aos-duration="700" data-aos="fade" data-aos-delay="0">
-          <h3 class="mb-20 text-left destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">​​Soluções especializadas</h3>
-          <p class="mb-20 text-left f-22 op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-            A NESS é estruturada de forma estratégica por verticais, para garantir conhecimento especializado nos principais setores no qual atua.<br>
-            Possui grande expertise nos setores de saúde, jurídico, educação, energia e cidades inteligentes.<br>
-            Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria.
-          </p>
-
-          <h5 class="pt-20 pb-0 text-left destaque-no-fundo-escuro">Conheça as nossas verticais:</h5>
-        </div>
-
-        <div class="mb-30 col-sm-6 col-xs-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-          <a href="health.html">
-            <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-              <img src="images/verticais/vertical-ness-health-cor.svg" width="100%" alt="">
-            </div>
-          </a>
-        </div>
-
-        <div class="mb-30 col-sm-6 col-xs-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-          <a href="law.html">
-            <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-              <img src="images/verticais/vertical-ness-law.svg" width="100%" alt="">
-            </div>
-          </a>
-        </div>
-
-        <div class="mb-30 col-sm-6 col-xs-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
-          <a href="energy.html">
-            <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-              <img src="images/verticais/vertical-ness-energy.svg" width="100%" alt="">
-            </div>
-          </a>
-        </div>
-
-        <div class="mb-30 col-sm-6 col-xs-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
-          <a href="security.html">
-            <div class="pt-35 pb-45 pl-40 pr-30 radius10 block">
-              <img src="images/verticais/vertical-ness-security.svg" width="100%" alt="">
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-    </div>
-  </section> -->
 
 
   <!-- Clientes -->
@@ -411,7 +297,7 @@
   <section id="parceiros">
     <div class="container mt-120 mb-120">
       <div class="mb-20 row justify-content-center header-da-seccao" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
-        <h3>Parceiros</h3>
+        <h3 class="destaque-no-fundo-claro">Parceiros</h3>
         <p class="f-22 color-heading op-7 text-adaptive description">
           A NESS tem orgulho de ter como parceiros, algumas das melhores universidades e centros de pesquisa do país.
           <br>
@@ -483,31 +369,6 @@
   </section>
 
 
-
-  <!-- Vagas -->
-  <!-- <section id="vagas" class="feature_20 bg-light">
-    <div class="container px-xl-0">
-      <div class="row justify-content-between align-items-stretch">
-        <div class="col-xl-6 col-lg-7 col-md-9 pt-120 pb-80 left_side">
-          <h3 class="pb-20 text-left destaque-no-fundo-claro">Vagas</h3>
-
-          <div class="f-16 mt-25 color-heading text-adaptive">
-            <p>Somos apaixonados por perseguir a inovação e a eficiência para enfrentar até os mais complexos desafios e projetos.</p>
-            <p>Estamos no mercado desde 1991 onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
-            <p>Desse modo, para garantir o sucesso das nossas empreitadas construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
-          </div>
-
-          <a href="#" class="mt-45 mb-65 btn action-3">Vagas</a>
-        </div>
-
-        <div class="col-xl-4 col-lg-3 col-md-2 d-none d-md-block">
-          <img srcset="images/home/bg-vagas.png 2x" src="images/home/bg-vagas.png" class="h-full absolute bg" alt="">
-          <img src="images/home/img-vagas.png" class="absolute bg" alt="">
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section id="vagas">
     <div style="height:120px;">
     </div>
@@ -537,85 +398,10 @@
   </section>
 
 
-  <!-- Contato -->
-  <!-- <section id="contato" class="contact_4 pt-100 pb-100">
-    <div id="map"></div>
-
-    <div class="col-xl-3 col-lg-3 col-md-3 ml-380 mt-50 mt-lg-0" data-aos-duration="700" data-aos="fade-down" data-aos-delay="1050">
-      <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
-
-        <div class="mb-10 f-14 semibold text-uppercase sp-20">Nome</div>
-        <input type="text" name="name" placeholder="First name" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-
-        <div class="mb-10 f-14 semibold text-uppercase sp-20">E-mail</div>
-        <input type="email" name="email" placeholder="name@mail.com" class="mb-35 input w-full border-gray focus-action-1 color-heading placeholder-heading" required />
-
-        <div class="mb-10 f-14 semibold text-uppercase sp-20">Mensagem</div>
-        <textarea name="message" placeholder="Message" class="mb-30 input w-full radius10 border-gray focus-action-1 color-heading placeholder-heading" required></textarea>
-
-        <div class="row justify-content-between align-items-center">
-          <div class="col-sm-7">
-
-          </div>
-          <div class="col-xl-5 col-sm-5">
-            <button class="mt-20 mt-sm-0 btn action-1 w-full">Enviar</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </section> -->
 
 
 
-  <!-- Footer 5 -->
-
-  <footer class="footer_5 bg-light pt-80 pb-40">
-  	<div class="container px-xl-0">
-  		<div class="row">
-  			<div class="col-lg-3 col-md-12 order-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-  				<div class="row">
-  					<div class="col-12 mb-10">
-  						<a href="#" class="logo link color-main"><img class="logo" height="50px" src="images/ness-logo-website.svg"></a>
-  					</div>
-  					<div class="col-12 color-heading text-adaptive">
-              R. Dr. Geraldo Campos Moreira, 240<br>
-              Brooklin Novo - São Paulo/SP<br>
-              CEP 04571-020
-  					</div>
-  				</div>
-  			</div>
-  			<div class="col-xl-1 d-none d-xl-block"></div>
-  			<div class="col-lg-5 col-md-6 mt-40 mt-lg-0 order-1 order-lg-0">
-  				<div class="row">
-  					<div class="col-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-  						<div class="mb-30 f-18 semibold title">Verticais</div>
-  						<div class="mb-10"><a href="#" class="link color-main">Health</a></div>
-  						<div class="mb-10"><a href="#" class="link color-main">Law</a></div>
-  						<div class="mb-10"><a href="#" class="link color-main">Energy</a></div>
-  						<div class="mb-10"><a href="#" class="link color-main">Security</a></div>
-  					</div>
-  					<div class="col-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-  						<div class="mb-30 f-18 semibold title">Empresa</div>
-  						<div class="mb-10"><a href="#" class="link color-main">contato@ness.com.br</a></div>
-  						<div class="mb-10"><a href="#" class="link color-main">Vagas</a></div>
-  					</div>
-  				</div>
-  			</div>
-  			<div class="col-lg-3 col-md-3 mt-40 mt-md-0 order-2 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
-  				<div class="mb-30 f-18 semibold title">Redes Socias</div>
-  				<div class="socials">
-  					<a href="#" class="f-24 link color-main mr-30"><i class="fab fa-facebook-square"></i></a>
-  					<a href="#" class="f-24 link color-main mr-30"><i class="fab fa-linkedin"></i></a>
-  					<!-- <a href="#" class="f-18 link color-main mr-30"><i class="fab fa-google-plus-g"></i></a> -->
-  				</div>
-  			</div>
-  		</div>
-  		<!-- <div class="mt-110 mb-35 hr h-2 bg-gray op-5" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0"></div> -->
-  		<!-- <div class="color-heading text-center text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-  			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  		</div> -->
-  	</div>
-  </footer>
+<?php include "common/footer.php" ?>
 
 
 <div class="alert alert-success alert-dismissible alert-form-success" role="alert">
@@ -644,94 +430,16 @@
   <div class="d-flex align-items-center justify-content-center w-full h-full iframe_container"></div>
 </div>
 
-<!-- MAPS -->
-<!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' /> -->
 
-<!-- <script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoibGVvZmFsb3RpY28iLCJhIjoiY2luMGZnbjR4MDh3b3Y5a2ticGh2MDhnMyJ9.tWtrSS2y617vcOQZpDYfoQ';
-  var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/leofalotico/cjzdfujpj32bo1co3iip8atom', // stylesheet location
-    center: [-46.6958055, -23.6019319], // starting position [lng, lat]
-    zoom: 16 // starting zoom
-  });
+<!-- ====================
+**** SCRIPTS DE DEPENDENCIAS
+===================== -->
 
-  map.on('load', function() {
-    map.loadImage('https://i.imgur.com/MK4NUzI.png', function(error, image) {
-      if (error) throw error;
-      map.addImage('ness', image);
-      map.addLayer({
-        "id": "points",
-        "type": "symbol",
-        "source": {
-          "type": "geojson",
-          "data": {
-            "type": "FeatureCollection",
-            "features": [{
-              "type": "Feature",
-              "geometry": {
-                "type": "Point",
-                "coordinates": [-46.6928055, -23.6009]
-              },
-              "properties": {
-                "title": "NESS </br>",
-                "description": "R. Dr. Geraldo Campos Moreira, 240 </br>Brooklin Novo - São Paulo/SP </br>CEP 04571-020"
-              }
-            }]
-          }
-        },
-        "layout": {
-          "icon-image": "ness",
-          "icon-size": 0.95
-        }
-      });
-    });
-  });
-
-  map.on('click', function(e) {
-  var features = map.queryRenderedFeatures(e.point, {
-    layers: ['points'] // replace this with the name of the layer
-  });
-
-  if (!features.length) {
-    return;
-  }
-
-  var feature = features[0];
-
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
-    .addTo(map);
-  });
-</script> -->
-
-
-<!-- Bootstrap 4.3.1 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
-<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-<!-- Google maps JS API -->
-<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/apimages/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script> -->
-
-<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="../js/jquery.maskedinput.min.js"></script>
-
-<!-- Startup 3 JS (Custom js for all blocks) -->
-<script src="../js/script.js"></script>
+<?php include "common/scripts_dependencias.php" ?>
 
 
 <!-- ====================
-**** SCRIPTS CUSTOMIZADOS
+**** SCRIPTS CUSTOMIZADOS DA PAGINA
 ===================== -->
 
 <!-- animtaded counting numbers -->

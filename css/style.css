@@ -13480,6 +13480,34 @@ b, strong {
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
 
+.modal-tela-cheia {
+  background-color: yellow;
+  overflow: hidden; }
+
+#fechar-detalhamento {
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #0087CC;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #fechar-detalhamento:hover {
+    color: #029ADC;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+.detalhamento {
+  display: none;
+  min-height: 100vh; }
+
 body {
   background-color: #F2F7FD; }
 

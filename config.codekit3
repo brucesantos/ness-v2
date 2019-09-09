@@ -17,12 +17,36 @@
 		"oAP": "/common/footer.php",
 		"oF": 0
 		},
+	"/common/head.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/head.php",
+		"oF": 0
+		},
 	"/common/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/common/header.php",
+		"oF": 0
+		},
+	"/common/mapa.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/mapa.php",
+		"oF": 0
+		},
+	"/common/scripts_dependencias.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/scripts_dependencias.php",
 		"oF": 0
 		},
 	"/css/framework-min.css": {
@@ -1772,12 +1796,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/index.html": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/index.php",
 		"oF": 0
 		},
 	"/js/contagem-animada-numeros-min.js": {
@@ -1798,6 +1822,28 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/contagem-animada-numeros-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/health-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/health-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/health.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/health-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

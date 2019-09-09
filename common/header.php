@@ -1,37 +1,40 @@
 <header>
   <nav>
-    <div class="container px-xl-0">
-      <div class="row">
+    <div class="container d-flex space-between">
+
         <div class="col-md-4">
           <div class="logo">
-            <img class="logo" height="50px" src="images/ness-logo-website-header.svg">
-            <img class="logo-sticky" height="50px" src="images/ness-logo-website.svg">
+            <a href="index.html">
+              <img class="logo" height="32px" style="margin-top:9px;" src="images/logo-ness-text.svg">
+              <img class="logo-sticky" height="32px" style="margin-top:9px;" src="images/logo-ness-text-blue.svg">
+            </a>
           </div>
         </div>
-        
 
         <div class="col-md-8">
           <ul class="nav">
             <li class="nav-item"><a class="link f-16 mx-25" href="#sobre">Sobre</a></li>
-
-            <li class="nav-item">
-              <a class="dropdown-toggle link f-16 mx-25" href="" id="navbardrop" data-toggle="dropdown">Verticais</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item f-16" href="../health.html">Health</a>
-                <a class="dropdown-item f-16" href="../education.html">Education</a>
-                <a class="dropdown-item f-16" href="../legal.html">Legal</a>
-                <a class="dropdown-item f-16" href="../energy.html">Energy</a>
-                <a class="dropdown-item f-16" href="../smart-cities.html">Smart Cities</a>
-              </div>
-            </li>
-
-            <li class="nav-item"><a class="link f-16 mx-25" href="#clientes">Clientes</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="#vagas">Vagas</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="#contato">Contato</a></li>
+            <!-- <li class="nav-item">
+              <a class="link f-16 mx-25" href="">Verticais</a>
+              <ul class="sub-menu">
+                <li><a href="health.html">Health</a></li>
+                <li><a href="energy.html">Energy</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="smart-cities.html">City</a></li>
+                <li><a href="legal.html">Law</a></li>
+                <li><a href="#">Security</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item"><a class="link f-16 mx-25" href="health.php">Health</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="law.php">Law</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="energy.php">Energy</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="security.php">Security</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="tech.php">Tech</a></li>
           </ul>
-
         </div>
-      </div>
+
+      <!-- </div> -->
+
     </div>
   </nav>
 </header>
