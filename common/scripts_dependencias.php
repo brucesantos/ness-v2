@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="../js/jquery.maskedinput.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 
 <!-- Startup 3 JS (Custom js for all blocks) -->
-<script src="../js/script.js"></script>
+<script src="js/script.js"></script>

@@ -1,9 +1,5 @@
 //nosso estilo sempre é melhor
 
-// estilos das paginas
-@import "health";
-@import "home";
-
 
 // *********************************
 // ESTILOS PRESENTES EM TODAS AS PAGINAS
@@ -23,9 +19,9 @@
   -webkit-text-fill-color: transparent;
 }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-}
+// article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+//   display: block;
+// }
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -35,11 +31,11 @@ main {
   display: block;
 }
 
-footer {
-  .container {
-    max-width: 90% !important;
-  }
-}
+// footer {
+//   .container {
+//     max-width: 90% !important;
+//   }
+// }
 
 .header-da-seccao {
   text-align: center;

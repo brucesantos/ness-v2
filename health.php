@@ -1,41 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" >
-<title>NESS Health</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<html lang="pt-BR">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed:100,200,300,400,600,500,700,800,900|Ubuntu:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
+  <?php include("common/head.php"); ?>
 
-<!-- Bootstrap 4.3.1 CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
 
-<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-<!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<!-- FontAwesome CSS -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-<!-- Startup 3 CSS (Styles for all blocks) -->
-<link href="css/style.css" rel="stylesheet" />
-
-<!-- jQuery 3.3.1 -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-</head>
 
 <body id="health">
-
-
-
 
 <!-- ==================================== -->
 <!-- CONTEUDO DA TELA FORA OS MODAIS -->
@@ -44,63 +15,8 @@
 <!-- >>>>>>>>>>>>>>>> inicio do conteudo total -->
 <div id="conteudo-total">
 
-
-	<header>
-		<nav>
-			<div class="container px-xl-0">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="logo">
-							<a href="index.html">
-								<img class="logo" height="50px" src="images/ness-logo-website-header.svg">
-								<img class="logo-sticky" height="50px" src="images/ness-logo-website.svg">
-							</a>
-						</div>
-					</div>
-
-
-					<div class="col-md-8">
-						<ul class="nav">
-							<li class="nav-item"><a class="link f-16 mx-25" href="index.html">Sobre</a></li>
-
-							<!-- <li class="nav-item">
-								<a class="link f-16 mx-25" href="">Verticais</a>
-								<ul class="sub-menu">
-									<li><a href="health.html">Health</a></li>
-									<li><a href="energy.html">Energy</a></li>
-									<li><a href="education.html">Education</a></li>
-									<li><a href="smart-cities.html">City</a></li>
-									<li><a href="legal.html">Law</a></li>
-									<li><a href="#">Security</a></li>
-								</ul>
-							</li> -->
-
-							<li class="nav-item"><a class="link f-16 mx-25" href="health.html">Health</a></li>
-							<li class="nav-item"><a class="link f-16 mx-25" href="#vagas">Law</a></li>
-							<li class="nav-item"><a class="link f-16 mx-25" href="#contato">Energy</a></li>
-							<li class="nav-item"><a class="link f-16 mx-25" href="#contato">Security</a></li>
-						</ul>
-
-					</div>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-
-	<style>
-	.header_6 {
-		background-image:url(images/health/AdobeStock_122316679.jpg);
-		background-size: cover;
-		background-position: center center;
-	}
-	@media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
-		.header_6 {
-			background-image:url(images/health/AdobeStock_122316679.jpg);
-		}
-	}
-	</style>
-
+	<!-- Nav -->
+  <?php include "common/nav.php" ?>
 
 	<section class="pt-175 pb-110 header_6">
 		<!-- Header Menu 6 -->
@@ -122,6 +38,19 @@
 				<h3>Soluções especializadas para empresas e profissionais que atuam no setor de saúde</h3>
 			</div>
 		</section>
+
+		<style>
+		.header_6 {
+			background-image:url(images/health/AdobeStock_122316679.jpg);
+			background-size: cover;
+			background-position: center center;
+		}
+		@media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+			.header_6 {
+				background-image:url(images/health/AdobeStock_122316679.jpg);
+			}
+		}
+		</style>
 
 
 		<!-- Content 3 -->
@@ -263,7 +192,8 @@
 
 
 
-
+	<!-- FOOTER -->
+	<?php include "common/footer.php" ?>
 
 
 </div>
@@ -677,20 +607,16 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 	<div class="d-flex align-items-center justify-content-center w-full h-full iframe_container"></div>
 </div>
 
-<!-- Bootstrap 4.3.1 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<!-- Google maps JS API -->
-<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/apimages/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script> -->
-<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="js/jquery.maskedinput.min.js"></script>
-<!-- Startup 3 JS (Custom js for all blocks) -->
-<script src="js/script.js"></script>
+<!-- ====================
+**** SCRIPTS DE DEPENDENCIAS
+===================== -->
+
+<?php include "common/scripts_dependencias.php" ?>
+
+
+<!-- ====================
+**** SCRIPTS CUSTOMIZADOS DA PAGINA
+===================== -->
 
 <!-- mostra e esconde produtos -->
 <script src="js/health.js"></script>

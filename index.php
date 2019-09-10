@@ -6,7 +6,7 @@
 <body>
 
   <!-- Header -->
-  <?php include "common/header.php" ?>
+  <?php include "common/nav.php" ?>
 
 
   <!-- CAPA -->
@@ -400,7 +400,7 @@
 
 
 
-
+<!-- FOOTER -->
 <?php include "common/footer.php" ?>
 
 
