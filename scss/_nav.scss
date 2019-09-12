@@ -104,3 +104,7 @@ nav {
     color: $ness-cor-azul-escurissimo;
   }
 }
+
+.open_menu {
+	@include sombra-3;
+}

@@ -27,16 +27,62 @@
   box-sizing: border-box;
 }
 
-main {
-  display: block;
-}
-
-// footer {
-//   .container {
-//     max-width: 90% !important;
-//   }
+// main {
+//   display: block;
 // }
+// nao sei pra que estava sendo usado isto
+
+.capa-da-vertical {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .conteudo-da-capa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .img-logo-da-capa {
+      height: 20vh;
+      max-width: 80vw; //para não ultrapassar a largura da tela
+      margin-bottom: 3vh;
+    }
+    .tagline-da-capa {
+      font-size: 2em;
+      line-height: 1.3;
+      max-width: 700px;
+      text-align: center;
+      color: lighten($ness-cor-azul-claro, 45);
+      margin: 1em;
+    }
+  }
+}
 
 .header-da-seccao {
   text-align: center;
+}
+
+#fechar-detalhamento {
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: $ness-cor-azul-claro;
+  @include sombra-3;
+  @include transicao-1;
+  &:hover {
+    color: $ness-cor-azul-clarissimo;
+    @include sombra-5;
+  }
+}
+
+.detalhamento {
+  display: none;
+  min-height: 100vh;
 }

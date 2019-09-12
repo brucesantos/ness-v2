@@ -20,86 +20,55 @@
 
   <section id="capa-health" class="capa-da-vertical">
     <div class="conteudo-da-capa">
-      <img class="img-logo-da-capa" src="images/verticais/vertical-ness-health.svg" alt="logo da vertical de saude ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">Soluções especializadas para empresas e profissionais que atuam no setor de saúde</h1>
+      <img class="img-logo-da-capa" src="images/verticais/vertical-ness-law.svg" alt="logo da vertical jurídica da ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">Facilitando a transição do setor Jurídico para a era Digital</h1>
     </div>
   </section>
 
 		<style>
 		#capa-health {
-			background-image:url(images/health/AdobeStock_122316679.jpg);
+			background-image:url(https://www.hammerco.net/wp-content/uploads/2018/02/Kevin-Yee-GeorgiaStraight-v1.jpg);
 			background-size: cover;
 			background-position: center center;
 		}
 		@media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
 			#capa-health {
-				background-image:url(images/health/AdobeStock_122316679.jpg);
+				background-image:url(https://www.hammerco.net/wp-content/uploads/2018/02/Kevin-Yee-GeorgiaStraight-v1.jpg);
 			}
 		}
 		</style>
 
 
 		<!-- Content 3 -->
-		<section class="content_3 bg-light pt-105 pb-85" style="overflow:hidden;">
-			<div class="container px-xl-0">
-				<!-- <div class="row justify-content-center">
-				<div class="col-xl-10">
-				<h2 class="text-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-				Parceria High-tech
-			</h2>
-			<p class="text-center f-22 color-heading op-7 text-adaptive description">
-			Diferenciação via eficiência operacional, valor de produto e canais de comunicação.
-		</p>
-		<div class="row mt-30 f-18 medium color-heading op-7 text-center text-md-left blocks">
-		<div class="mt-30 col text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-		<p>
-		Nossas principais expertises são:
-	</p>
-	<ul>
-	<li>Reestruturação de Processos;</li>
-	<li>Desenvolvimento na área de Biomédica e de Radiologia;</li>
-	<li>Engenharia Clínica;</li>
-	<li>Design e Desenvolvimento de Software;</li>
-	<li>Machine Learning e Inteligência Artificial;</li>
-	<li>Suporte e Infraestrutura de TI;</li>
-	<li>Automação e Robótica;</li>
-	<li>Cybersegurança.</li>
-	</ul>
-	</div>
-	</div>
-	</div>
-	</div> -->
-	<div class="row align-items-center">
-		<div class="col-xl-5 col-lg-6 col-sm-8">
-			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Parceria High-tech</h2>
-			<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				Diferenciação via eficiência operacional, valor de produto e canais de comunicação.
-			</div>
-			<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-				<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
-					Serviços:
-				</div>
-				<div class="color-heading op-7 text-adaptive">
-					<ul>
-						<li>Reestruturação de Processos;</li>
-						<li>Data Analytics;</li>
-						<li>Plataforma para EAD (Educação à Distância);</li>
-						<li>ERP (Enterprise Resource Planning)</li>
-						<li>Design e Desenvolvimento de Software;</li>
-						<li>Machine Learning e Inteligência Artificial;</li>
-						<li>Suporte e Infraestrutura de TI;</li>
-						<li>Automação e Robótica;</li>
-						<li>Cybersegurança.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
-			<img src="images/health/ness-health-sobre.png" class="bg" alt=""/>
-		</div>
-	</div>
-	</div>
-	</section>
+    <section class="content_3 bg-light pt-105 pb-85" style="overflow:hidden;">
+      <div class="container px-xl-0">
+        <div class="row align-items-center">
+          <div class="col-xl-5 col-lg-6 col-sm-8">
+            <h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Simplificando o digital</h2>
+            <div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+              Você já ouviu falar das lawtechs? Assim como as fintechs - combinação de finanças e tecnologias - estão transformando o setor financeiro e bancário no Brasil, as lawtechs estão ganhando força no mercado jurídico. Desse modo, a NESS Law proporciona soluções especializadas com base tecnológica para o setor jurídico.
+            </div>
+            <div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+              <div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
+                Expertises no setor jurídico:
+              </div>
+              <div class="color-heading op-7 text-adaptive">
+                <ul>
+                  <li>Reestruturação de Processos</li>
+                  <li>Engenharia e desenvolvimento de software</li>
+                  <li>Machine Learning e Inteligência Artificial</li>
+                  <li>Suporte e Infraestrutura de TI</li>
+                  <li>Cybersegurança</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
+            <img src="images/health/ness-health-sobre.png" class="bg" alt=""/>
+          </div>
+        </div>
+      </div>
+    </section>
 
 	<!-- Feature 47 -->
 

@@ -11,7 +11,7 @@
 
         <div>
           <ul class="nav">
-            <li class="nav-item"><a class="link f-16 mx-25" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="index.php">Sobre</a></li>
             <!-- <li class="nav-item">
               <a class="link f-16 mx-25" href="">Verticais</a>
               <ul class="sub-menu">

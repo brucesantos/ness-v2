@@ -29,35 +29,3 @@
   }
 
 }
-
-.modal-tela-cheia {
-  background-color: yellow;
-  overflow: hidden;
-}
-
-
-#fechar-detalhamento {
-  position: fixed;
-  display: none;
-  z-index: 9999;
-  top: 20px;
-  right: 20px;
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  color: $ness-cor-azul-claro;
-  @include sombra-3;
-  @include transicao-1;
-  &:hover {
-    color: $ness-cor-azul-clarissimo;
-    @include sombra-5;
-  }
-}
-
-.detalhamento {
-  display: none;
-  min-height: 100vh;
-}
