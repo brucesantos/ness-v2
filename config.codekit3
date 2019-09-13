@@ -7,7 +7,7 @@
 		"uuidString": "20B16A68-6A30-42C6-B301-1448C45C5643"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "29156",
 "files": {
 	"/common/footer.php": {
 		"cB": 0,
@@ -788,6 +788,61 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/law/law-capa.jpg": {
+		"ft": 16384,
+		"iS": 74498,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/law/law-capa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/law/ness-law-sobre.png": {
+		"ft": 32768,
+		"iS": 310136,
+		"oA": 0,
+		"oAP": "/images/law/ness-law-sobre.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/peticionamento.png": {
+		"ft": 32768,
+		"iS": 378110,
+		"oA": 0,
+		"oAP": "/images/law/peticionamento.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/portal-iniciais.png": {
+		"ft": 32768,
+		"iS": 403734,
+		"oA": 0,
+		"oAP": "/images/law/portal-iniciais.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/solucao-conflitos.png": {
+		"ft": 32768,
+		"iS": 333178,
+		"oA": 0,
+		"oAP": "/images/law/solucao-conflitos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/logo-ness-text-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -979,6 +1034,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/law.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/law-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/script.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1082,6 +1148,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/_law.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_law.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1172,7 +1251,6 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -1184,7 +1262,6 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
-	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -1324,9 +1401,6 @@
 		"modules-umd": {
 			"active": 0
 			},
-		"named-capturing-groups-regex": {
-			"active": 0
-			},
 		"new-target": {
 			"active": 0
 			},
@@ -1358,9 +1432,6 @@
 			"active": 0
 			},
 		"parameters": {
-			"active": 0
-			},
-		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -1455,10 +1526,11 @@
 			}
 		},
 	"babelRetainLines": 0,
-	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerForceLatestOnConflict": 1,
-	"bowerTargetDependencyListType": 1,
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -1869,7 +1941,7 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": ""
 			},
 		"newline-per-chained-call": {
 			"active": 0,
@@ -2462,10 +2534,6 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
-			},
-		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
@@ -3220,11 +3288,6 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
-	"npmAbbreviatedPath": "",
-	"npmCreatePackageLock": 1,
-	"npmInstallOptionalDependencies": 0,
-	"npmSaveExactVersion": 0,
-	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
