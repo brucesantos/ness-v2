@@ -13524,6 +13524,55 @@ footer a.link {
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
 
+#law #capa-law {
+  background-image: url("../images/law/law-capa.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    #law #capa-law {
+      background-image: url("../images/law/law-capa.jpg"); } }
+
+#law #produtos {
+  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
+  background: -webkit-linear-gradient(right, #004B6B, #041E33);
+  background: linear-gradient(270deg, #004B6B, #041E33);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 10s ease infinite;
+          animation: AnimationName 10s ease infinite; }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+  #law #produtos a {
+    color: white;
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
+    transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1); }
+    #law #produtos a:hover {
+      background: #0087CC;
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
+  #law #produtos h4 {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 30px; }
+
+#law .detalhamento {
+  overflow: hidden; }
+
+#law #nCommand, #law #nVoice {
+  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
+  background: -webkit-linear-gradient(right, #004B6B, #041E33);
+  background: linear-gradient(270deg, #004B6B, #041E33); }
+
+#law .bg-dark {
+  background: -webkit-gradient(linear, right top, left top, from(#041E33), to(#004B6B));
+  background: -webkit-linear-gradient(right, #041E33, #004B6B);
+  background: linear-gradient(270deg, #041E33, #004B6B);
+  background-color: #004B6B !important; }
+
 #energy #produtos {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
