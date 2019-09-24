@@ -72,24 +72,25 @@
 	<div class="row align-items-center">
 		<div class="col-xl-5 col-lg-6 col-sm-8">
 			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Parceria High-tech</h2>
-			<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				Diferenciação via eficiência operacional, valor de produto e canais de comunicação.
+			<div class="mt-30 mb-30 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+        Além das próprias plataformas digitais, a NESS Health oferece <strong>serviços para aumento de eficiência</strong> na medicina diagnóstica.
+        <!-- Diferenciação via eficiência operacional, valor de produto e canais de comunicação. -->
 			</div>
 			<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-				<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
+				<!-- <div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
 					Serviços:
-				</div>
-				<div class="color-heading op-7 text-adaptive">
+				</div> -->
+				<div class="servicos">
 					<ul>
-						<li>Reestruturação de Processos;</li>
-						<li>Data Analytics;</li>
-						<li>Plataforma para EAD (Educação à Distância);</li>
-						<li>ERP (Enterprise Resource Planning)</li>
-						<li>Design e Desenvolvimento de Software;</li>
-						<li>Machine Learning e Inteligência Artificial;</li>
-						<li>Suporte e Infraestrutura de TI;</li>
-						<li>Automação e Robótica;</li>
-						<li>Cybersegurança.</li>
+						<li><img src="images/icones-servicos/ico-serv-processos.svg">Reestruturação de Processos</li>
+						<li><img src="images/icones-servicos/ico-serv-analytics.svg">Data Analytics</li>
+            <li><img src="images/icones-servicos/ico-serv-inteligencia.svg">Machine Learning e Inteligência Artificial</li>
+            <li><img src="images/icones-servicos/ico-serv-robotica.svg">Automação e Robótica</li>
+						<li><img src="images/icones-servicos/ico-serv-infraestrutura.svg">Suporte e Infraestrutura de TI</li>
+						<!-- <li>Plataforma para EAD (Educação à Distância)</li> -->
+						<!-- <li>ERP (Enterprise Resource Planning)</li> -->
+						<!-- <li>Design e Desenvolvimento de Software</li> -->
+						<!-- <li>Cybersegurança.</li> -->
 					</ul>
 				</div>
 			</div>
@@ -105,12 +106,15 @@
 
 	<section id="produtos" class="feature_47 pt-105 pb-70 color-white">
 		<div class="container px-xl-0">
-			<h2 class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Produtos</h2>
+			<h2 class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Plataformas Digitais</h2>
+      <div class="text-center mb-75 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100" style="opacity:.8;">
+				Soluções inovadoras e transformadoras com alto <strong>impacto</strong> no mercado de <strong>medicina diagnóstica nacional</strong>.
+			</div>
 			<div class="row justify-content-center text-center text-md-left">
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 					<a id="abre-detalhe-nMonitor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nmonitor-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Inteligência na gestão dos ativos de Engenharia Clínica e Hospitalar.
 						</div>
 					</a>
@@ -118,7 +122,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
 					<a id="abre-detalhe-nCommand" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-ncommand-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Command Center com capacidade operacional à distância e escalabilidade de Centros de Diagnóstico.
 						</div>
 					</a>
@@ -126,7 +130,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
 					<a id="abre-detalhe-nReport" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nreport-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Laudos estruturados para redução de erro humano e maior velocidade de fluxo de trabalho.
 						</div>
 					</a>
@@ -134,7 +138,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 					<a id="abre-detalhe-nSensor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nsensor-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Controle dos ativos de Engenharia Clínica e Hospitalar com alta precisão.
 						</div>
 					</a>
@@ -142,7 +146,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
 					<a id="abre-detalhe-nAgenda" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nagenda-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Gerenciamento de agenda, agendamento online e contato com o cliente de forma simples e eficaz.
 						</div>
 					</a>
@@ -150,7 +154,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
 					<a id="abre-detalhe-nEcho" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nduo-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Controle de qualidade e treinamento na realização de Exames de Imagem.
 						</div>
 					</a>
@@ -158,7 +162,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
 					<a id="abre-detalhe-nVoice" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-iara-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							O estado da arte das tecnologias de aprendizado de máquina para reconhecimento de voz preciso e acessível.
 						</div>
 					</a>
@@ -166,7 +170,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
 					<a id="abre-detalhe-nDoctor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-ndoctor-white.svg" alt="">
-						<div class="text-adaptive">
+						<div class="mini-descricao">
 							Aplicativo para comunicação entre profissionais de saúde em conformidade com a LGPD.
 						</div>
 					</a>
@@ -193,17 +197,24 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 	<i class="fas fa-times"></i>
 </a>
 
-<section id="nMonitor" class="detalhamento pt-100 pb-100" style="overflow:hidden;">
+<section id="nMonitor" class="detalhamento pb-100" style="overflow:hidden;">
+  <div class="container-flex header-do-detalhamento">
+    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+      <div class="espaco-branco-cima"></div>
+      <img class="logo" src="images/health/health-produtos/logo-nmonitor.svg" alt="logo do n-monitor">
+    </div>
+    <img class="curva" src="images/img-bottom-curve.svg">
+  </div>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">nMonitor</h2>
+				<!-- <h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">nMonitor</h2> -->
 				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 					Solução de <i>Software As A Service</i> perfeita para rastrear em tempo real problemas e melhorias com equipamentos e ativos, tudo isso de maneira simples.
 					<br>
 					A plataforma pode ser acessada via computador e celular, ambos possuem interface amigável pensada exclusivamente para aumentar a produtividade e facilitar o gerenciamento do tempo do usuário.
 				</div>
-				<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+				<!-- <div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
 					<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
 						Características
 					</div>
@@ -220,13 +231,87 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 							<li>Atualização em tempo real de criticidade.</li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
 				<img src="images/health/monitor-nmonitor.png" class="bg" alt="" width="1000" />
 			</div>
 		</div>
 	</div>
+  <section class="feature_8 bg-light pt-105 pb-30">
+  	<div class="container px-xl-0">
+  		<h2 class="mb-50 small text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">A Lot of Features</h2>
+  		<div class="row">
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-code color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Based on Bootstrap 3</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						HTML layout is based on one of the
+  						most common and reliable <br />
+  						framework - Bootstrap.					</div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fab fa-html5 color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">HTML5, CSS3, LESS</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						We used only time-tested <br />
+  						technologies for the best results.					</div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-cogs color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Many Components</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						There are a lot of different <br />
+  						components that will help you <br />
+  						create the perfect look and feel for
+  						your startup.					</div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-building color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Block Model</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						You can easily combine components
+  						in a variety ways for different design
+  						projects. It's easy!					</div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="far fa-calendar-check color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Save Time</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Take a break from the routine and
+  						spend your time brainstorming <br />
+  						ideas for your business, not your
+  						website.					</div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-dollar-sign color-heading f-18"></i>				</div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Save Money</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Startups can save money on design
+  						and code and use those savings to
+  						develop the business.					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 </section>
 
 <!-- Feature 25 -->

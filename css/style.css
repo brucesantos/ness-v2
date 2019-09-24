@@ -13482,29 +13482,26 @@ nav {
 footer a.link {
   color: #00709E; }
 
+#health .servicos ul {
+  list-style: none;
+  padding: 0; }
+  #health .servicos ul li {
+    line-height: 1.1;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    margin-left: 2.5em; }
+    #health .servicos ul li img {
+      height: 62px;
+      margin-right: .6em;
+      margin-left: -2.5em;
+      margin-top: -.6em;
+      position: absolute; }
+
 #health #produtos {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
   background: -webkit-linear-gradient(right, #004B6B, #041E33);
   background: linear-gradient(270deg, #004B6B, #041E33);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 10s ease infinite;
-          animation: AnimationName 10s ease infinite; }
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
+  background-size: 400% 400%; }
   #health #produtos a {
     color: white;
     -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
@@ -13512,6 +13509,8 @@ footer a.link {
     #health #produtos a:hover {
       background: #0087CC;
       box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
+  #health #produtos .mini-descricao {
+    opacity: .7; }
 
 #health #nCommand, #health #nVoice {
   background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
@@ -13523,6 +13522,26 @@ footer a.link {
   background: -webkit-linear-gradient(right, #041E33, #004B6B);
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
+
+#health .header-do-detalhamento .logo-do-produto {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white; }
+  #health .header-do-detalhamento .logo-do-produto .espaco-branco-cima {
+    height: 12vh;
+    width: 100%; }
+  #health .header-do-detalhamento .logo-do-produto img.logo {
+    height: 50vh;
+    max-height: 230px;
+    min-height: 80px; }
+
+#health .header-do-detalhamento img.curva {
+  width: 100%;
+  margin-bottom: 100px; }
 
 #law #capa-law {
   background-image: url("../images/law/law-capa.jpg");
@@ -13539,6 +13558,14 @@ footer a.link {
   background-size: 400% 400%;
   -webkit-animation: AnimationName 10s ease infinite;
           animation: AnimationName 10s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 @keyframes AnimationName {
   0% {

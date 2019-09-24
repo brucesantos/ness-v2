@@ -117,6 +117,14 @@
 		"oAP": "/health.php",
 		"oF": 0
 		},
+	"/health/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/health/index.html",
+		"oF": 0
+		},
 	"/images/close_white.png": {
 		"ft": 32768,
 		"iS": 210,
@@ -589,11 +597,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/health/health-produtos/logo-iara.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-iara.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/health/health-produtos/logo-nagenda-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/health/health-produtos/logo-nagenda-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nagenda.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nagenda.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -609,11 +637,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/health/health-produtos/logo-ncommand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-ncommand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/health/health-produtos/logo-ndoctor-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/health/health-produtos/logo-ndoctor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-ndoctor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-ndoctor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -629,11 +677,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/health/health-produtos/logo-nduo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nduo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/health/health-produtos/logo-nmonitor-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/health/health-produtos/logo-nmonitor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nmonitor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nmonitor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -649,11 +717,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/health/health-produtos/logo-nreport.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nreport.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/health/health-produtos/logo-nsensor-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/health/health-produtos/logo-nsensor-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/health/health-produtos/logo-nsensor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/health/health-produtos/logo-nsensor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1108,6 +1196,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/icones-servicos/ico-serv-analytics.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icones-servicos/ico-serv-analytics.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icones-servicos/ico-serv-infraestrutura.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icones-servicos/ico-serv-infraestrutura.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icones-servicos/ico-serv-inteligencia.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icones-servicos/ico-serv-inteligencia.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icones-servicos/ico-serv-processos.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icones-servicos/ico-serv-processos.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icones-servicos/ico-serv-robotica.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icones-servicos/ico-serv-robotica.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/iconess.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1117,6 +1255,71 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/img-bottom-curve.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/img-bottom-curve.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/law/law-capa.jpg": {
+		"ft": 16384,
+		"iS": 212934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/law/law-capa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/law/ness-law-sobre.png": {
+		"ft": 32768,
+		"iS": 310136,
+		"oA": 0,
+		"oAP": "/images/law/ness-law-sobre.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/peticionamento.png": {
+		"ft": 32768,
+		"iS": 378110,
+		"oA": 0,
+		"oAP": "/images/law/peticionamento.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/portal-iniciais.png": {
+		"ft": 32768,
+		"iS": 403734,
+		"oA": 0,
+		"oAP": "/images/law/portal-iniciais.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/law/solucao-conflitos.png": {
+		"ft": 32768,
+		"iS": 333178,
+		"oA": 0,
+		"oAP": "/images/law/solucao-conflitos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/logo-ness-text-blue.svg": {
 		"ft": 2097152,
@@ -1328,6 +1531,17 @@
 		"oA": 1,
 		"oAP": "/js/jquery.maskedinput.min-min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/law.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/law-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
