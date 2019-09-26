@@ -339,7 +339,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div style="margin:-2px auto 0; width: 100%; overflow-x:hidden;">
     <img src="images/img-bottom-curve.svg" style="width:110%; margin-left:-5%;">
   </div>
-  <section>
+  <!-- <section>
     <div class="container">
       <div class="row">
         <div class="col mt-100">
@@ -347,7 +347,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </section>
 
 <!-- Feature 25 -->

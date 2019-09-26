@@ -36,7 +36,7 @@
   <section id="sobre-novo">
     <div class="container">
       <div class="mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
-        <h1 class="destaque-no-fundo-claro">Transformação Digital</h1>
+        <h1 class="destaque-no-fundo-claro">Inovação e Transformação</h1>
       </div>
       <p class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
         A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
@@ -117,7 +117,7 @@
 
         <div class="row">
           <div class="col descricao">
-            <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">​​Soluções especializadas</h3>
+            <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">Verticais</h3>
             <p class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
               A NESS é estruturada em verticais, para garantir expertise e entendimento completo dos negócios nos principais setores em que atua.<br>
               <!-- Possui grande expertise nos setores de Saúde, Jurídico, Energia e Tecnologia.<br> -->
