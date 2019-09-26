@@ -27,15 +27,15 @@
           <div class="col-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
             <div class="mb-30 f-18 semibold op-7 title">Empresa</div>
             <div class="mb-10"><a href="#" class="link">contato@ness.com.br</a></div>
-            <div class="mb-10"><a href="#" class="link">Jobs</a></div>
+            <div class="mb-10"><a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="link">Jobs</a></div>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-3 mt-40 mt-md-0 order-2 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
         <div class="mb-30 f-18 semibold op-7 title">Redes Socias</div>
         <div class="socials">
-          <a href="#" class="f-24 link mr-30"><i class="fab fa-facebook-square"></i></a>
-          <a href="#" class="f-24 link mr-30"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/NESSITPROCESS/" target="_blank" class="f-24 link mr-30"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.linkedin.com/company/ness-processos-e-tecnologia/" target="_blank" class="f-24 link mr-30"><i class="fab fa-linkedin"></i></a>
           <!-- <a href="#" class="f-18 link mr-30"><i class="fab fa-google-plus-g"></i></a> -->
         </div>
       </div>

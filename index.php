@@ -25,6 +25,9 @@
       </div>
     </div> -->
   </section>
+  <div style="margin:-2px auto 200px; width: 100%; overflow-x:hidden;">
+    <img src="images/img-bottom-curve-escurissimo.svg" style="width:110%; margin-left:-5%;">
+  </div>
 
 
   <!-- <section id="continuacao-fundo-azul">
@@ -32,15 +35,13 @@
 
   <section id="sobre-novo">
     <div class="container">
-      <div class="mt-40 mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
+      <div class="mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
         <h1 class="destaque-no-fundo-claro">Transformação Digital</h1>
       </div>
-
-      <img src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
-
-      <p class="mt-40 mb-40 f-18" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
+      <p class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
         A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
       </p>
+      <img src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
     </div>
   </section>
 
@@ -104,6 +105,11 @@
     </div>
   </section>
 
+
+  <div class="container-flex" style="overflow-x:hidden">
+    <img src="images/img-top-curve-escurissimo.svg" style="width:110%; margin-left:-5%; background: linear-gradient(to bottom, #ffffff 95%,#041e33 96%,#041e33 100%);">
+  </div>
+
   <!-- nova verticais -->
   <section id="verticais" class="color-white">
     <div class="container px-xl-0">
@@ -149,7 +155,7 @@
               </div>
               <div class="nome-descricao">
                 <h3 class="nome">Law</h3>
-                <p>Inovações no setor jurídico, um dos que mais necessita e se beneficia da transformação digital</p>
+                <p>Soluções especializadas com base tecnológica para facilitar a transição do setor jurídico para a era digital</p>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -163,7 +169,7 @@
               </div>
               <div class="nome-descricao">
                 <h3 class="nome">Energy</h3>
-                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+                <p>Soluções especializadas no setor de energia com conceitos do mundo digital</p>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -177,7 +183,7 @@
               </div>
               <div class="nome-descricao">
                 <h3 class="nome">Security</h3>
-                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+                <p>Soluções especializadas em proteção de informações, privacidade e serviços de contraespionagem</p>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -191,7 +197,7 @@
               </div>
               <div class="nome-descricao">
                 <h3 class="nome">Tech</h3>
-                <p>No setor de energia, soluções focadas em Backoffice, ERP e Análise de dados</p>
+                <p>Soluções especializadas para aumento de eficiência operacional</p>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -210,7 +216,9 @@
 
     </div>
   </section>
-
+  <div class="container-flex" style="margin:-2px auto 0; width: 100%; overflow-x:hidden;">
+    <img src="images/img-bottom-curve-escurissimo.svg" style="width:110%; margin-left:-5%; background: linear-gradient(to top, #ffffff 95%,#041e33 96%,#041e33 100%);">
+  </div>
 
 
   <!-- Clientes -->
@@ -292,6 +300,9 @@
       </div>
     </div>
   </section>
+  <div class="container-flex" style="margin-top:-2px; margin-bottom:200px;">
+    <img src="images/img-bottom-curve.svg">
+  </div>
 
 
   <section id="parceiros">
@@ -369,6 +380,7 @@
   </section>
 
 
+
   <section id="vagas">
     <div style="height:120px;">
     </div>
@@ -383,7 +395,7 @@
             <p>Desse modo, para garantir o sucesso das nossas empreitadas construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
           </div>
 
-          <a href="#" class="mt-45 mb-65 btn action-1">Fazer parte<i class="fas fa-long-arrow-alt-right" style="margin-left:.65em;"></i></a>
+          <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1">Faça parte<i class="fas fa-long-arrow-alt-right" style="margin-left:.65em;"></i></a>
         </div>
 
         <div class="col-md-4 col-xs-12" style="display:flex; justify-content: center; align-items: center;">

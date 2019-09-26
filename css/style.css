@@ -13512,11 +13512,6 @@ footer a.link {
   #health #produtos .mini-descricao {
     opacity: .7; }
 
-#health #nCommand, #health #nVoice {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
-  background: -webkit-linear-gradient(right, #004B6B, #041E33);
-  background: linear-gradient(270deg, #004B6B, #041E33); }
-
 #health .bg-dark {
   background: -webkit-gradient(linear, right top, left top, from(#041E33), to(#004B6B));
   background: -webkit-linear-gradient(right, #041E33, #004B6B);
@@ -13535,9 +13530,8 @@ footer a.link {
     height: 12vh;
     width: 100%; }
   #health .header-do-detalhamento .logo-do-produto img.logo {
-    height: 50vh;
-    max-height: 230px;
-    min-height: 80px; }
+    height: 30vh;
+    max-width: 90%; }
 
 #health .header-do-detalhamento img.curva {
   width: 100%;
@@ -13656,9 +13650,6 @@ body {
     min-width: 160px; }
 
 #sobre-novo .container {
-  background: white;
-  padding: 3em;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   border-radius: 3px;
   margin-top: -50px; }
   #sobre-novo .container p {
@@ -13715,7 +13706,7 @@ body {
 #verticais {
   background: #041E33; }
   #verticais .imagem-bg {
-    background: url("https://cfvod.kaltura.com/p/895641/sp/89564100/thumbnail/entry_id/0_vvcqyasm/version/100052/width/0/height/0");
+    background: url("../images/home/verticais/isovert-ness.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13725,27 +13716,27 @@ body {
     height: 100%;
     border-radius: 6px; }
     #verticais .imagem-bg.health-bg-img {
-      background: url("../images/home/verticais/double-exposure-health.jpg");
+      background: url("../images/home/verticais/isovert-health.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
     #verticais .imagem-bg.law-bg-img {
-      background: url("https://www.nhc.nl/assets/uploads/2017/05/ruleoflaw-2000x0-c-default.jpg");
+      background: url("../images/home/verticais/isovert-law.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
     #verticais .imagem-bg.energy-bg-img {
-      background: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/02/19/15/istock-492069754.jpg");
+      background: url("../images/home/verticais/isovert-energy.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
     #verticais .imagem-bg.security-bg-img {
-      background: url("https://media.wired.com/photos/5d48a5d82279e20009006567/191:100/w_2400,h_1256,c_limit/security%20-%20rsa%20encryption%20flaw%20v2.jpg");
+      background: url("../images/home/verticais/isovert-security.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
     #verticais .imagem-bg.tech-bg-img {
-      background: url("https://cdn.cnbcafrica.com/wp-content/uploads/2017/02/02233924/technology2_shutterstock_426836902.jpg");
+      background: url("../images/home/verticais/isovert-tech.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
@@ -13806,7 +13797,7 @@ body {
       display: none; } }
 
 #clientes {
-  background: #F9F9F9;
+  background: white;
   background-size: 400% 400%; }
   #clientes .link-cliente {
     -webkit-filter: grayscale(100%);

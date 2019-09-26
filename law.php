@@ -144,7 +144,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
-				<img src="images/law/portal-iniciais.png" class="bg" alt="" width="1000" />
+				<img src="images/law/portal-iniciais-02.png" class="bg" alt="" width="1000" />
 			</div>
 		</div>
 	</div>
@@ -176,7 +176,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
-				<img src="images/law/peticionamento.png" class="bg" alt="" width="1000" />
+				<img src="images/law/peticionamento-02.png" class="bg" alt="" width="1000" />
 			</div>
 		</div>
 	</div>
@@ -244,7 +244,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
-				<img src="images/law/solucao-conflitos.png" class="bg" alt="" width="1000" />
+				<img src="images/law/solucao-conflitos-02.png" class="bg" alt="" width="1000" />
 			</div>
 		</div>
 	</div>

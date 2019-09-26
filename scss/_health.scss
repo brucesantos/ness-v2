@@ -43,7 +43,7 @@
   }
 
   #nCommand, #nVoice {
-    background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
+    // background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
   }
 
   .bg-dark {
@@ -62,9 +62,10 @@
         width: 100%;
       }
       img.logo {
-        height: 50vh;
-        max-height: 230px;
-        min-height: 80px;
+        height: 30vh;
+        // max-height: 200px;
+        // min-height: 80px;
+        max-width: 90%;
       }
     }
     img.curva {
