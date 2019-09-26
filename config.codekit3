@@ -1631,6 +1631,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/under-construction.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/under-construction.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/verticais/vertical-ness-city.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1930,6 +1940,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/_security.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_security.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1956,12 +1979,28 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/security.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/security.php",
+		"oF": 0
+		},
 	"/smart-cities.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/smart-cities.html",
+		"oF": 0
+		},
+	"/tech.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/tech.php",
 		"oF": 0
 		},
 	"/video/index.php": {

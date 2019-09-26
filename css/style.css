@@ -13628,6 +13628,22 @@ footer a.link {
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
 
+#construction {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+
 body {
   background-color: #F2F7FD; }
 
