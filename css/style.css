@@ -13470,11 +13470,12 @@ nav {
     color: #004B6B;
     line-height: 50px; }
 
-.navigation_mobile a.close_menu {
-  color: #041E33; }
-
-.navigation_mobile a {
-  color: #041E33; }
+.navigation_mobile {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .navigation_mobile a.close_menu {
+    color: #041E33; }
+  .navigation_mobile a {
+    color: #041E33; }
 
 .open_menu {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
@@ -13594,33 +13595,8 @@ footer a.link {
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
 
-#energy #produtos {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
-  background: -webkit-linear-gradient(right, #004B6B, #041E33);
-  background: linear-gradient(270deg, #004B6B, #041E33);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 10s ease infinite;
-          animation: AnimationName 10s ease infinite; }
-
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-  #energy #produtos a {
-    color: white;
-    -webkit-transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1);
-    transition: all 0.5s cubic-bezier(0.23, 0.51, 0.4, 1); }
-    #energy #produtos a:hover {
-      background: #0087CC;
-      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 5px 10px -5px rgba(0, 0, 0, 0.5); }
-
-#energy #nCommand, #energy #nVoice {
-  background: -webkit-gradient(linear, right top, left top, from(#004B6B), to(#041E33));
-  background: -webkit-linear-gradient(right, #004B6B, #041E33);
-  background: linear-gradient(270deg, #004B6B, #041E33); }
+#energy #logo-nflow {
+  max-width: 100%; }
 
 #energy .bg-dark {
   background: -webkit-gradient(linear, right top, left top, from(#041E33), to(#004B6B));
@@ -13670,6 +13646,12 @@ body {
   margin-top: -50px; }
   #sobre-novo .container p {
     opacity: .8; }
+  @media (max-width: 700px) {
+    #sobre-novo .container #img-sobre-transformacao {
+      display: none; } }
+  @media (min-width: 700px) {
+    #sobre-novo .container #img-sobre-transformacao-mobile {
+      display: none; } }
 
 #sobre {
   background: #FFF url("../images/home/bg-sobre.png");

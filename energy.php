@@ -18,7 +18,7 @@
 	<!-- Nav -->
   <?php include "common/nav.php" ?>
 
-  <section id="capa-health" class="capa-da-vertical">
+  <section id="capa-energy" class="capa-da-vertical">
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-energy.svg" alt="logo da vertical de saude ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
       <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
@@ -28,13 +28,13 @@
   </section>
 
 		<style>
-		#capa-health {
+		#capa-energy {
 			background-image:url(images/energy/wind-power-windmill.png);
 			background-size: cover;
 			background-position: center center;
 		}
 		@media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
-			#capa-health {
+			#capa-energy {
 				background-image:url(images/energy/wind-power-windmill.png);
 			}
 		}
@@ -122,7 +122,7 @@
       <div class="col-xl-7 col-lg-10 text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
         <div class="text-uppercase semibold f-14 sp-20 op-6">Aplicações</div>
         <!-- <h2 class="mt-30 mb-30 small">Better Landing for Your Startup</h2> -->
-        <img src="images/energy/logo-nflow-whitebg.svg" alt="logo nflow" height="160" >
+        <img id="logo-nflow" src="images/energy/logo-nflow-whitebg.svg" alt="logo nflow" height="160" >
         <div class="">
           <img src="" alt="">
         </div>

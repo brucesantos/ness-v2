@@ -41,7 +41,8 @@
       <p class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
         A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
       </p>
-      <img src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
+      <img id="img-sobre-transformacao" src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
+      <img id="img-sobre-transformacao-mobile" src="images/home/sobre-transformacao-curva-mobile.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
     </div>
   </section>
 

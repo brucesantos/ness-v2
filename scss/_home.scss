@@ -36,6 +36,16 @@ body {
     p {
       opacity: .8;
     }
+    #img-sobre-transformacao {
+      @media (max-width: 700px) {
+        display: none;
+      }
+    }
+    #img-sobre-transformacao-mobile {
+      @media (min-width: 700px) {
+        display: none;
+      }
+    }
   }
 }
 

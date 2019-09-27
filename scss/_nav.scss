@@ -97,6 +97,7 @@ nav {
 }
 
 .navigation_mobile {
+	@include sombra-3;
   a.close_menu {
     color: $ness-cor-azul-escurissimo;
   }

@@ -51,8 +51,8 @@
 		<!-- links pequenos -->
 		<!-- <div><a href="#" class="f-12 link op-7 text-uppercase sp-20 mb-20">Aplicativo Android</a></div>
 		<div><a href="#" class="f-12 link op-7 text-uppercase sp-20 mb-20">Aplicativo iPhone</a></div> -->
-		<div><a href="index.php/vagas" class="f-12 link op-7 text-uppercase sp-20 mb-20">Jobs</a></div>
-		<div><a href="index.php/footer" class="f-12 link op-7 text-uppercase sp-20 mb-20">Contato</a></div>
+		<div><a target="_blank" href="https://forms.gle/MZ6dfkLV4RWz43bn7" class="f-12 link op-7 text-uppercase sp-20 mb-20">Jobs</a></div>
+		<div><a id="link-contato-mobile" href="#footer" class="f-12 link op-7 text-uppercase sp-20 mb-20">Contato</a></div>
 
 		<!-- links sociais -->
 		<div class="socials mt-20">
@@ -62,3 +62,12 @@
 	</div>
 </div>
 <!-- Header 18 -->
+
+
+<script type="text/javascript">
+
+  $('#link-contato-mobile').click(function() {
+    $('.navigation_mobile').removeClass('opened');
+  });
+
+</script>

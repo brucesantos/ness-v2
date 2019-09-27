@@ -1,4 +1,4 @@
-<footer class="footer_5 bg-light pt-80 pb-40">
+<footer id="footer" class="footer_5 bg-light pt-80 pb-40">
   <div class="container px-xl-0">
     <div class="row">
       <div class="col-lg-3 col-md-12 order-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
