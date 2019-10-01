@@ -60,7 +60,10 @@
 
 	<section id="produtos" class="feature_47 pt-105 pb-70 color-white">
 		<div class="container px-xl-0">
-			<h2 class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Produtos</h2>
+			<h2 class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Plataformas digitais</h2>
+      <div class="text-center mb-75 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100" style="opacity:.8;">
+				Soluções inovadoras e transformadoras com alto <strong>impacto</strong> na vertical <strong>jurídica</strong>.
+			</div>
 			<div class="row justify-content-center text-center text-md-left">
 				<div class="mb-30 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 					<a id="abre-detalhe-portalIniciais" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
@@ -80,14 +83,14 @@
 				</div>
       </div>
       <div class="row justify-content-center text-center text-md-left">
-				<div class="mb-30 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
+				<!-- <div class="mb-30 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
 					<a id="abre-detalhe-mediacaoConciliacao" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<h4 class="mb-20">Mediação e Conciliação</h4>
 						<div class="text-adaptive">
               Gestão do fluxo de peticionamento eletrônico de forma customizada, automática e integrada aos sistemas dos clientes e tribunais.
 						</div>
 					</a>
-				</div>
+				</div> -->
 				<div class="mb-30 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 					<a id="abre-detalhe-solucaoConflitos" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<h4 class="mb-20">Solução de Conflitos</h4>
@@ -184,7 +187,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 
 
 <!-- Mediação e Conciliação -->
-<section id="mediacaoConciliacao" class="detalhamento pt-100 pb-100">
+<!-- <section id="mediacaoConciliacao" class="detalhamento pt-100 pb-100">
 	<div class="container px-xl-0">
 		<div class="row justify-content-between">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
@@ -205,7 +208,6 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
                 <li>Dashboard de gestão.</li>
 							</ul>
 						</div>
-						<!-- <a href="#" class="mt-30 btn sm border-transparent-white f-16">Learn More</a> -->
 					</div>
 				</div>
 			</div>
@@ -214,7 +216,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- Solução de Conflitos -->
 <section id="solucaoConflitos" class="detalhamento pt-100 pb-100">

@@ -73,28 +73,28 @@
       </div>
       <div class="numeros__conteudo">
         <div class="row mt-60 mb-180">
-          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
+          <div class="numeros__conteudo__dado col-lg-4 col-md-4 col-xs-12">
             <div class="valor">
               <span class="numero" data-count="4">0</span><span class="adicional"> +</span>
             </div>
             <i class="fas fa-globe"></i>
             <p>Países</p>
           </div>
-          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
+          <!-- <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
             <div class="valor">
               <span class="numero" data-count="800">0</span><span class="adicional"> +</span>
             </div>
             <i class="fas fa-city"></i>
             <p>Cidades</p>
-          </div>
-          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
+          </div> -->
+          <div class="numeros__conteudo__dado col-lg-4 col-md-4 col-xs-12">
             <div class="valor">
               <span class="numero" data-count="40">0</span><span class="adicional"> +</span>
             </div>
             <i class="fas fa-building"></i>
             <p>Clientes</p>
           </div>
-          <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
+          <div class="numeros__conteudo__dado col-lg-4 col-md-4 col-xs-12">
             <div class="valor">
               <span class="numero" data-count="3">0</span><span class="adicional">M+</span>
             </div>
@@ -120,7 +120,7 @@
           <div class="col descricao">
             <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">Verticais</h3>
             <p class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-              A NESS é estruturada em verticais, para garantir expertise e entendimento completo dos negócios nos principais setores em que atua.<br>
+              A NESS é orientada à soluções inovadoras e transformadoras, em verticais de negócios.
               <!-- Possui grande expertise nos setores de Saúde, Jurídico, Energia e Tecnologia.<br> -->
               <!-- Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria. -->
             </p>
