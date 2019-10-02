@@ -21,7 +21,9 @@
   <section id="capa-health" class="capa-da-vertical">
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-health.svg" alt="logo da vertical de saude ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">Soluções especializadas para empresas e profissionais que atuam no setor de saúde</h1>
+      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+        Soluções especializadas na vertical de medicina diagnóstica
+      </h1>
     </div>
   </section>
 
@@ -71,7 +73,7 @@
 	</div> -->
 	<div class="row align-items-center">
 		<div class="col-xl-5 col-lg-6 col-sm-8">
-			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Parceria High-tech</h2>
+			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Inovação e Transformação</h2>
 			<div class="mt-30 mb-30 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
         Além das próprias plataformas digitais, a NESS Health oferece <strong>serviços para aumento de eficiência</strong> na medicina diagnóstica.
         <!-- Diferenciação via eficiência operacional, valor de produto e canais de comunicação. -->
@@ -147,7 +149,7 @@
 					<a id="abre-detalhe-nAgenda" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nagenda-white.svg" alt="">
 						<div class="mini-descricao">
-							Gerenciamento de agenda, agendamento online e contato com o cliente de forma simples e eficaz.
+							Gerenciamento de agenda com disponibilidade online para visualização e agendamento do paciente.
 						</div>
 					</a>
 				</div>

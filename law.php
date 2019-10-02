@@ -21,7 +21,9 @@
   <section id="capa-law" class="capa-da-vertical">
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-law.svg" alt="logo da vertical jurídica da ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">Facilitando a transição do setor Jurídico para a era Digital</h1>
+      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+        Soluções especializadas na vertical jurídica
+      </h1>
     </div>
   </section>
 

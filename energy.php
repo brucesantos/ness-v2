@@ -22,7 +22,7 @@
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-energy.svg" alt="logo da vertical de saude ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
       <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-        Soluções feitas sob medida para empresas de Energia
+        Soluções especializadas na vertical de energia
       </h1>
     </div>
   </section>
