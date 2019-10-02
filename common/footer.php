@@ -26,7 +26,8 @@
           </div>
           <div class="col-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
             <div class="mb-30 f-18 semibold op-7 title">Empresa</div>
-            <div class="mb-10"><a href="#" class="link">contato@ness.com.br</a></div>
+            <div class="mb-10"><a href="mailto:contato@ness.com.br" class="link">contato@ness.com.br</a></div>
+            <div class="mb-10"><a href="tel:+55 11 2504-7650" class="link">+55 11 2504-7650</a></div>
             <div class="mb-10"><a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="link">Jobs</a></div>
           </div>
         </div>
