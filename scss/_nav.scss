@@ -105,6 +105,14 @@ nav {
     color: $ness-cor-azul-escurissimo;
   }
 }
+#loguinho-mobile {
+	position: absolute;
+	top: 24px;
+	right: 20px;
+	img {
+		height: 36px;
+	}
+}
 
 .open_menu {
 	@include sombra-3;

@@ -137,12 +137,14 @@
           <div class="col conteudo">
             <!-- health >>>>>>>>>>>>>>> -->
             <a href="health.php" class="vertical-info" id="vertical-health" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
-              <div class="icone">
-                <img src="images/home/iconess-verticais/iconess-health.svg" alt="icone de um eletrocardiograma" width="60" height="60">
-              </div>
-              <div class="nome-descricao">
-                <h3 class="nome">Health</h3>
-                <p>Soluções especializadas para empresas e profissionais que atuam no setor de medicina diagnóstica</p>
+              <div class="d-flex">
+                <div class="icone">
+                  <img src="images/home/iconess-verticais/iconess-health.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+                </div>
+                <div class="nome-descricao">
+                  <h3 class="nome">Health</h3>
+                  <p>Soluções especializadas na vertical de medicina diagnóstica</p>
+                </div>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -151,12 +153,14 @@
             <!-- <<<<<<<<<<<<< health -->
             <!-- law >>>>>>>>>>>>>>>> -->
             <a href="law.php" class="vertical-info" id="vertical-law" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
-              <div class="icone">
-                <img src="images/home/iconess-verticais/iconess-law.svg" alt="icone de um eletrocardiograma" width="60" height="60">
-              </div>
-              <div class="nome-descricao">
-                <h3 class="nome">Law</h3>
-                <p>Soluções especializadas com base tecnológica para facilitar a transição do setor jurídico para a era digital</p>
+              <div class="d-flex">
+                <div class="icone">
+                  <img src="images/home/iconess-verticais/iconess-law.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+                </div>
+                <div class="nome-descricao">
+                  <h3 class="nome">Law</h3>
+                  <p>Soluções especializadas na vertical jurídica</p>
+                </div>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -165,12 +169,14 @@
             <!-- law <<<<<<<<<<<<<<<< -->
             <!-- energy >>>>>>>>>>>>>>>> -->
             <a href="energy.php" class="vertical-info" id="vertical-energy" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-              <div class="icone">
-                <img src="images/home/iconess-verticais/iconess-energy.svg" alt="icone de um eletrocardiograma" width="60" height="60">
-              </div>
-              <div class="nome-descricao">
-                <h3 class="nome">Energy</h3>
-                <p>Soluções especializadas no setor de energia com conceitos do mundo digital</p>
+              <div class="d-flex">
+                <div class="icone">
+                  <img src="images/home/iconess-verticais/iconess-energy.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+                </div>
+                <div class="nome-descricao">
+                  <h3 class="nome">Energy</h3>
+                  <p>Soluções especializadas na vertical de energia</p>
+                </div>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -179,12 +185,14 @@
             <!-- energy <<<<<<<<<<<<<<<< -->
             <!-- security >>>>>>>>>>>>>>>> -->
             <a href="security.php" class="vertical-info" id="vertical-security" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
-              <div class="icone">
-                <img src="images/home/iconess-verticais/iconess-security.svg" alt="icone de um eletrocardiograma" width="60" height="60">
-              </div>
-              <div class="nome-descricao">
-                <h3 class="nome">Security</h3>
-                <p>Soluções especializadas em proteção de informações, privacidade e serviços de contraespionagem</p>
+              <div class="d-flex">
+                <div class="icone">
+                  <img src="images/home/iconess-verticais/iconess-security.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+                </div>
+                <div class="nome-descricao">
+                  <h3 class="nome">Security</h3>
+                  <p>Soluções especializadas em segurança da informação</p>
+                </div>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>
@@ -193,12 +201,14 @@
             <!-- security <<<<<<<<<<<<<<<< -->
             <!-- tech >>>>>>>>>>>>>>>> -->
             <a href="tech.php" class="vertical-info" id="vertical-tech" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
-              <div class="icone">
-                <img src="images/home/iconess-verticais/iconess-tech.svg" alt="icone de um eletrocardiograma" width="60" height="60">
-              </div>
-              <div class="nome-descricao">
-                <h3 class="nome">Tech</h3>
-                <p>Soluções especializadas para aumento de eficiência operacional</p>
+              <div class="d-flex">
+                <div class="icone">
+                  <img src="images/home/iconess-verticais/iconess-tech.svg" alt="icone de um eletrocardiograma" width="60" height="60">
+                </div>
+                <div class="nome-descricao">
+                  <h3 class="nome">Tech</h3>
+                  <p>Soluções especializadas em tecnologia da informação</p>
+                </div>
               </div>
               <div class="btn-mais">
                 <div class="mais">+</div>

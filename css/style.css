@@ -13477,6 +13477,13 @@ nav {
   .navigation_mobile a {
     color: #041E33; }
 
+#loguinho-mobile {
+  position: absolute;
+  top: 24px;
+  right: 20px; }
+  #loguinho-mobile img {
+    height: 36px; }
+
 .open_menu {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 

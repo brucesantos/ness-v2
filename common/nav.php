@@ -37,6 +37,7 @@
 
 <!-- Navigation Mobile type 2 -->
 <a class="open_menu bg-light radius_full"><i class="fas fa-bars lh-40"></i></a>
+<a id="loguinho-mobile" href="index.php"><img src="images/logo-ness-text.svg" alt=""></a>
 <div class="navigation_mobile bg-light">
 	<a class="close_menu op-5"><i class="fas fa-times"></i></a>
 	<div class="px-40 pt-60 pb-60 text-center">

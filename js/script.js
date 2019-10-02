@@ -26,10 +26,12 @@ $(document).ready(function(){
 			$(".open_menu").addClass("d-block");
 			$("header nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
+			$("#loguinho-mobile").show();
 		}else{
 			$(".open_menu").removeClass("d-block");
 			$("header nav").removeClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
+			$("#loguinho-mobile").hide();
 		}
 	}
 
