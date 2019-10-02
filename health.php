@@ -75,7 +75,7 @@
 		<div class="col-xl-5 col-lg-6 col-sm-8">
 			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Inovação e Transformação</h2>
 			<div class="mt-30 mb-30 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-        Além das próprias plataformas digitais, a NESS Health oferece <strong>serviços para aumento de eficiência</strong> na medicina diagnóstica.
+        Além das próprias plataformas digitais, a NESS Health oferece <strong>serviços para inovação e transformação</strong> na medicina diagnóstica.
         <!-- Diferenciação via eficiência operacional, valor de produto e canais de comunicação. -->
 			</div>
 			<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">

@@ -36,7 +36,7 @@
             <div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
               Você já ouviu falar das lawtechs? Assim como as fintechs - combinação de finanças e tecnologias - estão transformando o setor financeiro e bancário no Brasil, as lawtechs estão ganhando força no mercado jurídico. Desse modo, a NESS Law proporciona soluções especializadas com base tecnológica para o setor jurídico.
             </div>
-            <div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+            <!-- <div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
               <div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
                 Expertises no setor jurídico:
               </div>
@@ -49,7 +49,7 @@
                   <li>Cybersegurança</li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="800">
             <img src="images/law/ness-law-sobre.png" class="bg" alt=""/>
@@ -97,7 +97,7 @@
 					<a id="abre-detalhe-solucaoConflitos" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<h4 class="mb-20">Solução de Conflitos</h4>
 						<div class="text-adaptive">
-							Plataformas feitas sob medida para redução e prevenção de processos judiciais com base em técnicas de solução de conflitos para grandes empresas.
+							Uma plataforma para solução de conflitos, de forma integrada aos sistemas dos clientes e dos tribunais.
 						</div>
 					</a>
 				</div>
@@ -225,7 +225,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 	<div class="container px-xl-0">
 		<div class="row justify-content-between">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Solução de Conflitos & Recuperação Judicial</h2>
+				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Solução de Conflitos</h2>
 				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 					Uma solução para tribunais de justiça e empresas com alto volume de processos. Para evitar a entrada de processos judiciais e diminuir a quantidade de processos existentes. Isso através de técnicas para solução de conflitos, de forma integrada aos sistemas dos clientes com a integração e reconhecimento dos tribunais.
 				</div>
@@ -234,13 +234,13 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 						<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">Características:</div>
 						<div class="color-heading op-7 text-adaptive">
 							<ul>
-                <li>Integrado aos tribunais.</li>
-                <li>Integrado aos sistemas dos clientes.</li>
-                <li>Resolução de processos judiciais pelas empresas.</li>
-                <li>Sessões online.</li>
-                <li>Acordos automatizados.</li>
-                <li>Workflow customizado para o cliente.</li>
-                <li>Dashboard de gestão.</li>
+                <li>Integrado aos tribunais</li>
+                <li>Integrado aos sistemas dos clientes</li>
+                <li>Sessões online síncronas e assíncronas</li>
+                <li>Acordos automatizados</li>
+                <li>Inteligência Artificial</li>
+                <li>Workflow customizado para o cliente</li>
+                <li>Dashboard de gestão</li>
 							</ul>
 						</div>
 						<!-- <a href="#" class="mt-30 btn sm border-transparent-white f-16">Learn More</a> -->
