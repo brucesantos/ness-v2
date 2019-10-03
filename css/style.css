@@ -13431,6 +13431,25 @@ b, strong {
   display: none;
   min-height: 100vh; }
 
+.header-do-detalhamento .logo-do-produto {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white; }
+  .header-do-detalhamento .logo-do-produto .espaco-branco-cima {
+    height: 12vh;
+    width: 100%; }
+  .header-do-detalhamento .logo-do-produto img.logo {
+    height: 30vh;
+    max-width: 90%; }
+
+.header-do-detalhamento img.curva {
+  width: 100%;
+  margin-bottom: 100px; }
+
 nav {
   position: fixed;
   z-index: 2;
@@ -13525,25 +13544,6 @@ footer a.link {
   background: -webkit-linear-gradient(right, #041E33, #004B6B);
   background: linear-gradient(270deg, #041E33, #004B6B);
   background-color: #004B6B !important; }
-
-#health .header-do-detalhamento .logo-do-produto {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  background-color: white; }
-  #health .header-do-detalhamento .logo-do-produto .espaco-branco-cima {
-    height: 12vh;
-    width: 100%; }
-  #health .header-do-detalhamento .logo-do-produto img.logo {
-    height: 30vh;
-    max-width: 90%; }
-
-#health .header-do-detalhamento img.curva {
-  width: 100%;
-  margin-bottom: 100px; }
 
 #law #capa-law {
   background-image: url("../images/law/law-capa.jpg");

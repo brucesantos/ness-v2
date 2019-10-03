@@ -120,7 +120,7 @@
           <div class="col descricao">
             <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">Verticais</h3>
             <p class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-              A NESS é orientada à soluções inovadoras e transformadoras, em verticais de negócios.
+              A NESS é orientada a soluções inovadoras e transformadoras, em verticais de negócios.
               <!-- Possui grande expertise nos setores de Saúde, Jurídico, Energia e Tecnologia.<br> -->
               <!-- Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria. -->
             </p>
@@ -402,8 +402,8 @@
 
           <div class="op-8 text-adaptive">
             <p>Somos apaixonados por perseguir a inovação e a eficiência para enfrentar até os mais complexos desafios e projetos.</p>
-            <p>Estamos no mercado desde 1991 onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
-            <p>Desse modo, para garantir o sucesso das nossas empreitadas construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
+            <p>Estamos no mercado desde 1991, onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
+            <p>Desse modo, para garantir o sucesso das nossas empreitadas, construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
           </div>
 
           <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1">Faça parte<i class="fas fa-long-arrow-alt-right" style="margin-left:.65em;"></i></a>

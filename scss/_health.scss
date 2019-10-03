@@ -51,28 +51,5 @@
     background-color: $ness-cor-azul-escuro !important;
   }
 
-  .header-do-detalhamento {
-    .logo-do-produto {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white;
-      .espaco-branco-cima {
-        height: 12vh;
-        width: 100%;
-      }
-      img.logo {
-        height: 30vh;
-        // max-height: 200px;
-        // min-height: 80px;
-        max-width: 90%;
-      }
-    }
-    img.curva {
-      width: 100%;
-      margin-bottom: 100px;
-    }
-  }
-
 
 }

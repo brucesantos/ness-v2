@@ -124,28 +124,24 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 </a>
 
 <!-- Portal de Iniciais -->
-<section id="portalIniciais" class="detalhamento pt-100 pb-100">
+<section id="portalIniciais" class="detalhamento">
+  <div class="container-flex header-do-detalhamento">
+    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+      <div class="espaco-branco-cima"></div>
+      <h2 class="destaque-no-fundo-claro mt-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Portal de Iniciais</h2>
+    </div>
+    <div style="margin:-2px auto 100px; width: 100%; overflow-x:hidden;">
+      <img src="images/img-bottom-curve.svg" style="width:110%; margin-left:-5%;">
+    </div>
+  </div>
 	<div class="container">
-		<div class="row align-items-center">
+		<div class="row align-items-center mb-50">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Portal de Iniciais</h2>
-				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					Uma solução para escritórios de advocacia e empresas com grande volume de processos. Para dar celeridade, reduzir custos e evitar erros humanos relacionados ao fluxo de entrada dos processos através da automação do recebimento, análise das iniciais e cadastro dos processos no sistema do cliente.
-				</div>
-				<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-					<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
-						Características
-					</div>
-					<div class="color-heading op-7 text-adaptive">
-						<ul style="padding-left: 18px;">
-							<li>Integrado aos tribunais</li>
-              <li>Integrado aos sistemas dos clientes.</li>
-              <li>Captura de iniciais / cópias integrais dos processos.</li>
-              <li>Extração de informações e classificação de objetos utilizando Inteligência Artificial e Machine Learning.</li>
-              <li>Automação do cadastro do processo nos sistemas do cliente com os dados extraídos.</li>
-              <li>Workflow customizado para o cliente.</li>
-						</ul>
-					</div>
+				<div class="mt-30 mb-75 op-7 description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<p class="f-20 text-adaptive">
+            Uma solução para escritórios de advocacia e empresas com grande volume de processos. <br>
+            Para dar celeridade, reduzir custos e evitar erros humanos relacionados ao fluxo de entrada dos processos através da automação do recebimento, análise das iniciais e cadastro dos processos no sistema do cliente.
+          </p>
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
@@ -153,31 +149,108 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 			</div>
 		</div>
 	</div>
+  <div style="margin:-2px auto 0; width: 100%; overflow-x:hidden;">
+    <img src="images/img-top-curve.svg" style="width:110%; margin-left:-5%;">
+  </div>
+  <section class="feature_8 bg-light pt-105 pb-100">
+  	<div class="container px-xl-0">
+  		<h2 class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+  		<div class="row">
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-gavel f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Integrado aos tribunais</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Integração com os tribunais, automatizando a aquisição dos dados dos processos.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-plug f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Conectado ao seu sistema</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Transfere as informações obtidas diretamente para o sistema usado no escritório, sem a necessidade de criar um novo fluxo de trabalho.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-file-alt f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Captura de Iniciais</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Além das informações básicas, capturamos as cópias integrais dos processos, garantindo uma fonte confiável e consolidada dos dados.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-robot f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Inteligência Artificial</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Utilizamos Inteligência Artificial e Machine Learning para a extração de Informações e classificação automática dos objetos.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-microchip f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Automação do cadastro</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Utilizando apenas o número, cadastramos automaticamente o processo com os dados obtidos, sem desperdício de horas de trabalho.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-drafting-compass f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Workflow sob medida</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Cada escritório tem o seu fluxo de trabalho e necessidades particulares, sabendo disso, a nossa plataforma é modular e customizada para seu escritório.
+            </div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 </section>
 
 <!-- Peticionamento Eletronico -->
-<section id="peticionamentoEletronico" class="detalhamento pt-100 pb-100">
-	<div class="container px-xl-0">
+<section id="peticionamentoEletronico" class="detalhamento pb-100">
+  <div class="container-flex header-do-detalhamento">
+    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+      <div class="espaco-branco-cima"></div>
+      <h2 class="destaque-no-fundo-claro mt-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Peticionamento Eletrônico</h2>
+    </div>
+    <div style="margin:-2px auto 100px; width: 100%; overflow-x:hidden;">
+      <img src="images/img-bottom-curve.svg" style="width:110%; margin-left:-5%;">
+    </div>
+  </div>
+	<div class="container px-xl-0 mb-50">
 		<div class="row justify-content-between">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Peticionamento Eletrônico</h2>
-				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					Uma solução para escritórios de advocacia e empresas com grande volume de processos. Para dar agilidade ao processo de peticionamento nos tribunais, garantindo a segurança, evitando retrabalho e reduzindo custos de backoffice. Tudo isso através de um local único para realização dessa atividade de forma segura, integrada aos sistemas dos clientes e tribunais, com regras de workflow customizadas.
-				</div>
-				<div class="row">
-					<div class="col mb-40 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-						<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">Características:</div>
-						<div class="color-heading op-7 text-adaptive">
-							<ul>
-                <li>Integrado aos tribunais.</li>
-                <li>Integrado aos sistemas dos clientes.</li>
-                <li>Peticionamento de forma simples em local único.</li>
-                <li>Ajuste automático de documentos para peticionar.</li>
-                <li>Workflow customizado para o cliente.</li>
-							</ul>
-						</div>
-						<!-- <a href="#" class="mt-30 btn sm border-transparent-white f-16">Learn More</a> -->
-					</div>
+				<div class="mt-80 mb-75 op-7 description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+          <p class="f-20 text-adaptive">
+            Uma solução para escritórios de advocacia e empresas com grande volume de processos.
+          </p>
+          <p class="f-20 text-adaptive">
+            Para dar agilidade ao processo de peticionamento nos tribunais, garantindo a segurança, evitando retrabalho e reduzindo custos de backoffice.
+          </p>
+          <p class="f-20 text-adaptive">
+            Tudo isso através de um local único para realização dessa atividade de forma segura, integrada aos sistemas dos clientes e tribunais, com regras de workflow customizadas.
+          </p>
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
@@ -185,66 +258,97 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 			</div>
 		</div>
 	</div>
+  <div style="margin:-2px auto 0; width: 100%; overflow-x:hidden;">
+    <img src="images/img-top-curve.svg" style="width:110%; margin-left:-5%;">
+  </div>
+  <section class="feature_8 bg-light pt-105 pb-100">
+  	<div class="container px-xl-0">
+  		<h2 class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+  		<div class="row">
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-gavel f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Integrado aos tribunais</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Integração com os tribunais, automatizando o fluxo de trabalho.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-plug f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Conectado ao seu sistema</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Obtém as informações diretamente do sistema usado no escritório, sem a necessidade de criar um novo fluxo de trabalho.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-file-upload f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Peticionamento único</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						A integração com os tribunais torna o peticionamento simples, feito em local único sem a curva de aprendizado de cada sistema.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-file-archive f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Adaptação dos documentos</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						A plataforma realiza o ajuste automático dos documentos para peticionar, adequando-os as regras de cada tribunal.
+            </div>
+  				</div>
+  			</div>
+        <div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-drafting-compass f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Workflow sob medida</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Cada escritório tem o seu fluxo de trabalho e necessidades particulares, sabendo disso, a nossa plataforma é modular e customizada para seu escritório.
+            </div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 </section>
 
-
-<!-- Mediação e Conciliação -->
-<!-- <section id="mediacaoConciliacao" class="detalhamento pt-100 pb-100">
-	<div class="container px-xl-0">
-		<div class="row justify-content-between">
-			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Mediação e Conciliação</h2>
-				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					Solução voltada para tribunais de justiça. Para melhorar a gestão e comunicação com os facilitadores, diminuição da inadimplência nas sessões e dar reconhecimento aos facilitadores. Isso através de uma plataforma feita sob medida para integrar em um único local as informações referentes aos facilitadores, agendamento e realização se sessões de mediação. Com possibilidade de realização de sessões de forma online, diminuindo o custo e facilitando a solução dos conflitos.
-				</div>
-				<div class="row">
-					<div class="col mb-40 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-						<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">Características:</div>
-						<div class="color-heading op-7 text-adaptive">
-							<ul>
-                <li>Integrado aos tribunais.</li>
-                <li>Facilidade na gestão de mediadores e conciliadores, agendas, sessões de mediação e conciliação.</li>
-                <li>Alocação inteligente de equipe.</li>
-                <li>Aplicativo mobile para facilitadores.</li>
-                <li>Sessões online.</li>
-                <li>Dashboard de gestão.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
-				<img src="images/law/mediacao-conciliacao.png" class="bg" alt="" width="1000" />
-			</div>
-		</div>
-	</div>
-</section> -->
-
 <!-- Solução de Conflitos -->
-<section id="solucaoConflitos" class="detalhamento pt-100 pb-100">
-	<div class="container px-xl-0">
+<section id="solucaoConflitos" class="detalhamento pb-100">
+  <div class="container-flex header-do-detalhamento">
+    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+      <div class="espaco-branco-cima"></div>
+      <h2 class="destaque-no-fundo-claro mt-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Solução de Conflitos</h2>
+    </div>
+    <div style="margin:-2px auto 100px; width: 100%; overflow-x:hidden;">
+      <img src="images/img-bottom-curve.svg" style="width:110%; margin-left:-5%;">
+    </div>
+  </div>
+	<div class="container px-xl-0 mb-50">
 		<div class="row justify-content-between">
 			<div class="col-xl-5 col-lg-6 col-sm-8">
-				<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Solução de Conflitos</h2>
-				<div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					Uma solução para tribunais de justiça e empresas com alto volume de processos. Para evitar a entrada de processos judiciais e diminuir a quantidade de processos existentes. Isso através de técnicas para solução de conflitos, de forma integrada aos sistemas dos clientes com a integração e reconhecimento dos tribunais.
-				</div>
-				<div class="row">
-					<div class="col mb-40 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-						<div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">Características:</div>
-						<div class="color-heading op-7 text-adaptive">
-							<ul>
-                <li>Integrado aos tribunais</li>
-                <li>Integrado aos sistemas dos clientes</li>
-                <li>Sessões online síncronas e assíncronas</li>
-                <li>Acordos automatizados</li>
-                <li>Inteligência Artificial</li>
-                <li>Workflow customizado para o cliente</li>
-                <li>Dashboard de gestão</li>
-							</ul>
-						</div>
-						<!-- <a href="#" class="mt-30 btn sm border-transparent-white f-16">Learn More</a> -->
-					</div>
+				<div class="mt-30 mb-75 op-7 description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+          <p class="f-20 text-adaptive">
+            Solução voltada para tribunais de justiça, instituições e câmaras com atuação na resolução de conflitos.
+          </p>
+          <p class="f-20 text-adaptive">
+            Com o objetivo de melhorar a gestão e comunicação com os facilitadores (mediadores, conciliadores, etc), reduzindo a inadimplência nas sessões e permitindo a avaliação e reconhecimento dos mesmos.
+          </p>
+          <p class="f-20 text-adaptive">
+            Isso se viabiliza por meio de uma plataforma que  consolida as informações dos facilitadores, gerencia a agenda e sessões de mediação ou conciliação.
+          </p>
 				</div>
 			</div>
 			<div class="col-xl-7 col-lg-6 col-sm-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
@@ -252,6 +356,82 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 			</div>
 		</div>
 	</div>
+  <div style="margin:-2px auto 0; width: 100%; overflow-x:hidden;">
+    <img src="images/img-top-curve.svg" style="width:110%; margin-left:-5%;">
+  </div>
+  <section class="feature_8 bg-light pt-105 pb-100">
+  	<div class="container px-xl-0">
+  		<h2 class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+  		<div class="row">
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-gavel f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Integrado aos tribunais</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Integração com os tribunais, automatizando a aquisição dos dados dos processos.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-plug f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Conectado ao seu sistema</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Transfere as informações obtidas diretamente para o sistema usado, sem a necessidade de criar um novo fluxo de trabalho.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-video f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Sessões online</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Síncronas e Assíncronas, ou seja, sessões ao vivo e gravadas.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-robot f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Inteligência Artificial</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Utilizamos Inteligência Artificial para a realização de acordos automatizados, de acordo com regras definidas.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-chart-pie f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Dashboard de gestão</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Acompanhamento dos indicadores de performance e visualização mais prática dos dados.
+            </div>
+  				</div>
+  			</div>
+  			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+  				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
+  					<i class="fas fa-drafting-compass f-22 destaque-no-fundo-claro"></i>
+          </div>
+  				<div class="inner">
+  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Workflow sob medida</div>
+  					<div class="color-heading op-7 text-adaptive">
+  						Plataforma é modular e customizada para o fluxo de trabalho que já existe.
+            </div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
 </section>
 
 
