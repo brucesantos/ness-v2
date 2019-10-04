@@ -28,6 +28,7 @@
             <li class="nav-item"><a class="link f-16 mx-25" href="energy.php">Energy</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="security.php">Security</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="tech.php">Tech</a></li>
+            <li class="nav-item"><a class="contato link f-20 mx-25" href="contato.php"><i class="far fa-comments"></i></a></li>
           </ul>
         </div>
 
@@ -53,12 +54,12 @@
 		<!-- <div><a href="#" class="f-12 link op-7 text-uppercase sp-20 mb-20">Aplicativo Android</a></div>
 		<div><a href="#" class="f-12 link op-7 text-uppercase sp-20 mb-20">Aplicativo iPhone</a></div> -->
 		<div><a target="_blank" href="https://forms.gle/MZ6dfkLV4RWz43bn7" class="f-12 link op-7 text-uppercase sp-20 mb-20">Jobs</a></div>
-		<div><a id="link-contato-mobile" href="#footer" class="f-12 link op-7 text-uppercase sp-20 mb-20">Contato</a></div>
+		<div><a id="link-contato-mobile" href="contato.php" class="btn action-1">Contato<i class="far fa-comments direita"></i></a></div>
 
 		<!-- links sociais -->
 		<div class="socials mt-20">
-			<a href="https://www.facebook.com/NESSITPROCESS/" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-facebook"></i></a>
-			<a href="https://www.linkedin.com/company/ness-processos-e-tecnologia" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.facebook.com/NESSITPROCESS/" target="_blank" class="link f-18 mx-10"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.linkedin.com/company/ness-processos-e-tecnologia" target="_blank" class="link f-18 mx-10"><i class="fab fa-linkedin"></i></a>
 		</div>
 	</div>
 </div>

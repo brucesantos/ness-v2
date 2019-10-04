@@ -16,7 +16,8 @@ nav {
 		ul.nav {
 			li.nav-item {
 				a {
-					color: #90CDEA;
+					color: lighten($ness-cor-complementar, 20);
+					opacity: .7;
 					line-height: 50px;
 				}
         &:first-child {
@@ -29,41 +30,6 @@ nav {
             margin-right: 0;
           }
         }
-        // li:hover {
-  			// 	.sub-menu {
-  			// 		display: block;
-  			// 	}
-  			// }
-				// .sub-menu {
-				// 	position: absolute;
-				// 	top: 50px;
-				// 	background: white;
-				// 	min-width: 180px;
-				// 	z-index: 999999;
-				// 	display: none;
-				// 	margin: 0px;
-				// 	padding: 0px;
-				// 	li {
-				// 		text-align: left;
-				// 		padding: 0px 15px;
-				// 		border-bottom: 1px solid #F9F9F9;
-				// 		height: 30px !important;
-				// 		line-height: 30px;
-				// 		a {
-				// 			color: $ness-cor-azul-claro;
-				// 			line-height:inherit !important;
-				// 		}
-				// 	}
-				// 	li:last-child {
-				// 		border-bottom: 0px;
-				// 	}
-				// 	li:hover {
-				// 		background: $ness-cor-azul-medio;
-				// 		a {
-				// 			color: #FFF;
-				// 		}
-				// 	}
-				// }
 			}
 		}
 	}
@@ -89,6 +55,10 @@ nav {
 					a {
 						color: $ness-cor-azul-escuro;
 						line-height: 50px;
+						opacity: 1;
+						&.contato {
+							color: darken($ness-cor-complementar,10);
+						}
 					}
 				}
 			}
@@ -104,6 +74,12 @@ nav {
   a {
     color: $ness-cor-azul-escurissimo;
   }
+	.socials {
+		a {
+			opacity: .5;
+			font-size: 1.6em;
+		}
+	}
 }
 #loguinho-mobile {
 	position: absolute;

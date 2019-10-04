@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/common/contato2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/contato2.php",
+		"oF": 0
+		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -47,6 +55,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/common/scripts_dependencias.php",
+		"oF": 0
+		},
+	"/contato.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contato.php",
 		"oF": 0
 		},
 	"/css/framework-min.css": {
@@ -175,6 +191,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/contato/contact_4_bg.jpg": {
+		"ft": 16384,
+		"iS": 74996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/contato/contact_4_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/contato/contact_4_bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 301370,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/contato/contact_4_bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/energy/close_white.png": {
@@ -1813,6 +1851,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/iconess-animado.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/js/iconess-animado-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/jquery.maskedinput.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1828,10 +1877,10 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
-		"oA": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "/js/law-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -3520,6 +3569,67 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/scss/_botoes-custom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_botoes-custom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_contato.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_contato.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_contato2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_contato2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_custom.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4162,7 +4272,7 @@
 			}
 		},
 	"esLintConfigFileHandlingType": 0,
-	"esLintECMAVersion": 7,
+	"esLintECMAVersion": 5,
 	"esLintEnvironmentsMask": 8209,
 	"esLintRules": {
 		"accessor-pairs": {
