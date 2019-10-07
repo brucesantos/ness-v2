@@ -8,9 +8,6 @@
   <!-- Header -->
   <?php include "common/nav.php" ?>
 
-  <!-- contato -->
-  <?php include "common/contato.php" ?>
-
 
   <!-- CAPA -->
   <section id="capa" class="">
