@@ -13638,7 +13638,9 @@ body {
   background-color: #F2F7FD; }
 
 #capa {
-  background-color: #041E33;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, #041E33), to(#043033));
+  background: -webkit-linear-gradient(bottom, #041E33 70%, #043033 100%);
+  background: linear-gradient(0deg, #041E33 70%, #043033 100%);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

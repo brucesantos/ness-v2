@@ -5,7 +5,8 @@ body {
 #capa {
   // background: url('../images/home/home-cover.jpg');
   // background: linear-gradient(0deg, $ness-cor-azul-escurissimo 0%, lighten($ness-cor-azul-escurissimo, 6) 100%);
-  background-color: $ness-cor-azul-escurissimo;
+  background: linear-gradient(0deg, $ness-cor-azul-escurissimo 70%, #043033 100%);
+  // background-color: $ness-cor-azul-escurissimo;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
