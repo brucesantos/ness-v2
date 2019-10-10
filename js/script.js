@@ -906,7 +906,6 @@ $(document).ready(function(){
 
 // This function will run a throttled script every 300 ms
 var checkHeader = _.throttle(() => {
-	console.log('checkHeader');
 
 	// Detect scroll position
 	let scrollPosition = Math.round(window.scrollY);
@@ -923,3 +922,15 @@ var checkHeader = _.throttle(() => {
 
 // Run the checkHeader function every time you scroll
 window.addEventListener('scroll', checkHeader);
+
+
+
+
+
+// Adiciona class active no menu ativo
+var url = window.location.href;
+var myMenuLinks = $('.nav a');
+
+myMenuLinks.filter(function() {
+    return this.href == url;
+}).addClass('active');

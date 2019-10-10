@@ -16,9 +16,12 @@ nav {
 		ul.nav {
 			li.nav-item {
 				a {
-					color: lighten($ness-cor-complementar, 20);
+					color: lighten(#FFFFFF, 20);
 					opacity: .7;
 					line-height: 50px;
+					&.active {
+						color: $ness-cor-complementar;
+					}
 				}
         &:first-child {
           a {
