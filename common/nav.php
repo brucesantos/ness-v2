@@ -22,13 +22,13 @@
                 <li><a href="legal.html">Law</a></li>
                 <li><a href="#">Security</a></li>
               </ul>
-            </li> -->
-            <li class="nav-item"><a class="link f-16 mx-25" href="health.php">Health</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="law.php">Law</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="energy.php">Energy</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="security.php">Security</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="tech.php">Tech</a></li>
-            <li class="nav-item"><a class="contato link f-20 mx-25" href="contato.php"><i class="far fa-comments"></i></a></li>
+            </li> --> 
+            <li class="nav-item"><a class="link f-16 mx-25" href="health">Health</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="law">Law</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="energy">Energy</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="security">Security</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" href="tech">Tech</a></li>
+            <li class="nav-item"><a class="contato link f-20 mx-25" href="contato"><i class="far fa-comments"></i></a></li>
           </ul>
         </div>
 
@@ -42,13 +42,13 @@
 <div class="navigation_mobile bg-light">
 	<a class="close_menu op-5"><i class="fas fa-times"></i></a>
 	<div class="px-40 pt-60 pb-60 text-center">
-		<div><a href="index.php" class="f-heading f-22 link mb-40"> <img src="images/logo-ness-text-blue.svg" alt=""> </a></div>
-		<div><a href="index.php" class="f-heading f-22 link mb-20">Sobre</a></div>
-		<div><a href="health.php" class="f-heading f-22 link mb-20">Health</a></div>
-		<div><a href="law.php" class="f-heading f-22 link mb-20">Law</a></div>
-		<div><a href="energy.php" class="f-heading f-22 link mb-20">Energy</a></div>
-		<div><a href="security.php" class="f-heading f-22 link mb-20">Security</a></div>
-		<div><a href="tech.php" class="f-heading f-22 link mb-20">Tech</a></div>
+		<div><a href="index" class="f-heading f-22 link mb-40"> <img src="images/logo-ness-text-blue.svg" alt=""> </a></div>
+		<div><a href="index" class="f-heading f-22 link mb-20">Sobre</a></div>
+		<div><a href="health" class="f-heading f-22 link mb-20">Health</a></div>
+		<div><a href="law" class="f-heading f-22 link mb-20">Law</a></div>
+		<div><a href="energy" class="f-heading f-22 link mb-20">Energy</a></div>
+		<div><a href="security" class="f-heading f-22 link mb-20">Security</a></div>
+		<div><a href="tech" class="f-heading f-22 link mb-20">Tech</a></div>
 
 		<!-- links pequenos -->
 		<!-- <div><a href="#" class="f-12 link op-7 text-uppercase sp-20 mb-20">Aplicativo Android</a></div>
