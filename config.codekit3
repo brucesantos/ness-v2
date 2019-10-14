@@ -179,6 +179,14 @@
 		"oAP": "/health.php",
 		"oF": 0
 		},
+	"/htaccess-ismael": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/htaccess-ismael",
+		"oF": 0
+		},
 	"/images/close_white.png": {
 		"ft": 32768,
 		"iS": 210,
