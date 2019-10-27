@@ -5,7 +5,6 @@ $(document).ready(function() {
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
-    console.log('porrasdsd');
   });
   // fecha todos os detalhamentos e scrolla para #produtos
   $('#fechar-detalhamento').click(function() {
