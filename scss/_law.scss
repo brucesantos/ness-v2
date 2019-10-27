@@ -1,0 +1,52 @@
+#law {
+
+  #capa-law {
+    background-image:url("../images/law/law-capa.jpg");
+    background-size: cover;
+    background-position: center center;
+    @media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+      background-image:url("../images/law/law-capa.jpg");
+    }
+  }
+
+
+  #produtos {
+    background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease infinite;
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    a {
+      color: white;
+      transition: all .5s cubic-bezier(.23,.51,.4,1);
+      &:hover {
+        background: $ness-cor-azul-claro;
+        box-shadow: 0 10px 20px -5px rgba(0,0,0,.5), 0 5px 10px -5px rgba(0,0,0,.5);
+      }
+    }
+    h4 {
+      font-family: 'Ubuntu';
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+
+  .detalhamento {
+    overflow: hidden;
+  }
+
+  #nCommand, #nVoice {
+    background: linear-gradient(270deg, $ness-cor-azul-escuro, $ness-cor-azul-escurissimo);
+  }
+
+  .bg-dark {
+    background: linear-gradient(270deg, $ness-cor-azul-escurissimo, $ness-cor-azul-escuro);
+    background-color: $ness-cor-azul-escuro !important;
+  }
+
+  
+
+}
