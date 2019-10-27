@@ -1,0 +1,14 @@
+.action-1 {
+  background: linear-gradient(109.12deg, #0FC0AB 0%, #0FABC0 100%);
+  transition: .3s all ease;
+  @include sombra-1;
+  &:hover {
+    @include sombra-3;
+  }
+  i.direita {
+    margin-left: .6em;
+  }
+  i.esquerda {
+    margin-right: .6em;
+  }
+}

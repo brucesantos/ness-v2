@@ -22,14 +22,16 @@ $(document).ready(function(){
 	// open menu on mobile
 
 	function showMenuBtn(){
-		if($(window).width()<1199.98){
+		if($(window).width()<768){
 			$(".open_menu").addClass("d-block");
 			$("header nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
+			$("#loguinho-mobile").show();
 		}else{
 			$(".open_menu").removeClass("d-block");
 			$("header nav").removeClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
+			$("#loguinho-mobile").hide();
 		}
 	}
 
@@ -57,15 +59,15 @@ $(document).ready(function(){
 	}
 
 	// AJAX send form
-		
+
 	$("form").submit(function(event){
 		event.preventDefault();
-	 
+
 		var form = $(this),
 			term = form.serialize(),
 			url = form.attr("action"),
 			required_fields_filled = true;
-			
+
 		form.find("input, textarea, select").each(function(){
 			if($(this).prop("required") && $(this).val()==""){
 				required_fields_filled = false;
@@ -130,7 +132,7 @@ $(document).ready(function(){
 			});
 		});
 	});
-	 
+
 	// Open video in popup
 
 	$(".js-play-popup-video").click(function(event){
@@ -148,7 +150,7 @@ $(document).ready(function(){
 			$(".video_popup .iframe_container").html('');
 		},300);
 	});
-	
+
 	// Opening tabs
 
 	function openTab(tab){
@@ -208,7 +210,7 @@ $(document).ready(function(){
 	if($(".js-cvv-mask").length > 0){
 		$(".js-cvv-mask").mask("999");
 	}
-	
+
 	// Disable / enable blocks in Form 13
 
 	$(".form_13 input[type=radio]").change(function(){
@@ -216,9 +218,9 @@ $(document).ready(function(){
 		$(".js-form-block").removeClass("active");
 		choosenBlock.addClass("active");
 	});
-	
+
 	// Ecommerce: Quantity selector
-	
+
 	$(".quantity_selector .control").click(function(event){
 		event.preventDefault();
 		var _this = $(this);
@@ -237,9 +239,9 @@ $(document).ready(function(){
 			}
 		}
 	});
-	
+
 	// Ecommerce: Remove products from cart
-	
+
 	$(".remove_product").click(function(event){
 		event.preventDefault();
 		var product = $(this).closest(".product");
@@ -257,9 +259,9 @@ $(document).ready(function(){
 			}
 		})
 	});
-	
+
 	// Ecommerce: Set discount
-	
+
 	$(".ecommerce_33 input[name=coupon]").change(function(){
 		if($(this).val()!=""){
 			var discount = $(".ecommerce_33 .discount").attr("data-discount");
@@ -271,9 +273,9 @@ $(document).ready(function(){
 			count_totals_ecommerce_33();
 		}
 	});
-	
+
 	// Ecommerce: Count total price
-	
+
 	if($(".ecommerce_33 .product").length>0){
 		$(".ecommerce_33 .quantity_selector input").change(function(){
 			count_totals_ecommerce_33();
@@ -295,7 +297,7 @@ $(document).ready(function(){
 		}
 		count_totals_ecommerce_33();
 	}
-	
+
 	if($(".ecommerce_34 .product").length>0){
 		$(".ecommerce_34 .quantity_selector input").change(function(){
 			count_totals_ecommerce_34();
@@ -318,7 +320,7 @@ $(document).ready(function(){
 		}
 		count_totals_ecommerce_34();
 	}
-	
+
 	if($(".ecommerce_35 .product").length>0){
 		$(".ecommerce_35 .quantity_selector input").change(function(){
 			count_totals_ecommerce_35();
@@ -336,7 +338,7 @@ $(document).ready(function(){
 		}
 		count_totals_ecommerce_35();
 	}
-	
+
 	if($(".ecommerce_36 .product").length>0){
 		$(".ecommerce_36 .quantity_selector input").change(function(){
 			count_totals_ecommerce_36();
@@ -354,7 +356,7 @@ $(document).ready(function(){
 		}
 		count_totals_ecommerce_36();
 	}
-	
+
 	if($(".ecommerce_38 .product").length>0){
 		function count_totals_ecommerce_38(){
 			var total = 0;
@@ -378,7 +380,7 @@ $(document).ready(function(){
 
 	if($(".js-google-map").length>0){
 		$(".js-google-map").each(function(){
-			
+
 			var map;
 			var map_container = this;
 			if($(map_container).attr("data-coords")!=undefined){
@@ -402,11 +404,11 @@ $(document).ready(function(){
 						zoom: zoom,
 						center: coords,				},
 					map = new google.maps.Map(map_container, mapOptions);
-				if(marker_image){	
+				if(marker_image){
 					var marker_icon = {
-						url: marker_image, 
+						url: marker_image,
 						scaledSize: new google.maps.Size(marker_size[0], marker_size[1]),
-						origin: new google.maps.Point(0,0), 
+						origin: new google.maps.Point(0,0),
 						anchor: new google.maps.Point(marker_size[0]/2, marker_size[1])
 					},
 					marker = new google.maps.Marker({
@@ -417,7 +419,7 @@ $(document).ready(function(){
 				}
 
 			}
-			
+
 			init();
 
 		});
@@ -502,7 +504,7 @@ $(document).ready(function(){
 				}
 			]
 		});
-		
+
 		$('.content_23_slider_nav').slick({
 			slidesToShow: 4,
 			slidesToScroll: 1,
@@ -636,7 +638,7 @@ $(document).ready(function(){
 			adaptiveHeight: true,
 			asNavFor: '.form_4_menu',
 		});
-		
+
 		$('.form_4_menu').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
@@ -657,7 +659,7 @@ $(document).ready(function(){
 			swipe:false,
 			asNavFor: '.form_15_menu',
 		});
-		
+
 		$('.form_15_menu').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
@@ -680,7 +682,7 @@ $(document).ready(function(){
 			slidesToShow: 1,
 			slidesToScroll: 1,
 		});
-		
+
 		var toggle = $(".custom-toggle");
 		var togglePin = toggle.find("i");
 		$(".pricing_table_6 .slider").on('beforeChange',function(){
@@ -693,12 +695,12 @@ $(document).ready(function(){
 				togglePin.animate({left:animate_to},200);
 			}
 		});
-		
+
 		toggle.click(function(){
 			$(".pricing_table_6 .slider").slick("slickNext");
 		});
 	}
-	
+
 	if($(".ecommerce_11 .slider").length>0){
 		$(".ecommerce_11 .slider").slick({
 			dots: false,
@@ -727,7 +729,7 @@ $(document).ready(function(){
 			]
 		});
 	}
-	
+
 	if($(".ecommerce_15 .slider").length>0){
 		$(".ecommerce_15 .slider").slick({
 			slidesToShow: 1,
@@ -736,7 +738,7 @@ $(document).ready(function(){
 			fade: true,
 			asNavFor: '.ecommerce_15 .slider_menu',
 		});
-		
+
 		$('.ecommerce_15 .slider_menu').slick({
 			slidesToShow: 6,
 			slidesToScroll: 1,
@@ -783,7 +785,7 @@ $(document).ready(function(){
 			]
 		});
 	}
-	
+
 	if($(".ecommerce_19 .slider").length>0){
 		$(".ecommerce_19 .slider").slick({
 			slidesToShow: 1,
@@ -792,7 +794,7 @@ $(document).ready(function(){
 			fade: true,
 			asNavFor: '.ecommerce_19 .slider_menu',
 		});
-		
+
 		$('.ecommerce_19 .slider_menu').slick({
 			slidesToShow: 3,
 			slidesToScroll: 1,
@@ -825,7 +827,7 @@ $(document).ready(function(){
 			]
 		});
 	}
-	
+
 	if($(".ecommerce_32 .slider").length>0){
 		$(".ecommerce_32 .slider").slick({
 			slidesToShow: 1,
@@ -834,7 +836,7 @@ $(document).ready(function(){
 			fade: true,
 			asNavFor: '.ecommerce_32 .slider_menu',
 		});
-		
+
 		$('.ecommerce_32 .slider_menu').slick({
 			slidesToShow: 4,
 			slidesToScroll: 1,
@@ -860,7 +862,7 @@ $(document).ready(function(){
 			]
 		});
 	}
-	
+
 	if($(".ecommerce_35 .slider").length>0){
 		$(".ecommerce_35 .slider").slick({
 			slidesToShow: 1,
@@ -871,7 +873,7 @@ $(document).ready(function(){
 			swipe:false,
 			asNavFor: '.ecommerce_35 .slider_menu',
 		});
-		
+
 		$('.ecommerce_35 .slider_menu').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
@@ -881,7 +883,7 @@ $(document).ready(function(){
 			focusOnSelect: true,
 		});
 	}
-	
+
 }); // document.ready end
 
 
@@ -903,8 +905,7 @@ $(document).ready(function(){
 	return w.Date.now()};t.debounce=o,t.throttle=i,t.isObject=u,t.isObjectLike=f,t.isSymbol=c,t.now=D,t.toNumber=a,t.VERSION=p,typeof define=="function"&&typeof define.amd=="object"&&define.amd?(w._=t, define(function(){return t})):N?((N.exports=t)._=t,S._=t):w._=t}).call(this);
 
 // This function will run a throttled script every 300 ms
-var checkHeader = _.throttle(() => { 
-	console.log('checkHeader');
+var checkHeader = _.throttle(() => {
 
 	// Detect scroll position
 	let scrollPosition = Math.round(window.scrollY);
@@ -921,3 +922,15 @@ var checkHeader = _.throttle(() => {
 
 // Run the checkHeader function every time you scroll
 window.addEventListener('scroll', checkHeader);
+
+
+
+
+
+// Adiciona class active no menu ativo
+var url = window.location.href;
+var myMenuLinks = $('.nav a');
+
+myMenuLinks.filter(function() {
+    return this.href == url;
+}).addClass('active');
