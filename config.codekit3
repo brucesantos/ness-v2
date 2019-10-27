@@ -73,6 +73,14 @@
 		"oAP": "/common/nav.php",
 		"oF": 0
 		},
+	"/common/novo-arquivo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/novo-arquivo.php",
+		"oF": 0
+		},
 	"/common/scripts_dependencias.php": {
 		"cB": 0,
 		"ft": 8192,
