@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/common/novo-arquivo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common/novo-arquivo.php",
+		"oF": 0
+		}
 	},
 "hooks": [
 	],
