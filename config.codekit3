@@ -33,6 +33,12 @@
 		"oAP": "/build/404.php",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/common/contato2.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3753,22 +3759,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/tech.php",
-		"oF": 0
-		},
-	"/video/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/video/index.php",
-		"oF": 0
-		},
-	"/video/video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/video/video.mp4",
 		"oF": 0
 		}
 	},
