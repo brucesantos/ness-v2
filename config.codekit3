@@ -39,14 +39,6 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/common/contato2.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/common/contato2.php",
-		"oF": 0
-		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1851,6 +1843,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/nav.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/nav.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/script.js": {
 		"bF": 0,
 		"ft": 64,
@@ -3528,6 +3531,22 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/mylanguage-en.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/mylanguage-en.json",
+		"oF": 3,
+		"oO": 0,
+		"oS": 1
+		},
+	"/mylanguage-pt.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/mylanguage-pt.json",
+		"oF": 3,
+		"oO": 0,
+		"oS": 1
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -3772,7 +3791,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 593884172.93632197
+	"lastBuiltDate": 593922471.34204805
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

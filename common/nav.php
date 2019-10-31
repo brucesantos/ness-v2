@@ -11,7 +11,7 @@
 
         <div>
           <ul class="nav">
-            <li class="nav-item"><a class="link f-16 mx-25" href="index.php">Sobre</a></li>
+            <li class="nav-item"><a data-localize="nav.index" class="active link f-16 mx-25" href="index.php">Sobre</a></li>
             <!-- <li class="nav-item">
               <a class="link f-16 mx-25" href="">Verticais</a>
               <ul class="sub-menu">
@@ -23,8 +23,8 @@
                 <li><a href="#">Security</a></li>
               </ul>
             </li> -->
-            <li class="nav-item"><a class="link f-16 mx-25" href="health.php">Health</a></li>
-            <li class="nav-item"><a class="link f-16 mx-25" href="law.php">Law</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" translate="no" href="health.php">Health</a></li>
+            <li class="nav-item"><a class="link f-16 mx-25" translate="no" href="law.php">Law</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="energy.php">Energy</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="security.php">Security</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="tech.php">Tech</a></li>
@@ -73,3 +73,5 @@
   });
 
 </script>
+
+<script src="js/nav.js"></script>

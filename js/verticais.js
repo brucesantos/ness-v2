@@ -1,3 +1,4 @@
+// adiciona a imagem no hover sobre a vertical na home
 $( document ).ready(function() {
   $('#vertical-health').hover(
     function() {
