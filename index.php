@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 
   <?php include("common/head.php"); ?>
 
@@ -76,7 +76,7 @@
   <section id="sobre-novo">
     <div class="container">
       <div class="mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
-        <h1 class="destaque-no-fundo-claro" data-localize="about.title">Inovação e Transformação</h1>
+        <h1 class="destaque-no-fundo-claro" data-i18n="about-title">Inovação e Transformação</h1>
       </div>
       <p class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
         A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
@@ -476,6 +476,8 @@
 
 <?php include "common/scripts_dependencias.php" ?>
 
+<?php include "common/translation.php" ?>
+
 
 <!-- ====================
 **** SCRIPTS CUSTOMIZADOS DA PAGINA
@@ -489,6 +491,7 @@
 
 <!-- iconess logo animado -->
 <script type="text/javascript" src="js/iconess-animado.js"></script>
+
 
 
 </body>
