@@ -23,21 +23,3 @@
   });
 
 </script>
-
-<ul class="switch-locale">
-  <li><a href="#" data-locale="en">En</a></li>
-  <li><a href="#" data-locale="pt">Pt</a></li>
-</ul>
-
-<style media="screen">
-  .switch-locale {
-    position: fixed;
-    z-index: 200;
-    bottom: 30px;
-    right: 30px;
-    background-color: white;
-    list-style: none;
-    padding: 1em;
-    margin: 0;
-  }
-</style>

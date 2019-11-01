@@ -11,7 +11,7 @@
 
         <div>
           <ul class="nav">
-            <li class="nav-item"><a data-localize="nav.index" class="active link f-16 mx-25" href="index.php">Sobre</a></li>
+            <li class="nav-item"><a class="active link f-16 mx-25" href="index.php">Sobre</a></li>
             <!-- <li class="nav-item">
               <a class="link f-16 mx-25" href="">Verticais</a>
               <ul class="sub-menu">
@@ -64,6 +64,26 @@
 	</div>
 </div>
 <!-- Header 18 -->
+
+
+<!-- menu de traducao -->
+<ul class="switch-locale">
+  <li><a href="#" data-locale="en">En</a></li>
+  <li><a href="#" data-locale="pt">Pt</a></li>
+</ul>
+<style media="screen">
+  .switch-locale {
+    position: fixed;
+    z-index: 200;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+  }
+</style>
+<!-- menu de traducao -->
 
 
 <script type="text/javascript">
