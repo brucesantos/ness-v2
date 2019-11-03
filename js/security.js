@@ -1,49 +1,37 @@
 $(document).ready(function() {
   // mostra apenas a div com o detalhamento do produto clicado
-  $('#abre-detalhe-nMonitor').click(function() {
-    $('#nMonitor').fadeIn();
+  $('#abre-detalhe-centroOperacoesSeguranca').click(function() {
+    $('#centroOperacoesSeguranca').fadeIn();
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
   });
-  $('#abre-detalhe-nCommand').click(function() {
-    $('#nCommand').fadeIn();
+  $('#abre-detalhe-riscoConformidade').click(function() {
+    $('#riscoConformidade').fadeIn(); 
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
   });
-  $('#abre-detalhe-nReport').click(function() { 
-    $('#nReport').fadeIn();
+  $('#abre-detalhe-testePenetracao').click(function() {
+    $('#testePenetracao').fadeIn();
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
   });
-  $('#abre-detalhe-nSensor').click(function() {
-    $('#nSensor').fadeIn();
+  $('#abre-detalhe-forenseDigital').click(function() {
+    $('#forenseDigital').fadeIn();
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
   });
-  $('#abre-detalhe-nAgenda').click(function() {
-    $('#nAgenda').fadeIn();
+  $('#abre-detalhe-virtualCiso').click(function() {
+    $('#virtualCiso').fadeIn();
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);
   });
-  $('#abre-detalhe-nEcho').click(function() {
-    $('#nEcho').fadeIn();
-    $('#conteudo-total').hide();
-    $('#fechar-detalhamento').fadeIn();
-    $(window).scrollTop(0);
-  });
-  $('#abre-detalhe-nVoice').click(function() {
-    $('#nVoice').fadeIn();
-    $('#conteudo-total').hide();
-    $('#fechar-detalhamento').fadeIn();
-    $(window).scrollTop(0);
-  });
-  $('#abre-detalhe-nDoctor').click(function() {
-    $('#nDoctor').fadeIn();
+  $('#abre-detalhe-respostaIncidentes').click(function() {
+    $('#respostaIncidentes').fadeIn();
     $('#conteudo-total').hide();
     $('#fechar-detalhamento').fadeIn();
     $(window).scrollTop(0);

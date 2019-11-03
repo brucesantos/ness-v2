@@ -1547,7 +1547,7 @@
 		},
 	"/images/law/law-capa.jpg": {
 		"ft": 16384,
-		"iS": 57447,
+		"iS": 74498,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/images/law/law-capa.jpg",
@@ -1672,6 +1672,77 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/security/ic-centro-operacoes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-centro-operacoes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ic-forense-digital.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-forense-digital.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ic-resposta-incidentes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-resposta-incidentes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ic-risco-conformidade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-risco-conformidade.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ic-teste-penetracao.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-teste-penetracao.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ic-virtual-ciso.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/security/ic-virtual-ciso.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/security/ness-security-sobre.png": {
+		"ft": 32768,
+		"iS": 254435,
+		"oA": 0,
+		"oAP": "/build/images/security/ness-security-sobre.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/slick-arrow-left-dark.svg": {
 		"ft": 2097152,
@@ -1897,6 +1968,17 @@
 		"oA": 2,
 		"oAP": "/build/js/script.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/security.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/security.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -3837,7 +3919,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594258284.76037896
+	"lastBuiltDate": 594335527.63076699
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
