@@ -76,9 +76,9 @@
   <section id="sobre-novo">
     <div class="container">
       <div class="mb-40 row justify-content-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="100">
-        <h1 class="destaque-no-fundo-claro" data-i18n="about-title">Inovação e Transformação</h1>
+        <h1 class="destaque-no-fundo-claro" id="ml-about-title">Inovação e Transformação</h1>
       </div>
-      <p class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
+      <p id="ml-about-description" class="mt-40 mb-40 f-22 text-center" data-aos-duration="600" data-aos="fade-up" data-aos-delay="200">
         A NESS entrega resultados de negócios com velocidade e segurança, ao mesmo tempo em que ajuda você a gerenciar riscos dos processos e do negócio. Entregamos mais do que serviços de tecnologia. Entregamos transformação, performance e inovação em negócios.
       </p>
       <img id="img-sobre-transformacao" src="images/home/sobre-transformacao-curva.svg" alt="" data-aos-duration="600" data-aos="fade-up" data-aos-delay="300">
@@ -109,7 +109,7 @@
   <section id="numeros">
     <div class="container">
       <div class="row mt-180 justify-content-center">
-        <h2 class="destaque-no-fundo-claro">Impacto</h2>
+        <h2 id="ml-about-impact" class="destaque-no-fundo-claro">Impacto</h2>
       </div>
       <div class="numeros__conteudo">
         <div class="row mt-60 mb-180">
@@ -118,7 +118,7 @@
               <span class="numero" data-count="4">0</span><span class="adicional"> +</span>
             </div>
             <i class="fas fa-globe"></i>
-            <p>Países</p>
+            <p id="ml-about-impact-countries">Países</p>
           </div>
           <!-- <div class="numeros__conteudo__dado col-lg-3 col-md-6 col-xs-12">
             <div class="valor">
@@ -132,14 +132,14 @@
               <span class="numero" data-count="40">0</span><span class="adicional"> +</span>
             </div>
             <i class="fas fa-building"></i>
-            <p>Clientes</p>
+            <p id="ml-about-impact-clients">Clientes</p>
           </div>
           <div class="numeros__conteudo__dado col-lg-4 col-md-4 col-xs-12">
             <div class="valor">
               <span class="numero" data-count="3">0</span><span class="adicional">M+</span>
             </div>
             <i class="fas fa-users"></i>
-            <p>Usuários</p>
+            <p id="ml-about-impact-users">Usuários</p>
           </div>
         </div>
       </div>
@@ -158,11 +158,9 @@
 
         <div class="row">
           <div class="col descricao">
-            <h3 class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">Verticais</h3>
-            <p class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
+            <h3 id="ml-about-verticals-title" class="mb-20 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">Verticais</h3>
+            <p id="ml-about-verticals-description" class="text-center f-18 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
               A NESS é orientada a soluções inovadoras e transformadoras, em verticais de negócios.
-              <!-- Possui grande expertise nos setores de Saúde, Jurídico, Energia e Tecnologia.<br> -->
-              <!-- Com essa estratégia de verticalização conseguimos entregar serviços e produtos específicos para cada setor com maestria. -->
             </p>
           </div>
         </div>
@@ -183,7 +181,7 @@
                 </div>
                 <div class="nome-descricao">
                   <h3 class="nome">Health</h3>
-                  <p>Soluções especializadas na vertical de medicina diagnóstica</p>
+                  <p id="ml-about-verticals-business-health">Soluções especializadas na vertical de medicina diagnóstica</p>
                 </div>
               </div>
               <div class="btn-mais">
@@ -199,7 +197,7 @@
                 </div>
                 <div class="nome-descricao">
                   <h3 class="nome">Law</h3>
-                  <p>Soluções especializadas na vertical jurídica</p>
+                  <p id="ml-about-verticals-business-law">Soluções especializadas na vertical jurídica</p>
                 </div>
               </div>
               <div class="btn-mais">
@@ -215,7 +213,7 @@
                 </div>
                 <div class="nome-descricao">
                   <h3 class="nome">Energy</h3>
-                  <p>Soluções especializadas na vertical de energia</p>
+                  <p id="ml-about-verticals-business-energy">Soluções especializadas na vertical de energia</p>
                 </div>
               </div>
               <div class="btn-mais">
@@ -231,7 +229,7 @@
                 </div>
                 <div class="nome-descricao">
                   <h3 class="nome">Security</h3>
-                  <p>Soluções especializadas em segurança da informação</p>
+                  <p id="ml-about-verticals-business-security">Soluções especializadas em segurança da informação</p>
                 </div>
               </div>
               <div class="btn-mais">
@@ -247,7 +245,7 @@
                 </div>
                 <div class="nome-descricao">
                   <h3 class="nome">Tech</h3>
-                  <p>Soluções especializadas em tecnologia da informação</p>
+                  <p id="ml-about-verticals-business-tech">Soluções especializadas em tecnologia da informação</p>
                 </div>
               </div>
               <div class="btn-mais">
@@ -277,7 +275,7 @@
     <div class="container px-xl-0 text-center">
       <div class="row justify-content-center">
         <div class="col-xl-12 col-lg-12" data-aos-duration="700" data-aos="fade-down" data-aos-delay="0">
-          <h3 class="pb-40 text-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">​​Clientes</h3>
+          <h3 id="ml-about-clients-title" class="pb-40 text-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">​​Clientes</h3>
         </div>
 
         <div class="col-xl12 col-lg-12" data-aos-duration="700" data-aos="fade-down" data-aos-delay="350">
@@ -359,11 +357,9 @@
   <section id="parceiros">
     <div class="container mt-120 mb-120">
       <div class="mb-20 row justify-content-center header-da-seccao" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
-        <h3 class="destaque-no-fundo-claro">Parceiros</h3>
-        <p class="f-22 color-heading op-7 text-adaptive description">
-          A NESS tem orgulho de ter como parceiros, algumas das melhores universidades e centros de pesquisa do país.
-          <br>
-          Isso nos mantém atualizados no âmbito profissional assim como no acadêmico
+        <h3 id="ml-about-partners-title" class="destaque-no-fundo-claro">Parceiros</h3>
+        <p id="ml-about-partners-description" class="f-22 color-heading op-7 text-adaptive description">
+          A NESS tem orgulho de ter como parceiros, algumas das melhores universidades e centros de pesquisa do país. Isso nos mantém atualizados no âmbito profissional assim como no acadêmico
         </p>
       </div>
       <div class="row">
@@ -376,7 +372,7 @@
           <div class="linha">
           </div>
           <div class="descricao">
-            <span>
+            <span id="ml-about-partners-fgv">
               FGV é um dos 10 maiores Think Tanks no mundo!
               Inovação de tecnologia em Educação e iniciativas em Direito
             </span>
@@ -391,7 +387,7 @@
           <div class="linha">
           </div>
           <div class="descricao">
-            <span>
+            <span id="ml-about-partners-unifesp">
               Uma das 3 melhores Universidades de Medicina no Brasil e com
               4 PhDs (doutores e biomedicos) na NESS
             </span>
@@ -406,7 +402,7 @@
           <div class="linha">
           </div>
           <div class="descricao">
-            <span>
+            <span id="ml-about-partners-ufrpe">
               Uma das 5 melhores Universidades de Ciência do Brasil contando com
               2 PhDs em Inteligência Artificial como colaboradores
             </span>
@@ -421,7 +417,7 @@
           <div class="linha">
           </div>
           <div class="descricao">
-            <span>
+            <span id="ml-about-partners-fiap">
               Um dos melhores cursos técnicos em Ciência da Computação do País
             </span>
           </div>
@@ -438,15 +434,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-xs-12">
-          <h3 class="pb-20 destaque-no-fundo-escuro">Oportunidades</h3>
+          <h3 id="ml-about-opportunities-title" class="pb-20 destaque-no-fundo-escuro">Oportunidades</h3>
 
           <div class="op-8 text-adaptive">
-            <p>Somos apaixonados por perseguir a inovação e a eficiência para enfrentar até os mais complexos desafios e projetos.</p>
-            <p>Estamos no mercado desde 1991, onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
-            <p>Desse modo, para garantir o sucesso das nossas empreitadas, construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
+            <p id="ml-about-opportunities-p01">Somos apaixonados por perseguir a inovação e a eficiência para enfrentar até os mais complexos desafios e projetos.</p>
+            <p id="ml-about-opportunities-p02">Estamos no mercado desde 1991, onde permanecemos nos reinventando, acompanhando as mudanças e tendências do mercado. Como já dizia Charles Darwin: “Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças”.</p>
+            <p id="ml-about-opportunities-p03">Desse modo, para garantir o sucesso das nossas empreitadas, construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
           </div>
 
-          <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1">Faça parte<i class="fas fa-long-arrow-alt-right direita"></i></a>
+          <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1"><span id="ml-about-opportunities-cta">Faça parte</span><i class="fas fa-long-arrow-alt-right direita"></i></a>
         </div>
 
         <div class="col-md-4 col-xs-12" style="display:flex; justify-content: center; align-items: center;">

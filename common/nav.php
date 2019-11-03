@@ -11,7 +11,7 @@
 
         <div>
           <ul class="nav">
-            <li class="nav-item"><a class="active link f-16 mx-25" href="index.php">Sobre</a></li>
+            <li class="nav-item"><a id="ml-nav-about" class="active link f-16 mx-25" href="index.php">Sobre</a></li>
             <!-- <li class="nav-item">
               <a class="link f-16 mx-25" href="">Verticais</a>
               <ul class="sub-menu">
@@ -43,7 +43,7 @@
 	<a class="close_menu op-5"><i class="fas fa-times"></i></a>
 	<div class="px-40 pt-60 pb-60 text-center">
 		<div><a href="index.php" class="f-heading f-22 link mb-40"> <img src="images/logo-ness-text-blue.svg" alt=""> </a></div>
-		<div><a href="index.php" class="f-heading f-22 link mb-20">Sobre</a></div>
+		<div><a href="index.php" class="f-heading f-22 link mb-20" id="ml-nav-about-mobile">Sobre</a></div>
 		<div><a href="health.php" class="f-heading f-22 link mb-20">Health</a></div>
 		<div><a href="law.php" class="f-heading f-22 link mb-20">Law</a></div>
 		<div><a href="energy.php" class="f-heading f-22 link mb-20">Energy</a></div>
@@ -67,12 +67,12 @@
 
 
 <!-- menu de traducao -->
-<ul class="switch-locale">
-  <li><a href="#" data-locale="en">En</a></li>
-  <li><a href="#" data-locale="pt">Pt</a></li>
+<ul class="change-lang">
+  <a onclick="$.MultiLanguage('language.json', 'pt')">Pt</a>
+  <a onclick="$.MultiLanguage('language.json', 'en')">En</a>
 </ul>
 <style media="screen">
-  .switch-locale {
+  .change-lang {
     position: fixed;
     z-index: 200;
     bottom: 30px;
@@ -87,11 +87,9 @@
 
 
 <script type="text/javascript">
-
   $('#link-contato-mobile').click(function() {
     $('.navigation_mobile').removeClass('opened');
   });
-
 </script>
 
 <script src="js/nav.js"></script>

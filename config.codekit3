@@ -149,22 +149,6 @@
 		"oAP": "/build/health.php",
 		"oF": 0
 		},
-	"/i18n/en.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/i18n/en.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
-	"/i18n/pt.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/i18n/pt.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
 	"/images/close_white.png": {
 		"ft": 32768,
 		"iS": 210,
@@ -1867,6 +1851,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/jquery.MultiLanguage.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/jquery.MultiLanguage.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/law.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1921,6 +1916,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/language.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/language.json",
+		"oF": 3,
+		"oO": 0,
+		"oS": 1
 		},
 	"/law.php": {
 		"cB": 0,
@@ -3577,22 +3580,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/mylanguage-en.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/mylanguage-en.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
-	"/mylanguage-pt.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/mylanguage-pt.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -3837,7 +3824,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594258284.76037896
+	"lastBuiltDate": 594331777.33581805
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
