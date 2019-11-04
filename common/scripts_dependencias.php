@@ -18,15 +18,3 @@
 
 <!-- Startup 3 JS (Custom js for all blocks) -->
 <script src="js/script.js"></script>
-
-<!-- jquery i18n -->
-<script src="https://cdn.jsdelivr.net/npm/cldrpluralruleparser@1.3.2/src/CLDRPluralRuleParser.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.language.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.parser.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.emitter.js"></script>
-<script src="node_modules/@wikimedia/jquery.i18n/src/jquery.i18n.emitter.bidi.js"></script>
-<script src="js/jquery.history.js"></script>
-<script src="js/url.min.js"></script>

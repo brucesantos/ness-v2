@@ -149,22 +149,6 @@
 		"oAP": "/build/health.php",
 		"oF": 0
 		},
-	"/i18n/en.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/i18n/en.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
-	"/i18n/pt.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/i18n/pt.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
 	"/images/close_white.png": {
 		"ft": 32768,
 		"iS": 210,
@@ -1545,9 +1529,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/lang/english.png": {
+		"ft": 32768,
+		"iS": 3723,
+		"oA": 0,
+		"oAP": "/build/images/lang/english.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/lang/portuguese.png": {
+		"ft": 32768,
+		"iS": 12665,
+		"oA": 0,
+		"oAP": "/build/images/lang/portuguese.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/law/law-capa.jpg": {
 		"ft": 16384,
-		"iS": 74498,
+		"iS": 57447,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/images/law/law-capa.jpg",
@@ -1938,6 +1944,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/jquery.MultiLanguage.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/jquery.MultiLanguage.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/law.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2003,6 +2020,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/language.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/language.json",
+		"oF": 3,
+		"oO": 0,
+		"oS": 1
 		},
 	"/law.php": {
 		"cB": 0,
@@ -3658,22 +3683,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"/mylanguage-en.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/mylanguage-en.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
-	"/mylanguage-pt.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/mylanguage-pt.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
 		},
 	"/node_modules": {
 		"ft": 65536,

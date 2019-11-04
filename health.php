@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 
   <?php include("common/head.php"); ?>
 
@@ -21,7 +21,7 @@
   <section id="capa-health" class="capa-da-vertical">
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-health.svg" alt="logo da vertical de saude ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+      <h1 id="ml-health-capa-titulo" class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
         Soluções especializadas na vertical de medicina diagnóstica
       </h1>
     </div>
@@ -73,26 +73,18 @@
 	</div> -->
 	<div class="row align-items-center">
 		<div class="col-xl-5 col-lg-6 col-sm-8">
-			<h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Inovação e Transformação</h2>
-			<div class="mt-30 mb-30 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-        Além das próprias plataformas digitais, a NESS Health oferece <strong>serviços para inovação e transformação</strong> na medicina diagnóstica.
-        <!-- Diferenciação via eficiência operacional, valor de produto e canais de comunicação. -->
+			<h2 id="ml-health-descricao-titulo" class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Inovação e Transformação</h2>
+			<div id="ml-health-descricao-texto" class="mt-30 mb-30 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+        Além das próprias plataformas digitais, a NESS Health oferece serviços para inovação e transformação na medicina diagnóstica.
 			</div>
 			<div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-				<!-- <div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
-					Serviços:
-				</div> -->
 				<div class="servicos">
 					<ul>
-						<li><img src="images/icones-servicos/ico-serv-processos.svg">Reestruturação de Processos</li>
-						<li><img src="images/icones-servicos/ico-serv-analytics.svg">Data Analytics</li>
-            <li><img src="images/icones-servicos/ico-serv-inteligencia.svg">Machine Learning e Inteligência Artificial</li>
-            <li><img src="images/icones-servicos/ico-serv-robotica.svg">Automação e Robótica</li>
-						<li><img src="images/icones-servicos/ico-serv-infraestrutura.svg">Suporte e Infraestrutura de TI</li>
-						<!-- <li>Plataforma para EAD (Educação à Distância)</li> -->
-						<!-- <li>ERP (Enterprise Resource Planning)</li> -->
-						<!-- <li>Design e Desenvolvimento de Software</li> -->
-						<!-- <li>Cybersegurança.</li> -->
+						<li><img src="images/icones-servicos/ico-serv-processos.svg"><span id="ml-health-descricao-item-01">Reestruturação de Processos</span></li>
+						<li><img src="images/icones-servicos/ico-serv-analytics.svg"><span id="ml-health-descricao-item-02">Data Analytics</span></li>
+            <li><img src="images/icones-servicos/ico-serv-inteligencia.svg"><span id="ml-health-descricao-item-03">Machine Learning e Inteligência Artificial</span></li>
+            <li><img src="images/icones-servicos/ico-serv-robotica.svg"><span id="ml-health-descricao-item-04">Automação e Robótica</span></li>
+						<li><img src="images/icones-servicos/ico-serv-infraestrutura.svg"><span id="ml-health-descricao-item-05">Suporte e Infraestrutura de TI</span></li>
 					</ul>
 				</div>
 			</div>
@@ -108,15 +100,15 @@
 
 	<section id="produtos" class="feature_47 pt-105 pb-70 color-white">
 		<div class="container px-xl-0">
-			<h2 class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Plataformas Digitais</h2>
-      <div class="text-center mb-75 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100" style="opacity:.8;">
-				Soluções inovadoras e transformadoras com alto <strong>impacto</strong> no mercado de <strong>medicina diagnóstica nacional</strong>.
+			<h2 id="ml-health-plataformas-titulo" class="mb-65 text-center destaque-no-fundo-escuro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Plataformas Digitais</h2>
+      <div id="ml-health-plataformas-subtitulo" class="text-center mb-75 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100" style="opacity:.8;">
+				Soluções inovadoras e transformadoras com alto impacto no mercado de medicina diagnóstica nacional.
 			</div>
 			<div class="row justify-content-center text-center text-md-left">
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 					<a id="abre-detalhe-nMonitor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nmonitor-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-nmonitor" class="mini-descricao">
 							Monitoramento em tempo real dos equipamentos de engenharia clínica e infraestrutura.
 						</div>
 					</a>
@@ -124,7 +116,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
 					<a id="abre-detalhe-nCommand" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-ncommand-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-ncommand" class="mini-descricao">
 							Operação à distância dos equipamentos de engenharia clínica (ressonância magnética e tomografia).
 						</div>
 					</a>
@@ -132,7 +124,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
 					<a id="abre-detalhe-nReport" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nreport-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-nreport" class="mini-descricao">
 							Elaboração de laudos estruturados para ultrassom com analytics.
 						</div>
 					</a>
@@ -140,7 +132,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 					<a id="abre-detalhe-nSensor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nsensor-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-nsensor" class="mini-descricao">
 							Sensoriamento (IoT) para monitoramento à distância dos equipamentos de engenharia clínica e infraestrutura.
 						</div>
 					</a>
@@ -148,7 +140,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
 					<a id="abre-detalhe-nAgenda" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nagenda-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-nagenda" class="mini-descricao">
 							Gerenciamento de agenda com disponibilidade online para visualização e agendamento do paciente.
 						</div>
 					</a>
@@ -156,7 +148,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
 					<a id="abre-detalhe-nEcho" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nduo-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-necho" class="mini-descricao">
 							Transmissão em tempo real de exames de ultrassom para monitoramento e treinamento.
 						</div>
 					</a>
@@ -164,7 +156,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
 					<a id="abre-detalhe-nVoice" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-iara-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-nspeech" class="mini-descricao">
 							Reconhecimento de voz para laudos médicos em língua portuguesa.
 						</div>
 					</a>
@@ -172,7 +164,7 @@
 				<div class="mb-30 col-lg-4 col-md-6 col-sm-8 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
 					<a id="abre-detalhe-nDoctor" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-ndoctor-white.svg" alt="">
-						<div class="mini-descricao">
+						<div id="ml-health-plataformas-ndoctor" class="mini-descricao">
 							Comunicação segura para profissionais de saúde, em conformidade com a LGPD.
 						</div>
 					</a>

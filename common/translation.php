@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   var set_locale_to = function(locale) {
   if (locale)
     $.i18n().locale = locale;
@@ -22,4 +22,4 @@
 
   });
 
-</script>
+</script> -->
