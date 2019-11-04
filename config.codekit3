@@ -33,6 +33,12 @@
 		"oAP": "/build/404.php",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1523,6 +1529,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/lang/brazil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/lang/brazil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/lang/english.png": {
 		"ft": 32768,
 		"iS": 3723,
@@ -1544,6 +1560,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/lang/uk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/images/lang/uk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/law/law-capa.jpg": {
 		"ft": 16384,
@@ -3922,7 +3948,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594532482.77862597
+	"lastBuiltDate": 594569272.78825104
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

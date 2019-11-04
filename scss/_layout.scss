@@ -407,6 +407,16 @@ b, strong{
 	}
 
 	.btn{
+		&.sm{
+			height:40px;
+			line-height:40px;
+			padding:0 30px;
+			font-size:14px;
+			font-weight:$medium;
+			&[class^="border-"], &[class*=" border-"]{
+				line-height:36px;
+			}
+		}
 		&.lg{
 			height:50px;
 			line-height:50px;

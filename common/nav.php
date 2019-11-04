@@ -29,6 +29,19 @@
             <li class="nav-item"><a class="link f-16 mx-25" href="security.php">Security</a></li>
             <li class="nav-item"><a class="link f-16 mx-25" href="tech.php">Tech</a></li>
             <li class="nav-item"><a class="contato link f-20 mx-25" href="contato.php"><i class="far fa-comments"></i></a></li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropdown-toggle" type="button" id="idiomas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Idioma
+                </button>
+                <div class="dropdown-menu" aria-labelledby="idiomas">
+                  <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'pt')"><img src="images/lang/brazil.svg" alt="portugues"></a>
+                  <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'en')"><img src="images/lang/uk.svg" alt="english"></a>
+                </div>
+              </div>
+
+
+            </li>
           </ul>
         </div>
 
@@ -60,9 +73,12 @@
 		<div class="socials mt-20 change-lang">
 			<a href="https://www.facebook.com/NESSITPROCESS/" target="_blank" class="link f-18 mx-10"><i class="fab fa-facebook"></i></a>
 			<a href="https://www.linkedin.com/company/ness-processos-e-tecnologia" target="_blank" class="link f-18 mx-10"><i class="fab fa-linkedin"></i></a>
-      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'pt')"><img src="images/lang/portuguese.png" alt="portugues"></a>
-      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'en')"><img src="images/lang/english.png" alt="english"></a>
 		</div>
+    <hr class="mt-4 mb-4">
+    <div class="language">
+      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'pt')"><img src="images/lang/brazil.svg" alt="portugues"></a>
+      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'en')"><img src="images/lang/uk.svg" alt="english"></a>
+    </div>
 	</div>
 </div>
 <!-- Header 18 -->

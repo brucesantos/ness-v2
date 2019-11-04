@@ -22,7 +22,7 @@ $(document).ready(function(){
 	// open menu on mobile
 
 	function showMenuBtn(){
-		if($(window).width()<768){
+		if($(window).width()<1034){
 			$(".open_menu").addClass("d-block");
 			$("header nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
