@@ -33,12 +33,6 @@
 		"oAP": "/build/404.php",
 		"oF": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3928,7 +3922,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594335527.63076699
+	"lastBuiltDate": 594532482.77862597
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
