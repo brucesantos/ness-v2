@@ -1699,6 +1699,28 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/security/capa.png": {
+		"ft": 32768,
+		"iS": 50894,
+		"oA": 0,
+		"oAP": "/build/images/security/capa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/security/forense-digital@2x.png": {
+		"ft": 32768,
+		"iS": 257496,
+		"oA": 0,
+		"oAP": "/build/images/security/forense-digital@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/security/ic-centro-operacoes.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1764,6 +1786,50 @@
 		"iS": 254435,
 		"oA": 0,
 		"oAP": "/build/images/security/ness-security-sobre.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/security/respostas-incidentes@2x.png": {
+		"ft": 32768,
+		"iS": 214438,
+		"oA": 0,
+		"oAP": "/build/images/security/respostas-incidentes@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/security/riscos-conformidade@2x.png": {
+		"ft": 32768,
+		"iS": 338200,
+		"oA": 0,
+		"oAP": "/build/images/security/riscos-conformidade@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/security/teste-de-penetracao@2x.png": {
+		"ft": 32768,
+		"iS": 263025,
+		"oA": 0,
+		"oAP": "/build/images/security/teste-de-penetracao@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/security/virtual-ciso@2x.png": {
+		"ft": 32768,
+		"iS": 255658,
+		"oA": 0,
+		"oAP": "/build/images/security/virtual-ciso@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
