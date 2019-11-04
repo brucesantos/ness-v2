@@ -472,7 +472,6 @@
 
 <?php include "common/scripts_dependencias.php" ?>
 
-<?php include "common/translation.php" ?>
 
 
 <!-- ====================

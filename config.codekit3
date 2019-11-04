@@ -1529,6 +1529,28 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/lang/english.png": {
+		"ft": 32768,
+		"iS": 3723,
+		"oA": 0,
+		"oAP": "/build/images/lang/english.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/lang/portuguese.png": {
+		"ft": 32768,
+		"iS": 12665,
+		"oA": 0,
+		"oAP": "/build/images/lang/portuguese.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/law/law-capa.jpg": {
 		"ft": 16384,
 		"iS": 57447,
@@ -3824,7 +3846,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594331777.33581805
+	"lastBuiltDate": 594530327.80399501
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

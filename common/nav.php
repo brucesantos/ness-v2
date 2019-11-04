@@ -57,21 +57,32 @@
 		<div><a id="link-contato-mobile" href="contato.php" class="btn action-1">Contato<i class="far fa-comments direita"></i></a></div>
 
 		<!-- links sociais -->
-		<div class="socials mt-20">
+		<div class="socials mt-20 change-lang">
 			<a href="https://www.facebook.com/NESSITPROCESS/" target="_blank" class="link f-18 mx-10"><i class="fab fa-facebook"></i></a>
 			<a href="https://www.linkedin.com/company/ness-processos-e-tecnologia" target="_blank" class="link f-18 mx-10"><i class="fab fa-linkedin"></i></a>
+      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'pt')"><img src="images/lang/portuguese.png" alt="portugues"></a>
+      <a class="toggle-trad" onclick="$.MultiLanguage('language.json', 'en')"><img src="images/lang/english.png" alt="english"></a>
 		</div>
 	</div>
 </div>
 <!-- Header 18 -->
 
+<style media="screen">
+  .toggle-trad img {
+    height: 24px;
+  }
+  .toggle-trad {
+    opacity: 1 !important;
+    margin: -5px 10px;
+  }
+</style>
 
 <!-- menu de traducao -->
-<ul class="change-lang">
+<!-- <ul class="change-lang">
   <a onclick="$.MultiLanguage('language.json', 'pt')">Pt</a>
   <a onclick="$.MultiLanguage('language.json', 'en')">En</a>
-</ul>
-<style media="screen">
+</ul> -->
+<!-- <style media="screen">
   .change-lang {
     position: fixed;
     z-index: 200;
@@ -82,7 +93,7 @@
     padding: 1em;
     margin: 0;
   }
-</style>
+</style> -->
 <!-- menu de traducao -->
 
 
