@@ -3,6 +3,11 @@
 
   <?php include("common/head.php"); ?>
 
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage('language-health.json');
+    })
+  </script>
 <body>
 
 

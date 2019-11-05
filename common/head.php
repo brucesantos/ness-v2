@@ -22,12 +22,7 @@
 
   <!-- multi language -->
   <script src="js/jquery.MultiLanguage.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $.MultiLanguage('language.json');
-    })
-  </script>
-
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132989664-1"></script>
   <script>

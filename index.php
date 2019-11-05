@@ -3,6 +3,12 @@
 
   <?php include("common/head.php"); ?>
 
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage('language-about.json');
+    })
+  </script>
+
 <body>
 
   <!-- Header -->
@@ -442,7 +448,10 @@
             <p id="ml-about-opportunities-p03">Desse modo, para garantir o sucesso das nossas empreitadas, construímos uma cultura muito forte, pautada em relacionamentos sólidos com nossos colaboradores, clientes e parceiros.</p>
           </div>
 
-          <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1"><span id="ml-about-opportunities-cta">Faça parte</span><i class="fas fa-long-arrow-alt-right direita"></i></a>
+          <a href="https://forms.gle/MZ6dfkLV4RWz43bn7" target="_blank" class="mt-45 mb-65 btn action-1">
+            <span id="ml-about-opportunities-cta">Faça parte</span>
+            <i class="fas fa-long-arrow-alt-right direita"></i>
+          </a>
         </div>
 
         <div class="col-md-4 col-xs-12" style="display:flex; justify-content: center; align-items: center;">
