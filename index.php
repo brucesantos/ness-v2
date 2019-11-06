@@ -3,6 +3,13 @@
 
   <?php include("common/head.php"); ?>
 
+  <!-- arquivo de traducao da pagina em questao -->
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage('language-index.json');
+    })
+  </script>
+
 <body>
 
   <!-- Header -->

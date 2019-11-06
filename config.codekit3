@@ -2087,11 +2087,27 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/language-health.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/language-health.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/language-index.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/language-index.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/language.json": {
 		"ft": 524288,
 		"oA": 2,
 		"oAP": "/build/language.json",
-		"oF": 3,
+		"oF": 2,
 		"oO": 0,
 		"oS": 1
 		},
@@ -3759,7 +3775,7 @@
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/build/package-lock-min.json",
+		"oAP": "/build/package-lock.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3767,7 +3783,7 @@
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/build/package-min.json",
+		"oAP": "/build/package.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -5897,8 +5913,8 @@
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
-		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",

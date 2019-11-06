@@ -1,0 +1,47 @@
+{
+  "config": {
+    "default": "pt"
+  },
+  "language": {
+    "en": {
+      "#ml-health-capa-titulo" : "Specialized solutions for the diagnostic medicine sector",
+      "#ml-health-descricao-titulo" : "Innovation and Transformation",
+      "#ml-health-descricao-texto" : "In addition to dedicated digital platforms, NESS Health offers specialized services to innovate and transform the field of diagnostic medicine.",
+      "#ml-health-descricao-item-01" : "Process Restructuring",
+      "#ml-health-descricao-item-02" : "Data Analytics",
+      "#ml-health-descricao-item-03" : "Machine Learning and Artificial Intelligence",
+      "#ml-health-descricao-item-04" : "Automation and Robotics",
+      "#ml-health-descricao-item-05" : "IT Infrastructure and Support",
+      "#ml-health-plataformas-titulo" : "Digital Platforms",
+      "#ml-health-plataformas-subtitulo" : "Innovative and transformative solutions with high impact for the national diagnostic medicine sector.",
+      "#ml-health-plataformas-nmonitor" : "Real-time monitoring of clinical engineering equipment and infrastructure.",
+      "#ml-health-plataformas-ncommand" : "Remote operation of clinical engineering equipment and infrastructure.",
+      "#ml-health-plataformas-nreport" : "Structured reports for ultrasound with analytics.",
+      "#ml-health-plataformas-nsensor" : "Sensing (IoT) for real-time monitoring of clinical engineering equipment and infrastructure.",
+      "#ml-health-plataformas-nagenda" : "Online schedule management to view and schedule patients.",
+      "#ml-health-plataformas-necho" : "Real-time transmission of ultrasound exams for follow-up and training.",
+      "#ml-health-plataformas-nspeech" : "Voice recognition for medical reports in Portuguese language.",
+      "#ml-health-plataformas-ndoctor" : "Secure communication for healthcare professionals, in compliance with the Brazilian General Data Protection Act (LGPD)."
+    },
+    "pt": {
+      "#ml-health-capa-titulo" : "Soluções especializadas na vertical de medicina diagnóstica",
+      "#ml-health-descricao-titulo" : "Inovação e Transformação",
+      "#ml-health-descricao-texto" : "Além das próprias plataformas digitais, a NESS Health oferece serviços para inovação e transformação na medicina diagnóstica.",
+      "#ml-health-descricao-item-01" : "Reestruturação de Processos",
+      "#ml-health-descricao-item-02" : "Data Analytics",
+      "#ml-health-descricao-item-03" : "Machine Learning e Inteligência Artificial",
+      "#ml-health-descricao-item-04" : "Automação e Robótica",
+      "#ml-health-descricao-item-05" : "Suporte e Infraestrutura de TI",
+      "#ml-health-plataformas-titulo" : "Plataformas Digitais",
+      "#ml-health-plataformas-subtitulo" : "Soluções inovadoras e transformadoras com alto impacto no mercado de medicina diagnóstica nacional.",
+      "#ml-health-plataformas-nmonitor" : "Monitoramento em tempo real dos equipamentos de engenharia clínica e infraestrutura.",
+      "#ml-health-plataformas-ncommand" : "Operação à distância dos equipamentos de engenharia clínica (ressonância magnética e tomografia).",
+      "#ml-health-plataformas-nreport" : "Elaboração de laudos estruturados para ultrassom com analytics.",
+      "#ml-health-plataformas-nsensor" : "Sensoriamento (IoT) para monitoramento à distância dos equipamentos de engenharia clínica e infraestrutura.",
+      "#ml-health-plataformas-nagenda" : "Gerenciamento de agenda com disponibilidade online para visualização e agendamento do paciente.",
+      "#ml-health-plataformas-necho" : "Transmissão em tempo real de exames de ultrassom para monitoramento e treinamento.",
+      "#ml-health-plataformas-nspeech" : "Reconhecimento de voz para laudos médicos em língua portuguesa.",
+      "#ml-health-plataformas-ndoctor" : "Comunicação segura para profissionais de saúde, em conformidade com a LGPD."
+    }
+  }
+}
