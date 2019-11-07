@@ -19,10 +19,10 @@ $(document).ready(function(){
 
 	$(window).trigger("resize");
 
-	// open menu on mobile
+	// open menu on mobile 768 original
 
 	function showMenuBtn(){
-		if($(window).width()<768){
+		if($(window).width()<992){
 			$(".open_menu").addClass("d-block");
 			$("header nav").addClass("d-none");
 			$(".navigation_mobile").removeClass("opened");
