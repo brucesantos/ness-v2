@@ -6,7 +6,7 @@
   <!-- arquivo de traducao da pagina em questao -->
   <script>
     $(document).ready(function(){
-      $.MultiLanguage('language-health.json');
+      $.MultiLanguage("language-health.json");
     })
   </script>
 
@@ -993,6 +993,22 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 
 <!-- mostra e esconde produtos -->
 <script src="js/health.js"></script>
+
+<!-- links para os arquivos de tradução de cada página -->
+<script type="text/javascript">
+  $( "#toggle-trad-pt" ).click(function() {
+    $.MultiLanguage('language-health.json', 'pt');
+  });
+  $( "#toggle-trad-pt-mob" ).click(function() {
+    $.MultiLanguage('language-health.json', 'pt');
+  });
+  $( "#toggle-trad-en" ).click(function() {
+    $.MultiLanguage('language-health.json', 'en');
+  });
+  $( "#toggle-trad-en-mob" ).click(function() {
+    $.MultiLanguage('language-health.json', 'en');
+  });
+</script>
 
 </body>
 </html>
