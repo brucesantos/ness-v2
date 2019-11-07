@@ -4,6 +4,11 @@
   },
   "language": {
     "en": {
+      "#ml-nav-about" : "About",
+      "#ml-nav-about-mobile" : "About",
+      "#link-contato-mobile" : "Get in Touch",
+      "#ml-footer-company" : "Company",
+      "#ml-footer-social" : "Social Networks",
       "#ml-health-capa-titulo" : "Specialized solutions for the diagnostic medicine sector",
       "#ml-health-descricao-titulo" : "Innovation and Transformation",
       "#ml-health-descricao-texto" : "In addition to dedicated digital platforms, NESS Health offers specialized services to innovate and transform the field of diagnostic medicine.",
@@ -24,6 +29,11 @@
       "#ml-health-plataformas-ndoctor" : "Secure communication for healthcare professionals, in compliance with the Brazilian General Data Protection Act (LGPD)."
     },
     "pt": {
+      "#ml-nav-about" : "Sobre",
+      "#ml-nav-about-mobile" : "Sobre",
+      "#link-contato-mobile" : "Contato",
+      "#ml-footer-company" : "Empresa",
+      "#ml-footer-social" : "Redes Sociais",
       "#ml-health-capa-titulo" : "Soluções especializadas na vertical de medicina diagnóstica",
       "#ml-health-descricao-titulo" : "Inovação e Transformação",
       "#ml-health-descricao-texto" : "Além das próprias plataformas digitais, a NESS Health oferece serviços para inovação e transformação na medicina diagnóstica.",

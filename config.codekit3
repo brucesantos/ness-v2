@@ -2103,14 +2103,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/language.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/language.json",
-		"oF": 2,
-		"oO": 0,
-		"oS": 1
-		},
 	"/law.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4010,7 +4002,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594532482.77862597
+	"lastBuiltDate": 594692477.12212598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
