@@ -33,6 +33,12 @@
 		"oAP": "/build/404.php",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2101,11 +2107,19 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/language.json": {
+	"/language-health.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "/build/language.json",
-		"oF": 3,
+		"oAP": "/build/language-health.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/language-index.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/language-index.json",
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
@@ -3773,7 +3787,7 @@
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/build/package-lock-min.json",
+		"oAP": "/build/package-lock.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3781,7 +3795,7 @@
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/build/package-min.json",
+		"oAP": "/build/package.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -4008,7 +4022,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 594606626.52058899
+	"lastBuiltDate": 594839116.97288203
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5911,8 +5925,8 @@
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
-		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",

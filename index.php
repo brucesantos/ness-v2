@@ -3,6 +3,14 @@
 
   <?php include("common/head.php"); ?>
 
+  <!-- arquivo de traducao da pagina em questao -->
+  <!-- arquivo de traducao da pagina em questao -->
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage("language-index.json");
+    })
+  </script>
+
 <body>
 
   <!-- Header -->
@@ -486,6 +494,22 @@
 
 <!-- iconess logo animado -->
 <script type="text/javascript" src="js/iconess-animado.js"></script>
+
+<!-- links para os arquivos de tradução de cada página -->
+<script type="text/javascript">
+  $( "#toggle-trad-pt" ).click(function() {
+    $.MultiLanguage('language-index.json', 'pt');
+  });
+  $( "#toggle-trad-pt-mob" ).click(function() {
+    $.MultiLanguage('language-index.json', 'pt');
+  });
+  $( "#toggle-trad-en" ).click(function() {
+    $.MultiLanguage('language-index.json', 'en');
+  });
+  $( "#toggle-trad-en-mob" ).click(function() {
+    $.MultiLanguage('language-index.json', 'en');
+  });
+</script>
 
 
 
