@@ -211,14 +211,14 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital de monitoramento, em <strong>tempo real</strong>, dos equipamentos de engenharia clínica e infraestrutura.
+        <p id="ml-health-nmonitor-descricao-p1" class="f-20 text-adaptive">
+          Plataforma digital de monitoramento, em tempo real, dos equipamentos de engenharia clínica e infraestrutura.
         </p>
-        <p>
-          <strong>Previsão de possibilidade de quebra</strong> desses ativos através do uso de inteligência artificial, machine learning e analytics.
+        <p id="ml-health-nmonitor-descricao-p2" class="f-20 text-adaptive">
+          Previsão de possibilidade de quebra desses ativos através do uso de inteligência artificial, machine learning e analytics.
         </p>
-        <p>
-          <strong>Gestão de chamados</strong> e monitoramento de <strong>uptime</strong>.
+        <p id="ml-health-nmonitor-descricao-p3" class="f-20 text-adaptive">
+          Gestão de chamados e monitoramento de uptime.
         </p>
       </div>
       <div class="imagem col-md-7">
@@ -264,18 +264,16 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   </div>
   <section class="feature_8 bg-light pt-105 pb-30">
   	<div class="container px-xl-0">
-  		<h2 class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+  		<h2 id="ml-health-nmonitor-carac-titulo" class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
   		<div class="row">
   			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
   				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
   					<i class="fas fa-code f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Controle de perdas e SLA</div>
-  					<div class="color-heading op-7 text-adaptive">
-  						Saiba os equipamentos que estão parados e o quanto isso custa.
-              <br>
-              Certifique-se que o atendimento é realizado dentro do prazo acordado.
+  					<div id="ml-health-nmonitor-carac-01-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Controle de perdas e SLA</div>
+  					<div id="ml-health-nmonitor-carac-01-desc" class="color-heading op-7 text-adaptive">
+  						Saiba os equipamentos que estão parados e o quanto isso custa. Certifique-se que o atendimento é realizado dentro do prazo acordado.
             </div>
   				</div>
   			</div>
@@ -284,8 +282,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="far fa-calendar-check f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Agenda de preventivas</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-nmonitor-carac-02-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Agenda de preventivas</div>
+  					<div id="ml-health-nmonitor-carac-02-desc" class="color-heading op-7 text-adaptive">
   						Visibilidade total das manutenções preventivas agendadas e da realização das mesmas.
             </div>
   				</div>
@@ -295,8 +293,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-binoculars f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Previsões de Custo X Valor</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-nmonitor-carac-03-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Previsões de Custo X Valor</div>
+  					<div id="ml-health-nmonitor-carac-03-desc"  class="color-heading op-7 text-adaptive">
   						Sabendo quanto custa pra manter o seu equipamento, podemos prever os seus custos futuros e indicar quando vale a pena investir em uma nova aquisição.
             </div>
   				</div>
@@ -306,8 +304,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-file-signature f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Gestão de contratos</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-nmonitor-carac-04-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Gestão de contratos</div>
+  					<div id="ml-health-nmonitor-carac-04-desc"  class="color-heading op-7 text-adaptive">
   						Armazenamos todos os seus contratos com fornecedores, ajudando você a monitorar os prazos, garantias e obrigações.
             </div>
   				</div>
@@ -317,8 +315,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-mobile f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Aplicativo mobile</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-nmonitor-carac-05-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Aplicativo mobile</div>
+  					<div id="ml-health-nmonitor-carac-05-desc"  class="color-heading op-7 text-adaptive">
   						Temos à disposição um app mobile para a equipe de manutenção. Assim você sabe quem está mais próximo de cada equipamento e controla o tempo de serviço.
             </div>
   				</div>
@@ -328,8 +326,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-vr-cardboard f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Realidade Aumentada</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-nmonitor-carac-06-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Realidade Aumentada</div>
+  					<div id="ml-health-nmonitor-carac-06-desc"  class="color-heading op-7 text-adaptive">
   						Óculos de Realidade Aumentada para auxiliar no trabalho de campo.
             </div>
   				</div>
@@ -365,8 +363,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital para <strong>operação à distância</strong>, em tempo real, de equipamentos de engenharia clínica (ressonância magnética e tomografia).
+        <p id="ml-health-ncommand-descricao-p1" class="f-20 text-adaptive">
+          Plataforma digital para operação à distância, em tempo real, de equipamentos de engenharia clínica (ressonância magnética e tomografia).
         </p>
       </div>
       <div class="imagem col-md-7">
@@ -408,15 +406,15 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   </div>
   <section class="feature_8 bg-light pt-105 pb-30">
   	<div class="container px-xl-0">
-  		<h2 class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+  		<h2 id="ml-health-ncommand-carac-titulo" class="mb-50 small text-lg-center destaque-no-fundo-claro" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
   		<div class="row">
   			<div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
   				<div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
   					<i class="fas fa-globe-americas f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Área de Cobertura</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-01-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Área de Cobertura</div>
+  					<div id="ml-health-ncommand-carac-01-desc" class="color-heading op-7 text-adaptive">
   						Aumento do alcance geográfico com a virtualização do operador de ressonância magnética e tomografia. Habilita outros tipos de atuações, como por exemplo maior flexibilidade de horário.
             </div>
   				</div>
@@ -426,8 +424,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-robot f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Robótica</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-02-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Robótica</div>
+  					<div id="ml-health-ncommand-carac-02-desc" class="color-heading op-7 text-adaptive">
   						Auxilia a execução dos comandos para a virtualização do operador de ressonância magnética e tomografia. Feito sob medida para o equipamento utilizado, garantindo a compatibilidade e precisão.
             </div>
   				</div>
@@ -437,8 +435,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-chart-pie f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Painel Inteligente</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-03-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Painel Inteligente</div>
+  					<div id="ml-health-ncommand-carac-03-desc" class="color-heading op-7 text-adaptive">
   						Analytics para gestão da performance dos operadores, tempo de máquina parada, qualidade e tempo dos exames. Uso de inteligência artificial e machine learning para previsibilidade e recomendações.
             </div>
   				</div>
@@ -448,8 +446,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-check f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Multimarca</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-04-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Multimarca</div>
+  					<div id="ml-health-ncommand-carac-04-desc" class="color-heading op-7 text-adaptive">
   						Utilize uma única plataforma para operar qualquer marca de equipamentos de ressonância magnética e tomografia. Aumento de eficiência e performance do operador.
             </div>
   				</div>
@@ -459,8 +457,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-microchip f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Multi-tecnologia</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-05-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Multi-tecnologia</div>
+  					<div id="ml-health-ncommand-carac-05-desc" class="color-heading op-7 text-adaptive">
   						Facilidade na integração com sistema web, onde não precisa de instalador. Garante agilidade e adaptabilidade no processo conforme a necessidade específica do usuário.
             </div>
   				</div>
@@ -470,8 +468,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   					<i class="fas fa-video f-22 destaque-no-fundo-claro"></i>
           </div>
   				<div class="inner">
-  					<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Vídeo e áudio</div>
-  					<div class="color-heading op-7 text-adaptive">
+  					<div id="ml-health-ncommand-carac-06-tit" class="mb-20 f-14 semibold text-uppercase sp-20 title">Vídeo e áudio</div>
+  					<div id="ml-health-ncommand-carac-06-desc" class="color-heading op-7 text-adaptive">
   						Possibilita a qualidade na virtualização do operador que consegue observar o paciente na sala e se comunicar com o assistente, através de ligação e envio de comandos.
             </div>
   				</div>
@@ -500,7 +498,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
         <p class="f-20 text-adaptive">
-          Plataforma digital para elaboração de <strong>laudos estruturados</strong>, para exames de imagem de <strong>ultrassom</strong>, desenvolvido por médicos radiologistas com foco na praticidade do uso.
+          Plataforma digital para elaboração de laudos estruturados, para exames de imagem de ultrassom, desenvolvido por médicos radiologistas com foco na praticidade do uso.
         </p>
       </div>
       <div class="imagem col-md-7">
