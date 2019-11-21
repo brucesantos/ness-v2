@@ -497,7 +497,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
+        <p id="ml-health-nreport-descricao-p1" class="f-20 text-adaptive">
           Plataforma digital para elaboração de laudos estruturados, para exames de imagem de ultrassom, desenvolvido por médicos radiologistas com foco na praticidade do uso.
         </p>
       </div>
@@ -522,14 +522,14 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 		<div class="row text-center text-md-left">
 			<div class="col-xl-1"></div>
 			<div class="col-xl-5 col-md-6 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-				<div class="mb-10 f-18 medium title">Laudos estruturados</div>
-				<div class="color-heading text-adaptive">
+				<div id="ml-health-nreport-carac-01-tit" class="mb-10 f-18 medium title">Laudos estruturados</div>
+				<div id="ml-health-nreport-carac-01-desc" class="color-heading text-adaptive">
 					Formulários inteligentes que se adaptam aos resultados dos laudos e ajudam o Radiologista.
 				</div>
 			</div>
 			<div class="col-xl-5 col-md-6 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
-				<div class="mb-10 f-18 medium title">Maior agilidade de workflow</div>
-				<div class="color-heading text-adaptive">
+				<div id="ml-health-nreport-carac-02-tit" class="mb-10 f-18 medium title">Maior agilidade de workflow</div>
+				<div id="ml-health-nreport-carac-02-desc" class="color-heading text-adaptive">
 					O profissional não precisa digitar todo o texto, a maioria dos campos é resolvida com um clique.
 				</div>
 			</div>
@@ -538,14 +538,14 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 		<div class="row text-center text-md-left">
 			<div class="col-xl-1"></div>
 			<div class="col-xl-5 col-md-6 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-				<div class="mb-10 f-18 medium title">Redução do erro humano</div>
-				<div class="color-heading text-adaptive">
+				<div id="ml-health-nreport-carac-03-tit" class="mb-10 f-18 medium title">Redução do erro humano</div>
+				<div id="ml-health-nreport-carac-03-desc" class="color-heading text-adaptive">
 					O laudo estruturado permite que o que foi preenchido seja avaliado para saber se houve erro ou esquecimento.
 				</div>
 			</div>
 			<div class="col-xl-5 col-md-6 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<div class="mb-10 f-18 medium title">BI para os administradores</div>
-				<div class="color-heading text-adaptive">
+				<div id="ml-health-nreport-carac-04-tit" class="mb-10 f-18 medium title">BI para os administradores</div>
+				<div id="ml-health-nreport-carac-04-desc" class="color-heading text-adaptive">
 					Com a analise dos dados, é possível descobrir padrões que devem ser evitados ou incentivados.
 				</div>
 			</div>
@@ -572,8 +572,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital de <strong>sensoriamento</strong> (IoT) para monitoramento à distância, em <strong>tempo real</strong>, de equipamentos de engenharia clínica e infraestrutura.
+        <p id="ml-health-nsensor-descricao-p1" class="f-20 text-adaptive">
+          Plataforma digital de sensoriamento (IoT) para monitoramento à distância, em tempo real, de equipamentos de engenharia clínica e infraestrutura.
         </p>
       </div>
       <div class="imagem col-md-7">
@@ -589,12 +589,12 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   		<div class="row justify-content-center justify-content-lg-between align-items-center">
   			<div class="col-lg-6 col-sm-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
           <ul class="f-18 op-7" style="padding:0 0 0 1em;">
-            <li>Inteligência artificial, machine learning e analytics</li>
-            <li>Multi-ambiente</li>
-            <li>Integração com qualquer sensor de IoT do mercado</li>
-            <li>Controle de variáveis que afetam a vida útil dos equipamentos</li>
-            <li>Customização das definições de valores operacionais mínimos e máximos</li>
-            <li>Alertas e notificações de inconformidades</li>
+            <li id="ml-health-nsensor-descricao-lista01">Inteligência artificial, machine learning e analytics</li>
+            <li id="ml-health-nsensor-descricao-lista02">Multi-ambiente</li>
+            <li id="ml-health-nsensor-descricao-lista03">Integração com qualquer sensor de IoT do mercado</li>
+            <li id="ml-health-nsensor-descricao-lista04">Controle de variáveis que afetam a vida útil dos equipamentos</li>
+            <li id="ml-health-nsensor-descricao-lista05">Customização das definições de valores operacionais mínimos e máximos</li>
+            <li id="ml-health-nsensor-descricao-lista06">Alertas e notificações de inconformidades</li>
           </ul>
   			</div>
   			<div class="col-lg-6 col-sm-12">
@@ -605,23 +605,23 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   		<div class="row justify-content-center">
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
   				<i class="fas fa-temperature-high f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Temperatura</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-01-tit" class="mt-25 mb-20 f-22 title">Temperatura</div>
+  				<div id="ml-health-nsensor-carac-01-desc" class="color-heading text-adaptive op-7">
   					Existe uma correlação direta entre falhas nos equipamentos e variações de temperatura.
   					Com o monitoramento constante disparamos alertas para sua equipe quando os valores fugirem do esperado.
   				</div>
   			</div>
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
   				<i class="fas fa-tint f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Umidade</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-02-tit" class="mt-25 mb-20 f-22 title">Umidade</div>
+  				<div id="ml-health-nsensor-carac-02-desc" class="color-heading text-adaptive op-7">
   					Variações na Umidade são menos percebidas que as de temperatura, mas um nível de umidade equilibrado também é fundamental para a estabilidade da operação dos seus equipamentos.
   				</div>
   			</div>
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
   				<i class="fas fa-wind f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Hélio</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-03-tit" class="mt-25 mb-20 f-22 title">Hélio</div>
+  				<div id="ml-health-nsensor-carac-03-desc" class="color-heading text-adaptive op-7">
   					O gás Hélio é um dos ativos mais caros na manutenção dos equipamentos de imagem como TC e RM.
   					Um vazamento do gás pode significar um prejuízo significativo para sua empresa.
   				</div>
@@ -630,22 +630,22 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   		<div class="row justify-content-center">
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="500">
   				<i class="fas fa-bolt f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Energia</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-04-tit" class="mt-25 mb-20 f-22 title">Energia</div>
+  				<div id="ml-health-nsensor-carac-04-desc" class="color-heading text-adaptive op-7">
   					Micro variações na rede elétrica não são perceptíveis na operação diária. Contudo, causam graves danos aos equipamentos mais sensíveis.
   				</div>
   			</div>
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
   				<i class="fas fa-smoking f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Fumaça</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-05-tit" class="mt-25 mb-20 f-22 title">Fumaça</div>
+  				<div id="ml-health-nsensor-carac-05-desc" class="color-heading text-adaptive op-7">
   					O sensoriamento de fumaça é essencial para garantir a segurança das pessoas envolvidas na operação e também serve para garantir a manutenção das regras da unidade.
   				</div>
   			</div>
   			<div class="col-lg-4 col-md-8 mb-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="700">
   				<i class="fas fa-door-open f-40 destaque-no-fundo-claro"></i>
-  				<div class="mt-25 mb-20 f-22 title">Portas</div>
-  				<div class="color-heading text-adaptive op-7">
+  				<div id="ml-health-nsensor-carac-06-tit" class="mt-25 mb-20 f-22 title">Portas</div>
+  				<div id="ml-health-nsensor-carac-06-desc" class="color-heading text-adaptive op-7">
   					Os sensores de portas possibilitam a criação de regras de automação para prevenção de acidentes, como por exemplo, a aplicação de radiação com a porta aberta.
   				</div>
   			</div>
@@ -670,8 +670,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital para o gerenciamento e <strong>aumento de performance no agendamento</strong>. Facilita a interação do paciente no agendamento para consultas e exames.
+        <p id="ml-health-nagenda-description" class="f-20 text-adaptive">
+          Plataforma digital para o gerenciamento e aumento de performance no agendamento. Facilita a interação do paciente no agendamento para consultas e exames.
         </p>
       </div>
       <div class="imagem col-md-7">
@@ -691,27 +691,27 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   			</div>
   			<div class="col-md-1 d-none d-md-block"></div>
   			<div class="col-lg-5 col-md-6">
-  				<h2 class="destaque-no-fundo-escuro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">App do paciente</h2>
-  				<div class="mt-25 mb-50 op-7 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+  				<h2 id="ml-health-nagenda-app-title" class="destaque-no-fundo-escuro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">App do paciente</h2>
+  				<div id="ml-health-nagenda-app-subtitle" class="mt-25 mb-50 op-7 f-22 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
   					Transparência da agenda do prestador e agendamento sem fricção para o paciente.
   				</div>
   				<div class="row">
   					<div class="mb-40 col-md-10 col-sm-8 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="200">
-  						<div class="mb-10 f-18 medium title">Agenda online</div>
-  						<div class="op-7 text-adaptive">
+  						<div id="ml-health-nagenda-app-01-title" class="mb-10 f-18 medium title">Agenda online</div>
+  						<div id="ml-health-nagenda-app-01-description" class="op-7 text-adaptive">
   							Agendamento online através de pedido de agendamento com feedback para o usuário via notificação no aplicativo.
   						</div>
   					</div>
   					<div class="mb-40 col-md-10 col-sm-8 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="400">
-  						<div class="mb-10 f-18 medium title">Confirmações</div>
-  						<div class="op-7 text-adaptive">
+  						<div id="ml-health-nagenda-app-02-title" class="mb-10 f-18 medium title">Confirmações</div>
+  						<div id="ml-health-nagenda-app-02-description" class="op-7 text-adaptive">
   							Controle da agenda através de confirmações e cancelamentos dos agendamentos com painel de controle de backoffice.
   						</div>
   					</div>
   					<div class="mb-40 col-md-10 col-sm-8 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-  						<div class="mb-10 f-18 medium title">Sem no-show</div>
-  						<div class="op-7 text-adaptive">
-  							Redução do no-show através do <strong>pré-pagamento</strong> das consultas e exames.
+  						<div id="ml-health-nagenda-app-03-title" class="mb-10 f-18 medium title">Sem no-show</div>
+  						<div id="ml-health-nagenda-app-03-description" class="op-7 text-adaptive">
+  							Redução do no-show através do pré-pagamento das consultas e exames.
   						</div>
   					</div>
   				</div>
@@ -726,7 +726,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 <!-- nEcho (Feature 16) -->
 <section id="nEcho" class="detalhamento feature_16">
   <div class="container-flex header-do-detalhamento">
-    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+    <div class="logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
       <div class="espaco-branco-cima"></div>
       <img class="logo" src="images/health/health-produtos/logo-nduo.svg" alt="logo do n-echo">
     </div>
