@@ -3,6 +3,14 @@
 
   <?php include("common/head.php"); ?>
 
+  <!-- arquivo de traducao da pagina em questao -->
+  <!-- é necessario tmb a parte do script no final da página que tem os links para os arquivos de tradução -->
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage("language-law.json");
+    })
+  </script>
+
 <body>
 
 
@@ -21,7 +29,7 @@
   <section id="capa-law" class="capa-da-vertical">
     <div class="conteudo-da-capa">
       <img class="img-logo-da-capa" src="images/verticais/vertical-ness-law.svg" alt="logo da vertical jurídica da ness" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      <h1 class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+      <h1 id="ness-law-page-title" class="tagline-da-capa" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
         Soluções especializadas na vertical jurídica
       </h1>
     </div>
@@ -34,7 +42,9 @@
           <div class="col-xl-5 col-lg-6 col-sm-8">
             <h2 class="destaque-no-fundo-claro small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Simplificando o digital</h2>
             <div class="mt-30 mb-75 f-22 color-heading op-7 text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-              Você já ouviu falar das lawtechs? Assim como as fintechs - combinação de finanças e tecnologias - estão transformando o setor financeiro e bancário no Brasil, as lawtechs estão ganhando força no mercado jurídico. Desse modo, a NESS Law proporciona soluções especializadas com base tecnológica para o setor jurídico.
+              <p>Você já ouviu falar das lawtechs?</p>
+              <p>Assim como as fintechs - combinação de finanças e tecnologias - estão transformando o setor financeiro e bancário no Brasil, as lawtechs estão ganhando força no mercado jurídico.</p>
+              <p>Desse modo, a NESS Law proporciona soluções especializadas com base tecnológica para o setor jurídico.</p>
             </div>
             <!-- <div class="mb-50 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
               <div class="destaque-no-fundo-claro mb-15 f-14 semibold text-uppercase sp-20 title">
@@ -449,6 +459,22 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 
 <!-- mostra e esconde produtos -->
 <script src="js/law.js"></script>
+
+<!-- links para os arquivos de tradução de cada página -->
+<script type="text/javascript">
+  $( "#toggle-trad-pt" ).click(function() {
+    $.MultiLanguage('language-law.json', 'pt');
+  });
+  $( "#toggle-trad-pt-mob" ).click(function() {
+    $.MultiLanguage('language-law.json', 'pt');
+  });
+  $( "#toggle-trad-en" ).click(function() {
+    $.MultiLanguage('language-law.json', 'en');
+  });
+  $( "#toggle-trad-en-mob" ).click(function() {
+    $.MultiLanguage('language-law.json', 'en');
+  });
+</script>
 
 </body>
 </html>

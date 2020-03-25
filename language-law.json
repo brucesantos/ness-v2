@@ -1,0 +1,31 @@
+{
+  "config": {
+    "default": "pt"
+  },
+  "language": {
+    "en": {
+      "#ml-nav-about" : "About",
+      "#ml-nav-about-mobile" : "About",
+      "#link-contato-mobile" : "Get in Touch",
+      "#ml-footer-company" : "Company",
+      "#ml-footer-social" : "Social Networks",
+      "#ness-law-page-title" : "Specialised solutions for the legal sector",
+      "#ness-law-description-title" : "Digital, simplified",
+      "#ness-law-description-p01" : "Have you ever heard of lawtechs?",
+      "#ness-law-description-p02" : "Just like how fintechs – a hybrid between finance and technology – are revolutionizing the financial and banking sectors in Brazil, lawtechs have been gaining momentum in the legal industry.",
+      "#ness-law-description-p03" : "NESS Law delivers specialized tech-based solutions for the legal sector."
+    },
+    "pt": {
+      "#ml-nav-about" : "Sobre",
+      "#ml-nav-about-mobile" : "Sobre",
+      "#link-contato-mobile" : "Contato",
+      "#ml-footer-company" : "Empresa",
+      "#ml-footer-social" : "Redes Sociais",
+      "#ness-law-page-title" : "Soluções especializadas na vertical jurídica",
+      "#ness-law-description-title" : "Simplificando o digital",
+      "#ness-law-description-p01" : "Você já ouviu falar das lawtechs?",
+      "#ness-law-description-p02" : "Assim como as fintechs - combinação de finanças e tecnologias - estão transformando o setor financeiro e bancário no Brasil, as lawtechs estão ganhando força no mercado jurídico.",
+      "#ness-law-description-p03" : "Desse modo, a NESS Law proporciona soluções especializadas com base tecnológica para o setor jurídico."
+    }
+  }
+}

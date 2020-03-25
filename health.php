@@ -4,6 +4,7 @@
   <?php include("common/head.php"); ?>
 
   <!-- arquivo de traducao da pagina em questao -->
+  <!-- é necessario tmb a parte do script no final da página que tem os links para os arquivos de tradução -->
   <script>
     $(document).ready(function(){
       $.MultiLanguage("language-health.json");
@@ -737,10 +738,10 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-100">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
+        <p id="ml-health-necho-description-01" class="f-20 text-adaptive">
           Plataforma digital para transmissão, em tempo real, de exames de ultrassom.
         </p>
-        <p class="f-20 text-adaptive">
+        <p id="ml-health-necho-description-02" class="f-20 text-adaptive">
           O objetivo é melhorar a qualidade e eficiência dos exames, treinando os colaboradores através do monitoramento síncrono ou assíncrono da sua execução.
         </p>
       </div>
@@ -759,29 +760,29 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   				<div class="row justify-content-center justify-content-md-between">
   					<div class="col-xl-5 col-md-6 col-sm-9 mb-50" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
   						<i class="fas fa-video f-32 destaque-no-fundo-claro"></i>
-  						<div class="mt-15 mb-15 f-18 medium title">Streaming do Exame</div>
-  						<div class="color-heading text-adaptive">
+  						<div id="ml-health-necho-feature-01-title" class="mt-15 mb-15 f-18 medium title">Streaming do Exame</div>
+  						<div id="ml-health-necho-feature-01-description" class="color-heading text-adaptive">
   							Monitoramento e análise remota em tempo real do vídeo do exame, sala e áudio em duas vias.
   						</div>
   					</div>
   					<div class="col-xl-5 col-md-6 col-sm-9 mb-50" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
   						<i class="fas fa-check-double f-32 destaque-no-fundo-claro"></i>
-  						<div class="mt-15 mb-15 f-18 medium title">Double Check</div>
-  						<div class="color-heading text-adaptive">
+  						<div id="ml-health-necho-feature-02-title" class="mt-15 mb-15 f-18 medium title">Double Check</div>
+  						<div id="ml-health-necho-feature-02-description" class="color-heading text-adaptive">
   							Interferência positiva de profissionais para análise do exame e eventual correção de laudos.
   						</div>
   					</div>
   					<div class="col-xl-5 col-md-6 col-sm-9 mb-50" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
   						<i class="fas fa-user-check f-32 destaque-no-fundo-claro"></i>
-  						<div class="mt-15 mb-15 f-18 medium title">Avaliação do Desempenho</div>
-  						<div class="color-heading text-adaptive">
+  						<div id="ml-health-necho-feature-03-title" class="mt-15 mb-15 f-18 medium title">Avaliação do Desempenho</div>
+  						<div id="ml-health-necho-feature-03-description" class="color-heading text-adaptive">
   							Medição de performance com avaliação direta da aquisição da imagem e laudo, com relatórios inteligentes para destacar o desempenho dos colaboradores.
   						</div>
   					</div>
   					<div class="col-xl-5 col-md-6 col-sm-9 mb-50" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
   						<i class="fas fa-tasks f-32 destaque-no-fundo-claro"></i>
-  						<div class="mt-15 mb-15 f-18 medium title">Controle de Qualidade</div>
-  						<div class="color-heading text-adaptive">
+  						<div id="ml-health-necho-feature-04-title" class="mt-15 mb-15 f-18 medium title">Controle de Qualidade</div>
+  						<div id="ml-health-necho-feature-04-description" class="color-heading text-adaptive">
   							Controle de qualidade através de checklist para realização estruturada do exame.
   						</div>
   					</div>
@@ -810,8 +811,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-10">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital de <strong>reconhecimento de voz</strong> para laudos médicos em língua portuguesa. Transformação de fala em texto <strong>treinada especialmente para termos médicos</strong>.
+        <p id="ml-health-nspeech-description-01" class="f-20 text-adaptive">
+          Plataforma digital de reconhecimento de voz para laudos médicos em língua portuguesa. Transformação de fala em texto treinada especialmente para termos médicos.
         </p>
       </div>
       <div class="imagem col-md-7">
@@ -825,15 +826,15 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
     </div>
     <section class="feature_8 bg-light pt-200 pb-200 color-white" style="background: url('images/health/ness-health-nvoice.jpg'); background-size:cover;">
       <div class="container px-xl-0">
-        <h2 class="mb-50 small text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
+        <h2 id="ml-health-nspeech-features" class="mb-50 small text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Características</h2>
         <div class="row">
           <div class="mb-40 col-md-6 col-lg-4 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
             <div class="ml-15 w-30 mr-15 flex-shrink-0 text-lg-center icon">
               <i class="fas fa-brain f-22"></i>
             </div>
             <div class="inner">
-              <div class="mb-20 f-14 semibold text-uppercase sp-20 title">Inteligência artificial</div>
-              <div class="op-7 text-adaptive">
+              <div id="ml-health-nspeech-feature-01-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Inteligência artificial</div>
+              <div id="ml-health-nspeech-feature-01-description" class="op-7 text-adaptive">
                 Machine learning e analytics, promovem a melhoria contínua no reconhecimento do audio.
               </div>
             </div>
@@ -843,8 +844,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
               <i class="fas fa-bullseye f-22"></i>
             </div>
             <div class="inner">
-              <div class="mb-20 f-14 semibold text-uppercase sp-20 title">especializado</div>
-              <div class="op-7 text-adaptive">
+              <div id="ml-health-nspeech-feature-02-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">especializado</div>
+              <div id="ml-health-nspeech-feature-02-description" class="op-7 text-adaptive">
                 Desenvolvimento focado na de radiologia, o reconhecimento é treinado em termos da área médica.
               </div>
             </div>
@@ -854,8 +855,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
               <i class="fas fa-microphone-alt f-22"></i>
             </div>
             <div class="inner">
-              <div class="mb-20 f-14 semibold text-uppercase sp-20 title">Comandos por voz</div>
-              <div class="op-7 text-adaptive">
+              <div id="ml-health-nspeech-feature-03-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Comandos por voz</div>
+              <div id="ml-health-nspeech-feature-03-description" class="op-7 text-adaptive">
                 Além do ditado, também entende comandos e pode identificar o profissional.
               </div>
             </div>
@@ -865,8 +866,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
               <i class="fas fa-mobile f-22"></i>
             </div>
             <div class="inner">
-              <div class="mb-20 f-14 semibold text-uppercase sp-20 title">Multi dispositivo</div>
-              <div class="op-7 text-adaptive">
+              <div id="ml-health-nspeech-feature-04-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Multi dispositivo</div>
+              <div id="ml-health-nspeech-feature-04-description" class="op-7 text-adaptive">
                 Da suporte a qualquer microfone com captação de audio digital.
               </div>
             </div>
@@ -876,8 +877,8 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
               <i class="fas fa-globe-americas f-22"></i>
             </div>
             <div class="inner">
-              <div class="mb-20 f-14 semibold text-uppercase sp-20 title">Português</div>
-              <div class="op-7 text-adaptive">
+              <div id="ml-health-nspeech-feature-05-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Português</div>
+              <div id="ml-health-nspeech-feature-05-description" class="op-7 text-adaptive">
                 Reconhecimento especializado no idioma português.
               </div>
             </div>
@@ -930,14 +931,14 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
   <div class="intro container mb-10">
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
-        <p class="f-20 text-adaptive">
-          Plataforma digital de <strong>comunicação segura</strong> para profissionais de saúde.
+        <p id="ml-health-ndoctor-description" class="f-20 text-adaptive">
+          Plataforma digital de comunicação segura para profissionais de saúde.
         </p>
         <ul>
-          <li>Inteligência artificial, machine learning e analytics</li>
-          <li>Fluxo seguro nas trocas de mensagens</li>
-          <li>De acordo com as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD)</li>
-          <li>Velocidade na comunicação entre times e especialidades</li>
+          <li id="ml-health-ndoctor-list-01">Inteligência artificial, machine learning e analytics</li>
+          <li id="ml-health-ndoctor-list-02">Fluxo seguro nas trocas de mensagens</li>
+          <li id="ml-health-ndoctor-list-03">De acordo com as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD)</li>
+          <li id="ml-health-ndoctor-list-04">Velocidade na comunicação entre times e especialidades</li>
         </ul>
       </div>
       <div class="imagem col-md-7">
