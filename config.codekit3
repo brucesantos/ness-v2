@@ -33,12 +33,6 @@
 		"oAP": "/build/404.php",
 		"oF": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/common/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4019,6 +4013,14 @@
 		"oAP": "/build/security.php",
 		"oF": 0
 		},
+	"/service-desk/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/service-desk/index.html",
+		"oF": 0
+		},
 	"/tech.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4038,7 +4040,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 596204541.99321306
+	"lastBuiltDate": 606867318.93022203
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

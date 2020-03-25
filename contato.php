@@ -40,6 +40,12 @@
           Envie uma mensagem direta através do formulário ou pelos canais abaixo.
         </div>
         <div data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+          <a href="https://ness.desk.ms/?LoginPortal" target="_blank" class="mt-45 link color-white d-flex align-items-baseline">
+            <i class="w-30 fas fa-desktop flex-shrink-0 fa-flip-horizontal f-14 text-right"></i>
+            <div class="text-adaptive">
+              Service Desk <i>(Para Clientes)</i>
+            </div>
+          </a>
           <a href="tel:+551125047650" class="mt-45 link color-white d-flex align-items-baseline">
             <i class="w-30 fas fa-phone flex-shrink-0 fa-flip-horizontal f-14 text-right"></i>
             <div class="text-adaptive">
