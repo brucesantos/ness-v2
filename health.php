@@ -133,7 +133,7 @@
 					<a id="abre-detalhe-nReport" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nreport-white.svg" alt="">
 						<div id="ml-health-plataformas-nreport" class="mini-descricao">
-							Elaboração de laudos estruturados para ultrassom com analytics.
+							Elaboração de laudos estruturados para ultrassonografia com analytics.
 						</div>
 					</a>
 				</div>
@@ -499,7 +499,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
         <p id="ml-health-nreport-descricao-p1" class="f-20 text-adaptive">
-          Plataforma digital para elaboração de laudos estruturados, para exames de imagem de ultrassom, desenvolvido por médicos radiologistas com foco na praticidade do uso.
+          Plataforma digital para elaboração de laudos estruturados, para exames de ultrassonografia, desenvolvido por médicos radiologistas com foco na praticidade do uso.
         </p>
       </div>
       <div class="imagem col-md-7">
