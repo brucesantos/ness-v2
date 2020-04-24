@@ -157,7 +157,7 @@
 					<a id="abre-detalhe-nEcho" class="pt-35 pb-45 pl-40 pr-30 radius10 block">
 						<img src="images/health/health-produtos/logo-nduo-white.svg" alt="">
 						<div id="ml-health-plataformas-necho" class="mini-descricao">
-							Transmissão em tempo real de exames de ultrassom para monitoramento e treinamento.
+							Transmissão em tempo real de exames de ultrassonografia para monitoramento e treinamento.
 						</div>
 					</a>
 				</div>
@@ -727,9 +727,9 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
 <!-- nEcho (Feature 16) -->
 <section id="nEcho" class="detalhamento feature_16">
   <div class="container-flex header-do-detalhamento">
-    <div class="logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
+    <div class="row logo-do-produto" data-aos-duration="600" data-aos="fade-down" data-aos-delay="100">
       <div class="espaco-branco-cima"></div>
-      <img class="logo" src="images/health/health-produtos/logo-nduo.svg" alt="logo do n-echo">
+      <img class="logo" src="images/health/health-produtos/logo-nduo.svg" alt="logo do n-monitor">
     </div>
     <div style="margin:-2px auto 100px; width: 100%; overflow-x:hidden;">
       <img src="images/img-bottom-curve.svg" style="width:110%; margin-left:-5%;">
@@ -739,7 +739,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
     <div class="row d-flex align-items-center">
       <div class="texto op-7 col-md-5">
         <p id="ml-health-necho-description-01" class="f-20 text-adaptive">
-          Plataforma digital para transmissão, em tempo real, de exames de ultrassom.
+          Plataforma digital para transmissão, em tempo real, de exames de ultrassonografia.
         </p>
         <p id="ml-health-necho-description-02" class="f-20 text-adaptive">
           O objetivo é melhorar a qualidade e eficiência dos exames, treinando os colaboradores através do monitoramento síncrono ou assíncrono da sua execução.
@@ -835,7 +835,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
             <div class="inner">
               <div id="ml-health-nspeech-feature-01-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Inteligência artificial</div>
               <div id="ml-health-nspeech-feature-01-description" class="op-7 text-adaptive">
-                Machine learning e analytics, promovem a melhoria contínua no reconhecimento do audio.
+                Machine learning e analytics, promovem a melhoria contínua no reconhecimento do áudio.
               </div>
             </div>
           </div>
@@ -846,7 +846,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
             <div class="inner">
               <div id="ml-health-nspeech-feature-02-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">especializado</div>
               <div id="ml-health-nspeech-feature-02-description" class="op-7 text-adaptive">
-                Desenvolvimento focado na de radiologia, o reconhecimento é treinado em termos da área médica.
+                Desenvolvimento focado na área de radiologia, o reconhecimento é treinado em termos da área médica.
               </div>
             </div>
           </div>
@@ -868,7 +868,7 @@ PRODUTOS - DETALHAMENTO DE TELA CHEIA
             <div class="inner">
               <div id="ml-health-nspeech-feature-04-title" class="mb-20 f-14 semibold text-uppercase sp-20 title">Multi dispositivo</div>
               <div id="ml-health-nspeech-feature-04-description" class="op-7 text-adaptive">
-                Da suporte a qualquer microfone com captação de audio digital.
+                Da suporte a qualquer microfone com captação de áudio digital.
               </div>
             </div>
           </div>
